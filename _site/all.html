@@ -4,10 +4,10 @@
         <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<title>Blog - Ryan Wang's blog</title>
+<title>All Posts - Ryan Wang's blog</title>
 <meta name="description" content="Ryan Wang's Blog
 ">
-<link rel="canonical" href="http://0.0.0.0:4000/">
+<link rel="canonical" href="http://0.0.0.0:4000/all.html">
 <link rel="alternate" type="application/rss+xml" title="Ryan Wang's blog" href="http://0.0.0.0:4000/feed.xml">
 
         <!--
@@ -96,15 +96,99 @@ fill="#F1620F" stroke="none">
 </header>
 
     <div class="m-page-main">
-        <div class="m-home">
+        <div class="m-all">
     <div class="main">
-        <div class="m-post-list">
-            
-        </div>
+        <h1 class="js-page-heading">All Posts</h1>
         
+
+
+
+
+
+<div class="m-tags">
+    <ul class="inline-list">
+        <li><button type="button" class="js-article-tag js-tag-show-all all round-rect-button" onclick="tagSelect('')">
+            Show All<div class="tag-count"> 0 </div>
+        </button></li>
+        
+    </ul>
+</div>
+
+        <!--group by year: http://stackoverflow.com/questions/19086284/jekyll-liquid-templating-how-to-group-blog-posts-by-year-->
+        <section class="js-year-wrapper">
+            
+        </section>
     </div>
 </div>
 
+<script type="text/javascript">
+    // function queryString is copied from
+    // http://stackoverflow.com/questions/979975/how-to-get-the-value-from-url-parameter#answer-979995
+    function queryString() {
+      // This function is anonymous, is executed immediately and
+      // the return value is assigned to QueryString!
+      var query_string = {};
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+      for (var i=0;i<vars.length;i++) {
+        var pair = vars[i].split("=");
+        // If first entry with this name
+        if (typeof query_string[pair[0]] === "undefined") {
+            query_string[pair[0]] = pair[1];
+        // If second entry with this name
+        } else if (typeof query_string[pair[0]] === "string") {
+            var arr = [ query_string[pair[0]], pair[1] ];
+            query_string[pair[0]] = arr;
+        // If third or later entry with this name
+        } else {
+            query_string[pair[0]].push(pair[1]);
+        }
+      }
+        return query_string;
+    }
+
+    $(function() {
+        var $pageHeading = $('.js-page-heading');
+        var $articleTag = $('.js-article-tag');
+        var $tagShowAll = $('.js-tag-show-all');
+        var $postBlock = $('.js-post-block');
+        var $yearSection = $('.js-year-wrapper section');
+
+        window.tagSelect = function(tag) {
+            if (tag === undefined || tag === '') {
+                $pageHeading.text('All Posts');
+                $tagShowAll.focus();
+                $postBlock.show();
+            } else {
+                $pageHeading.text('Tag: ' + tag);
+                $postBlock.not('.tag-' + tag).hide();
+                $articleTag.filter('.tag-' + tag).focus();
+                $postBlock.filter('.tag-' + tag).show();
+            }
+            $yearSection.each(function() {
+                var liAllShow = false;
+                var $this = $(this);
+                var $lis = $this.find('li');
+                for (var i = 0; i < $lis.length; i++) {
+                    if($($lis[i]).css('display') !== 'none') {
+                        liAllShow = true;
+                        break;
+                    }
+                }
+                if (liAllShow === false) {
+                    $this.hide();
+                } else {
+                    $this.show();
+                }
+            });
+            tag === undefined || window.history.replaceState(null, '', window.location.href.split('?')[0] + '?tag=' + tag);
+        }
+        var query = queryString();
+        var tag = undefined;
+        query.tag === undefined || (tag = decodeURI(query.tag));
+        tagSelect(tag);
+    });
+</script>
 
     </div>
 </div>

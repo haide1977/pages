@@ -1,9 +1,0 @@
-Configuration file: /home/pages/_config.yml
-            Source: /home/pages
-       Destination: /home/pages/_site
- Incremental build: disabled. Enable with --incremental
-      Generating... 
-                    done in 1.58 seconds.
- Auto-regeneration: enabled for '/home/pages'
-    Server address: http://127.0.0.1:4000
-  Server running... press ctrl-c to stop.

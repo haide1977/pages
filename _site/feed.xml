@@ -1,21 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://0.0.0.0:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="zh" /><updated>2018-01-09T11:09:07+08:00</updated><id>http://0.0.0.0:4000//</id><title type="html">Ryan Wang’s blog</title><subtitle>Ryan Wang's Blog
-</subtitle><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><entry><title type="html">场景式的研究工具箱杂论</title><link href="http://0.0.0.0:4000/2017/12/16/research_resources.html" rel="alternate" type="text/html" title="场景式的研究工具箱杂论" /><published>2017-12-16T00:00:00+08:00</published><updated>2017-12-16T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2017/12/16/research_resources</id><content type="html" xml:base="http://0.0.0.0:4000/2017/12/16/research_resources.html">&lt;p&gt;最近开始接触全新的目标问题域，成果暂时还是空白。在梳理研究思路的同时，顺便整理了一下辅助工具和网站。 
-欲善其事，先利其器。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://0.0.0.0:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="zh" /><updated>2018-01-09T13:46:27+08:00</updated><id>http://0.0.0.0:4000//</id><title type="html">Ryan Wang’s blog</title><subtitle>Ryan Wang's Blog
+</subtitle><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><entry><title type="html">场景式的研究工具箱杂论</title><link href="http://0.0.0.0:4000/2017/12/16/research_resources.html" rel="alternate" type="text/html" title="场景式的研究工具箱杂论" /><published>2017-12-16T00:00:00+08:00</published><updated>2017-12-16T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2017/12/16/research_resources</id><content type="html" xml:base="http://0.0.0.0:4000/2017/12/16/research_resources.html">&lt;p&gt;最近开始接触全新的目标问题域，成果暂时还是空白。在梳理研究思路的同时，顺便整理了一下辅助工具和网站。&lt;/p&gt;
+
+&lt;p&gt;欲善其事，先利其器。&lt;/p&gt;
 
 &lt;!--more--&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;▸先给研究／项目起个好代号吧。&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://acronymify.com/&quot;&gt;acronymify.com&lt;/a&gt;&lt;br /&gt;
-提供一段关键词，网站会自动创造一个系列候选缩写，选上一个满意的。 
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216acronymify.png-m640?v=11188&quot; alt=&quot;acronymify.com&quot; title=&quot;自动起名列表&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;section&quot;&gt;▸先给研究起个好代号吧&lt;/h2&gt;
+&lt;p&gt;给关键技术、平台或者项目起个好代号，利于沟通。名正才能言顺。&lt;/p&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;▸借助研究管理平台，让研究更有条理&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://acronymify.com/&quot;&gt;acronymify.com&lt;/a&gt;&lt;br /&gt;
+提供一段关键词，网站会自动创造一个系列候选缩写，选上一个满意的。 
+&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216acronymify.png-m640?v=11188&quot; alt=&quot;acronymify.com&quot; title=&quot;自动起名列表&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;▸利用研究管理平台&lt;/h2&gt;
+&lt;p&gt;研究平台，让研究更有条理。&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;https://www.mendeley.com/&quot;&gt;mendeley.com&lt;/a&gt;  &lt;br /&gt;
 免费的研究管理平台，包括文献索引管理和学术社交网络（号称600万学术研究用户）等。 &lt;br /&gt;
-涵盖了知名的商业工具EndNote的部分功能。 &lt;br /&gt;
-提供支持Windows、MacOS操作系统的桌面程序以及ios、android的app。&lt;/p&gt;
+涵盖了知名的商业工具EndNote的部分功能。提供支持Windows、MacOS操作系统的桌面程序以及ios、android的app。&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;https://www.researchgate.net&quot;&gt;ResearchGate.net&lt;/a&gt;&lt;br /&gt;
@@ -27,18 +33,22 @@ google学术，通过收藏检索结果，快速建立自己的文献库。加�
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;section-2&quot;&gt;▸先要看看外面的世界是什么状况了&lt;/h2&gt;
-&lt;p&gt;了解问题域研究的发展趋势和脉络，既可避免一头扎进细节里，又可避免重复造轮子。  &lt;br /&gt;
-- &lt;a href=&quot;http://trend.cnki.net/&quot;&gt;trend.cnki.net&lt;/a&gt;     &lt;br /&gt;
-cnki上的专业名词的翻译助手和名词定义，也是不错的资源。
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216cnki.png-m640?v=11188&quot; alt=&quot;trend.cnki.net&quot; title=&quot;Cnki学术趋势&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;section-2&quot;&gt;▸先看看外面世界的状况&lt;/h2&gt;
+&lt;p&gt;先了解问题域研究的发展趋势和脉络，既可避免一头扎进细节里，又可避免重复造轮子。&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://wanfangdata.com.cn&quot;&gt;万方&lt;/a&gt;     &lt;br /&gt;
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216wanfang.png-m640?v=11188&quot; alt=&quot;万方上的研究趋势曲线&quot; title=&quot;万方上的研究趋势曲线&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://trend.cnki.net/&quot;&gt;trend.cnki.net&lt;/a&gt;     &lt;br /&gt;
+cnki上的专业名词的翻译助手和名词定义，也是不错的资源。
+&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216cnki.png-m640?v=11188&quot; alt=&quot;trend.cnki.net&quot; title=&quot;Cnki学术趋势&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://wanfangdata.com.cn&quot;&gt;万方&lt;/a&gt; &lt;br /&gt;
+万方支持&lt;strong&gt;导出&lt;/strong&gt;功能和&lt;strong&gt;自动参考文献格式&lt;/strong&gt;生成，可以顺便搜集，以便未来下载和引用。&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;万方支持&lt;strong&gt;导出&lt;/strong&gt;功能和&lt;strong&gt;自动参考文献格式&lt;/strong&gt;生成，可以顺便搜集，以便未来下载和引用。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216wanfang.png-m640?v=11188&quot; alt=&quot;万方上的研究趋势曲线&quot; title=&quot;万方上的研究趋势曲线&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216wanfang3.png-m640?v=11188&quot; alt=&quot;标准参考引用格式生成&quot; title=&quot;标准参考引用格式生成&quot; /&gt;&lt;/p&gt;
 
@@ -50,8 +60,9 @@ cnki上的专业名词的翻译助手和名词定义，也是不错的资源。
 &lt;h2 id=&quot;section-3&quot;&gt;▸切入正题，开始看文献。&lt;/h2&gt;
 &lt;p&gt;除了大学、公共图书馆的一些免费资源的下载入口，对于一般的中文期刊文献，如果不能从scholar.google.com 上找到全文。那么只能考虑购买或者写邮件找作者索要了。&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;【英文文献的全文传送门】&lt;/strong&gt; &lt;br /&gt;
-&lt;strong&gt;传说中的sci-hub，访问方式需要不停的变换，这里不推荐了&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;英文文献的全文传送门&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;传说中的 &lt;strong&gt;sci-hub&lt;/strong&gt;，访问方式需要不停的变换，这里不推荐了。&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.semanticscholar.org/&quot;&gt;semanticscholar.org&lt;/a&gt;  【前文已经提到】&lt;/li&gt;
@@ -60,34 +71,44 @@ cnki上的专业名词的翻译助手和名词定义，也是不错的资源。
 &lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216librarygenesis.png-m640?v=11188&quot; alt=&quot;library genesis&quot; title=&quot;library genesis首页&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;【专业技术书籍下载】&lt;/strong&gt; &lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;专业技术书籍下载&lt;/strong&gt; &lt;br /&gt;
 - &lt;a href=&quot;http://en.booksee.org&quot;&gt;booksee.org&lt;/a&gt; 及 &lt;a href=&quot;http://booksc.org&quot;&gt;booksc.org&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;【一般电子书、普通工具类技术文档下载地址实在太多了…最大的问题是看不过来】&lt;/p&gt;
+&lt;p&gt;一般电子书、普通工具类技术文档下载地址实在太多了…最大的问题是看不过来。&lt;/p&gt;
 
-&lt;h2 id=&quot;section-4&quot;&gt;▸没有一堆眼花缭乱的公式，不好意思出门说研究有深度，理论有高度&lt;/h2&gt;
+&lt;h2 id=&quot;section-4&quot;&gt;▸数学计算与公式&lt;/h2&gt;
+&lt;p&gt;没有一堆眼花缭乱的公式，你都不好意思出门说自己研究有深度，理论有高度。
+有了辅助工具网站，可以节省不少复习数学的时间。&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.numberempire.com/&quot;&gt;numberempire.com&lt;/a&gt;&lt;br /&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.numberempire.com/&quot;&gt;numberempire.com&lt;/a&gt;&lt;br /&gt;
 各类数值计算器和编辑器，包括LaTex的编辑器。&lt;br /&gt;
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216numberempire.png-m640?v=11188&quot; alt=&quot;numberempire函数大全&quot; title=&quot;numberempire函数大全&quot; /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.derivative-calculator.net/&quot;&gt;derivative-calculator.net&lt;/a&gt;  &lt;br /&gt;
-导数计算 ，包括高阶导数的求导。有步骤及图形化的结果展示和导出。  &lt;br /&gt;
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216derivative.png-m640?v=11188&quot; alt=&quot;可视化求导&quot; title=&quot;可视化求导&quot; /&gt;&lt;/li&gt;
+&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216numberempire.png-m640?v=11188&quot; alt=&quot;numberempire函数大全&quot; title=&quot;numberempire函数大全&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.derivative-calculator.net/&quot;&gt;derivative-calculator.net&lt;/a&gt;  &lt;br /&gt;
+导数计算 ，包括高阶导数的求导。有步骤及图形化的结果展示和导出。&lt;br /&gt;
+&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216derivative.png-m640?v=11188&quot; alt=&quot;可视化求导&quot; title=&quot;可视化求导&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;支持导出LaTex表达式。 &lt;br /&gt;
+&lt;p&gt;支持导出LaTex表达式。&lt;br /&gt;
 &lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216derivative2.png-m640?v=11188&quot; alt=&quot;导出LaTex&quot; title=&quot;导出LaTex&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;section-5&quot;&gt;▸数据源&lt;/h2&gt;
 &lt;p&gt;这个主题很大。不同的研究方向都会有一套自己的实验数据源。比如，做AI人脸识别，需要人脸库。
-做流行病预测研究，需要多个维度的疾病登记数据；做智能投顾，需要证券市场的交易数据等。&lt;br /&gt;
-所幸，作为研究来说，网络上可以找到的免费数据源基本足够支撑。&lt;/p&gt;
+做流行病预测研究，需要多个维度的疾病登记数据；做智能投顾，需要证券市场的交易数据等。&lt;/p&gt;
 
-&lt;p&gt;这里只是随便罗列几个例子： &lt;br /&gt;
-- &lt;a href=&quot;http://data.gov/&quot;&gt;data.gov&lt;/a&gt;  &lt;br /&gt;
-美国政府数据开放平台。政府数据开放的一个好榜样。&lt;/p&gt;
+&lt;p&gt;所幸，作为研究来说，网络上可以找到的免费数据源基本足够支撑。&lt;/p&gt;
+
+&lt;p&gt;这里只是随便罗列几个例子：&lt;/p&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://data.gov/&quot;&gt;data.gov&lt;/a&gt;  &lt;br /&gt;
+美国政府数据开放平台。政府数据开放的一个好榜样。&lt;/p&gt;
+  &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;http://data.stats.gov.cn/&quot;&gt;data.stats.gov.cn&lt;/a&gt;&lt;br /&gt;
 国家统计局的官方网站数据源【最小时间跨度为月度】&lt;br /&gt;
@@ -102,10 +123,13 @@ cnki上的专业名词的翻译助手和名词定义，也是不错的资源。
 &lt;p&gt;&lt;strong&gt;不展开了…&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;section-6&quot;&gt;▸学术写作的语言辅助&lt;/h2&gt;
-&lt;p&gt;要开始写东西，英文不熟练怎么办？&lt;br /&gt;
-- 词语搭配查询   &lt;br /&gt;
+&lt;p&gt;要开始写东西，英文不熟练怎么办？&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;词语搭配查询   &lt;br /&gt;
 &lt;a href=&quot;http://linggle.com/&quot;&gt;linggle.com&lt;/a&gt; 和 &lt;a href=&quot;http://www.netspeak.org/&quot;&gt;netspeak.org&lt;/a&gt;    &lt;br /&gt;
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216lingglenetspeak.png-m640?v=11188&quot; alt=&quot;linggle &amp;amp; netspeak &quot; title=&quot;linggle &amp;amp; netspeak&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216lingglenetspeak.png-m640?v=11188&quot; alt=&quot;linggle &amp;amp; netspeak &quot; title=&quot;linggle &amp;amp; netspeak&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;【其实，“有道”字典里的例句功能，也是非常好的参考。】&lt;/strong&gt;&lt;/p&gt;
 
@@ -117,5 +141,6 @@ cnki上的专业名词的翻译助手和名词定义，也是不错的资源。
 
 &lt;hr /&gt;
 &lt;p&gt;&lt;strong&gt;终于折腾出点头绪了&lt;/strong&gt;&lt;br /&gt;
-不要着急着高兴，苦难才刚刚开始…&lt;/p&gt;</content><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><category term="方法杂论" /><category term="工具箱" /><summary type="html">最近开始接触全新的目标问题域，成果暂时还是空白。在梳理研究思路的同时，顺便整理了一下辅助工具和网站。 
+不要着急着高兴，苦难才刚刚开始…&lt;/p&gt;</content><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><category term="方法杂论" /><category term="工具箱" /><summary type="html">最近开始接触全新的目标问题域，成果暂时还是空白。在梳理研究思路的同时，顺便整理了一下辅助工具和网站。
+
 欲善其事，先利其器。</summary></entry></feed>

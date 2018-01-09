@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>场景式的研究工具箱杂论 - Ryan Wang's blog</title>
+<meta name="description" content="最近开始接触全新的目标问题域，成果暂时还是空白。在梳理研究思路的同时，顺便整理了一下辅助工具和网站。 欲善其事，先利其器。">
+<link rel="canonical" href="http://0.0.0.0:4000/2017/12/16/research_resources.html">
+<link rel="alternate" type="application/rss+xml" title="Ryan Wang's blog" href="http://0.0.0.0:4000/feed.xml">
+
+        <!--
+    for Safari on iOS
+    https://developer.apple.com/ios/human-interface-guidelines/icons-and-images/app-icon/
+-->
+<link rel="apple-touch-icon" sizes="180x180" href="/statics/images/logo/icon-180x180.png">
+<link rel="apple-touch-icon" sizes="167x167" href="/statics/images/logo/icon-167x167.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/statics/images/logo/icon-152x152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/statics/images/logo/icon-120x120.png">
+<link rel="shortcut icon" href="/statics/images/logo/icon-120x120.png">
+<!--
+    for Chrome on Android
+    https://developer.chrome.com/multidevice/android/installtohomescreen
+-->
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="icon" sizes="192x192" href="/statics/images/logo/icon-192x192.png">
+<!--
+    for Edge on Windows 10
+    https://msdn.microsoft.com/en-us/library/dn255024(v=vs.85).aspx
+-->
+<meta name="msapplication-TileImage" content="/statics/images/logo/icon-144x144.png">
+<meta name="msapplication-square310x310logo" content="/statics/images/icon-310x310.png">
+<meta name="msapplication-wide310x150logo" content="/statics/images/icon-310x150.png">
+<meta name="msapplication-square150x150logo" content="/statics/images/icon-150x150.png">
+<meta name="msapplication-square70x70logo" content="/statics/images/icon-70x70.png">
+<meta name="msapplication-TileColor" content="#eeeeee">
+        <link rel="stylesheet" href="/statics/css/blog.css">
+        <style>
+            
+        </style>
+        <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+        <!-- mathjax extras -->
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+    </head>
+    <body>
+        <div class="m-page-stage js-page-stage">
+            <div class="m-page-content">
+    <header class="m-page-header main clearfix">
+    <a class="site-title" title="Ryan Wang's Blog
+"
+        href="/">Ryan Wang's blog
+    </a>
+    <div class="site-logo">
+        <?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="26pt" height="26pt" viewBox="0 0 26 26"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.8, written by Peter Selinger 2001-2007
+</metadata>
+<g transform="translate(0,26) scale(0.080000,-0.080000)"
+fill="#F1620F" stroke="none">
+<path d="M26 264 c-11 -28 -7 -34 18 -24 33 12 63 -13 71 -61 6 -31 3 -36 -19
+-47 -32 -14 -35 -36 -5 -27 l22 7 -22 -31 c-12 -17 -30 -35 -39 -40 -24 -13
+-7 -25 36 -26 56 -2 88 30 37 37 l-25 3 26 38 c39 53 58 48 94 -23 l31 -61 24
+18 c33 24 41 46 15 38 -17 -5 -24 2 -40 39 -18 42 -28 51 -55 47 -5 -1 5 11
+23 26 30 26 32 30 18 48 -9 11 -16 28 -16 38 0 23 -19 22 -46 -4 l-23 -21 -22
+21 c-28 26 -94 29 -103 5z m181 -69 c-1 0 -12 -8 -23 -18 -21 -17 -22 -17 -26
+8 -3 16 1 32 10 41 14 14 17 14 28 -8 7 -12 12 -23 11 -23z"/>
+</g>
+</svg>
+
+    </div>
+    <nav>
+        <ul class="inline-list">
+            <li><a href="/">Home</a></li>
+            <li><a
+                href="/all.html?tag=">All
+            </a></li>
+            
+                <li><a href="/about"> About </a></li>
+            
+            <li><a type="application/rss+xml"
+                href="/feed.xml">RSS
+            </a></li>
+        </ul>
+    </nav>
+</header>
+
+    <div class="m-page-main">
+        <div class="m-post">
+    <div class="main js-main">
+        <div class="col-1">
+            <article itemscope itemtype="http://schema.org/BlogPosting">
+                <meta itemprop="mainEntityOfPage" itemscope itemType="https://schema.org/WebPage"/>
+                <header class="article-header">
+                    <h1 itemprop="headline" itemprop="name headline">场景式的研究工具箱杂论</h1>
+                    <div class="m-article-data clearfix">
+	
+        <meta itemprop="author" itemscope itemtype="https://schema.org/Person">
+            
+                <meta itemprop="name" content="Ryan Wang (Haide1977)"/>
+            
+        </meta>
+	
+
+	
+	
+        <ul class="inline-list tag-wrapper">
+            
+                <li><a class="round-rect-button"
+                    href="/all.html?tag=方法杂论">方法杂论
+                </a></li>
+            
+                <li><a class="round-rect-button"
+                    href="/all.html?tag=工具箱">工具箱
+                </a></li>
+            
+        </ul>
+	
+    <div class="other-wrapper">
+        
+        <div class="date-wrapper">
+            
+                <time class="article-meta" datetime="2017-12-16T00:00:00+08:00" itemprop="datePublished">
+                    Dec 16, 2017
+                </time>
+            
+        </div>
+    </div>
+</div>
+
+                </header>
+                <div class="m-article-content js-article-content" itemprop="articleBody">
+                    <p>最近开始接触全新的目标问题域，成果暂时还是空白。在梳理研究思路的同时，顺便整理了一下辅助工具和网站。 
+欲善其事，先利其器。</p>
+
+<!--more-->
+
+<h2 id="section">▸先给研究／项目起个好代号吧。</h2>
+<p><a href="http://acronymify.com/">acronymify.com</a><br />
+提供一段关键词，网站会自动创造一个系列候选缩写，选上一个满意的。 
+<img src="http://p1wq6a0o4.bkt.clouddn.com/20171216acronymify.png-m640?v=11188" alt="acronymify.com" title="自动起名列表" /></p>
+
+<h2 id="section-1">▸借助研究管理平台，让研究更有条理</h2>
+<ul>
+  <li>
+    <p><a href="https://www.mendeley.com/">mendeley.com</a>  <br />
+免费的研究管理平台，包括文献索引管理和学术社交网络（号称600万学术研究用户）等。 <br />
+涵盖了知名的商业工具EndNote的部分功能。 <br />
+提供支持Windows、MacOS操作系统的桌面程序以及ios、android的app。</p>
+  </li>
+  <li>
+    <p><a href="https://www.researchgate.net">ResearchGate.net</a><br />
+更专业的平台,注册账号要通过审核，需要你提供材料【推荐人／过去发表的研究成果】来证明自己不是打酱油的，而是真的在从事研究工作。</p>
+  </li>
+  <li>
+    <p><a href="https://scholar.google.com">scholar.google.com</a>   <br />
+google学术，通过收藏检索结果，快速建立自己的文献库。加标签、额外内容编辑关联以及批量下载索引都是很实用的功能。</p>
+  </li>
+</ul>
+
+<h2 id="section-2">▸先要看看外面的世界是什么状况了</h2>
+<p>了解问题域研究的发展趋势和脉络，既可避免一头扎进细节里，又可避免重复造轮子。  <br />
+- <a href="http://trend.cnki.net/">trend.cnki.net</a>     <br />
+cnki上的专业名词的翻译助手和名词定义，也是不错的资源。
+<img src="http://p1wq6a0o4.bkt.clouddn.com/20171216cnki.png-m640?v=11188" alt="trend.cnki.net" title="Cnki学术趋势" /></p>
+
+<ul>
+  <li><a href="http://wanfangdata.com.cn">万方</a>     <br />
+<img src="http://p1wq6a0o4.bkt.clouddn.com/20171216wanfang.png-m640?v=11188" alt="万方上的研究趋势曲线" title="万方上的研究趋势曲线" /></li>
+</ul>
+
+<p>万方支持<strong>导出</strong>功能和<strong>自动参考文献格式</strong>生成，可以顺便搜集，以便未来下载和引用。</p>
+
+<p><img src="http://p1wq6a0o4.bkt.clouddn.com/20171216wanfang3.png-m640?v=11188" alt="标准参考引用格式生成" title="标准参考引用格式生成" /></p>
+
+<ul>
+  <li><a href="https://www.semanticscholar.org/">semanticscholar.org</a>    <br />
+将作者信息与知名的社交媒体做了关联。对引用做了影响力的自动评估。检索能力强。</li>
+</ul>
+
+<h2 id="section-3">▸切入正题，开始看文献。</h2>
+<p>除了大学、公共图书馆的一些免费资源的下载入口，对于一般的中文期刊文献，如果不能从scholar.google.com 上找到全文。那么只能考虑购买或者写邮件找作者索要了。</p>
+
+<p><strong>【英文文献的全文传送门】</strong> <br />
+<strong>传说中的sci-hub，访问方式需要不停的变换，这里不推荐了</strong></p>
+
+<ul>
+  <li><a href="https://www.semanticscholar.org/">semanticscholar.org</a>  【前文已经提到】</li>
+  <li><a href="http://gen.lib.rus.ec/">library genesis</a>  <br />
+除了全文下载，也有检索关键词的文献趋势查询。<br />
+<img src="http://p1wq6a0o4.bkt.clouddn.com/20171216librarygenesis.png-m640?v=11188" alt="library genesis" title="library genesis首页" /></li>
+</ul>
+
+<p><strong>【专业技术书籍下载】</strong> <br />
+- <a href="http://en.booksee.org">booksee.org</a> 及 <a href="http://booksc.org">booksc.org</a></p>
+
+<p>【一般电子书、普通工具类技术文档下载地址实在太多了…最大的问题是看不过来】</p>
+
+<h2 id="section-4">▸没有一堆眼花缭乱的公式，不好意思出门说研究有深度，理论有高度</h2>
+<ul>
+  <li><a href="https://www.numberempire.com/">numberempire.com</a><br />
+各类数值计算器和编辑器，包括LaTex的编辑器。<br />
+<img src="http://p1wq6a0o4.bkt.clouddn.com/20171216numberempire.png-m640?v=11188" alt="numberempire函数大全" title="numberempire函数大全" /></li>
+  <li><a href="https://www.derivative-calculator.net/">derivative-calculator.net</a>  <br />
+导数计算 ，包括高阶导数的求导。有步骤及图形化的结果展示和导出。  <br />
+<img src="http://p1wq6a0o4.bkt.clouddn.com/20171216derivative.png-m640?v=11188" alt="可视化求导" title="可视化求导" /></li>
+</ul>
+
+<p>支持导出LaTex表达式。 <br />
+<img src="http://p1wq6a0o4.bkt.clouddn.com/20171216derivative2.png-m640?v=11188" alt="导出LaTex" title="导出LaTex" /></p>
+
+<h2 id="section-5">▸数据源</h2>
+<p>这个主题很大。不同的研究方向都会有一套自己的实验数据源。比如，做AI人脸识别，需要人脸库。
+做流行病预测研究，需要多个维度的疾病登记数据；做智能投顾，需要证券市场的交易数据等。<br />
+所幸，作为研究来说，网络上可以找到的免费数据源基本足够支撑。</p>
+
+<p>这里只是随便罗列几个例子： <br />
+- <a href="http://data.gov/">data.gov</a>  <br />
+美国政府数据开放平台。政府数据开放的一个好榜样。</p>
+
+<ul>
+  <li>
+    <p><a href="http://data.stats.gov.cn/">data.stats.gov.cn</a><br />
+国家统计局的官方网站数据源【最小时间跨度为月度】<br />
+<img src="http://p1wq6a0o4.bkt.clouddn.com/20171216nationalstatistics.png-m640?v=11188" alt="国家统计局数据源" title="国家统计局数据源" /></p>
+  </li>
+  <li>
+    <p><a href="https://www.ecmwf.int/">ecmwf.int</a>    <br />
+欧洲中期气候预报</p>
+  </li>
+</ul>
+
+<p><strong>不展开了…</strong></p>
+
+<h2 id="section-6">▸学术写作的语言辅助</h2>
+<p>要开始写东西，英文不熟练怎么办？<br />
+- 词语搭配查询   <br />
+<a href="http://linggle.com/">linggle.com</a> 和 <a href="http://www.netspeak.org/">netspeak.org</a>    <br />
+<img src="http://p1wq6a0o4.bkt.clouddn.com/20171216lingglenetspeak.png-m640?v=11188" alt="linggle &amp; netspeak " title="linggle &amp; netspeak" /></p>
+
+<p><strong>【其实，“有道”字典里的例句功能，也是非常好的参考。】</strong></p>
+
+<ul>
+  <li>在线学术写作  <br />
+<a href="https://www.overleaf.com/">overleaf.com</a>  丰富的排版模板，所见即所得的在线编辑，方便的文档生成和分享。<br />
+<img src="http://p1wq6a0o4.bkt.clouddn.com/20171216overleaf.png-m640?v=11188" alt="linggle &amp; netspeak " title="linggle &amp; netspeak" /></li>
+</ul>
+
+<hr />
+<p><strong>终于折腾出点头绪了</strong><br />
+不要着急着高兴，苦难才刚刚开始…</p>
+
+
+                </div>
+                <footer>
+                    
+                        <meta itemprop="dateModified" content="2017-12-16T00:00:00+08:00">
+                    
+                    <div class="article-license">
+                        <div class="m-license">
+    <div class="clearfix">
+        
+        <p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> license.</p>
+        <a class="license" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+            <img alt="Creative Commons License" src="/statics/images/license-cc4.png" />
+        </a>
+        <p>欢迎转载，转载需注明出处：<a class="url" href="http://0.0.0.0:4000/2017/12/16/research_resources.html">
+            http://0.0.0.0:4000/2017/12/16/research_resources.html
+        </a>，且禁止用于商业目的。</p>
+    </div>
+</div>
+                    </div>
+                </footer>
+                
+                    <section></section>
+                
+            </article>
+        </div>
+        <div class="col-2">
+            <aside class="js-article-aside">
+                <div class="m-toc js-toc"></div>
+            </aside>
+        </div>
+    </div>
+</div>
+
+<script src="//cdn.bootcss.com/toc/0.3.2/toc.min.js"></script>
+<script type="text/javascript">
+    window.throttle = function(func, wait) {
+        var args,
+            result,
+            thisArg,
+            timeoutId,
+            lastCalled = 0;
+
+        function trailingCall() {
+            lastCalled = new Date;
+            timeoutId = null;
+            result = func.apply(thisArg, args);
+        }
+        return function() {
+            var now = new Date,
+                remaining = wait - (now - lastCalled);
+
+            args = arguments;
+            thisArg = this;
+
+            if (remaining <= 0) {
+                clearTimeout(timeoutId);
+                timeoutId = null;
+                lastCalled = now;
+                result = func.apply(thisArg, args);
+            }
+            else if (!timeoutId) {
+                timeoutId = setTimeout(trailingCall, remaining);
+            }
+            return result;
+        };
+    }
+    $(function() {
+        var $window = $(window);
+        var $pageStage = $('.js-page-stage');
+        var $pageMain = $('.js-main');
+        var $pageFooter = $('.js-page-footer');
+        var $articleContent = $('.js-article-content');
+        var $articleAside = $('.js-article-aside');
+        var $toc = $('.js-toc');
+        var hasTitle = $articleContent.find('h1, h2, h3').length > 0;
+
+        function asideSticky() {
+            return $window.outerWidth() > 1150 && $pageStage.hasClass('has-toc');
+        }
+        function setTocClass() {
+            if (hasTitle) {
+                !$pageStage.hasClass('has-toc') && $pageStage.addClass('has-toc');
+            }
+        }
+
+        setTocClass();
+
+        function setAsideTOC() {
+            var asideTop,
+                asideLeft,
+                scrollBottom,
+                asideBottomTop,
+                lastScrollTop;
+
+            function init() {
+                var asideOffset = $articleAside.offset();
+                var footerOffset = $pageFooter.offset();
+                var mainOffset = $pageMain.offset();
+                asideTop = mainOffset.top;
+                asideHeight = $toc.outerHeight() + parseInt($articleAside.css('padding-top'), 10) + parseInt($articleAside.css('padding-bottom'), 10);
+                asideLeft = mainOffset.left + $pageMain.outerWidth() - $articleAside.outerWidth() - parseInt($pageMain.css('padding-right'), 10);
+                scrollBottom = footerOffset.top - asideHeight;
+                asideBottomTop = scrollBottom - mainOffset.top;
+            }
+            function setAside(force) {
+                force !== true && (force = false);
+                var scrollTop = $window.scrollTop();
+                if (scrollTop >= asideTop && scrollTop <= scrollBottom) {
+                    (!force && lastScrollTop >= asideTop && lastScrollTop <= scrollBottom) ||
+                        $articleAside.addClass('fixed').css({
+                            left: asideLeft + 'px',
+                            top: 0
+                        });
+                } else if (scrollTop < asideTop) {
+                    (!force && lastScrollTop < asideTop) ||
+                        $articleAside.removeClass('fixed').css({
+                            left: 0,
+                            top: 0
+                        });
+                } else {
+                    (!force && lastScrollTop > scrollBottom) ||
+                        $articleAside.removeClass('fixed').css({
+                            left: 0,
+                            top: asideBottomTop + 'px'
+                        });
+                }
+                lastScrollTop = scrollTop;
+            }
+            asideSticky() && (init(), setAside());
+            $window.on('scroll', function() {
+                asideSticky() && setAside();
+            });
+            $window.on('resize', throttle(function() {
+                setTocClass();
+                asideSticky() && (init(), setAside(true));
+            }, 100));
+            setTimeout(init, 4000);
+        }
+        setTimeout(setAsideTOC, 1000);
+
+        $toc.toc({
+            'selectors': 'h1,h2,h3',
+            'container': '.js-article-content',
+        });
+    });
+</script>
+
+
+    </div>
+</div>
+
+        </div>
+        <div class="m-page-footer js-page-footer">
+    <div class="main">
+        <aside>
+            <div class="follow-me">
+    <ul class="inline-list" itemscope itemtype="http://schema.org/Person">
+        <meta itemprop="name" content="Ryan Wang (Haide1977)">
+        <link itemprop="url" href="http://0.0.0.0:4000/">
+        
+        
+        
+        
+        
+        
+            <li title="Follow me on Linkedin.">
+                <div class="round-button linkedin">
+                    <a itemprop="sameAs" href="https://www.linkedin.com/in/ryanwonit" target="_blank">
+                        <div class="icon"><svg fill="#000000" width="24px" height="24px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<path d="M260.096 155.648c0 27.307008-9.899008 50.516992-29.696 69.632-19.796992 19.115008-45.396992 28.672-76.8 28.672-30.036992 0-54.612992-9.556992-73.728-28.672-19.115008-19.115008-28.672-42.324992-28.672-69.632 0-28.672 9.556992-52.224 28.672-70.656 19.115008-18.432 44.372992-27.648 75.776-27.648 31.403008 0 56.32 9.216 74.752 27.648 18.432 18.432 28.331008 41.984 29.696 70.656 0 0 0 0 0 0m-202.752 808.96c0 0 0-632.832 0-632.832 0 0 196.608 0 196.608 0 0 0 0 632.832 0 632.832 0 0-196.608 0-196.608 0 0 0 0 0 0 0m313.344-430.08c0-58.708992-1.364992-126.292992-4.096-202.752 0 0 169.984 0 169.984 0 0 0 10.24 88.064 10.24 88.064 0 0 4.096 0 4.096 0 40.96-68.267008 105.812992-102.4 194.56-102.4 68.267008 0 123.220992 22.868992 164.864 68.608 41.643008 45.739008 62.464 113.664 62.464 203.776 0 0 0 374.784 0 374.784 0 0-196.608 0-196.608 0 0 0 0-350.208 0-350.208 0-91.476992-33.451008-137.216-100.352-137.216-47.787008 0-81.236992 24.576-100.352 73.728-4.096 8.192-6.144 24.576-6.144 49.152 0 0 0 364.544 0 364.544 0 0-198.656 0-198.656 0 0 0 0-430.08 0-430.08 0 0 0 0 0 0"></path>
+</svg></div>
+                    </a>
+                </div>
+            </li>
+        
+        
+    </ul>
+    
+        <p class="email">
+            <a title="Send me Email." href="mailto:haide1977 AT gmail.com" target="_self"> haide1977 AT gmail.com </a>
+        </p>
+    
+</div>
+
+        </aside>
+        <footer class="site-info">
+            <p>© Ryan Wang's blog 2015 - 2017</p>
+            <p>Powered by <a
+                title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a> & <a
+                title="TeXt is a succinct theme for blogging." href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.
+            </p>
+        </footer>
+    </div>
+</div>
+        <script>
+            $(function() {
+                // display coding language //
+                $(".highlight").each(function() {
+                    $(this).attr("data-lang", $(this).find("code").attr("data-lang"));
+                });
+            });
+        </script>
+        
+    </body>
+</html>

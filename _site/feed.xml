@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://0.0.0.0:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="zh" /><updated>2018-01-09T13:46:27+08:00</updated><id>http://0.0.0.0:4000//</id><title type="html">Ryan Wang’s blog</title><subtitle>Ryan Wang's Blog
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://0.0.0.0:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="zh" /><updated>2018-01-11T16:45:44+08:00</updated><id>http://0.0.0.0:4000//</id><title type="html">Ryan Wang’s blog</title><subtitle>Ryan Wang's Blog
 </subtitle><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><entry><title type="html">场景式的研究工具箱杂论</title><link href="http://0.0.0.0:4000/2017/12/16/research_resources.html" rel="alternate" type="text/html" title="场景式的研究工具箱杂论" /><published>2017-12-16T00:00:00+08:00</published><updated>2017-12-16T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2017/12/16/research_resources</id><content type="html" xml:base="http://0.0.0.0:4000/2017/12/16/research_resources.html">&lt;p&gt;最近开始接触全新的目标问题域，成果暂时还是空白。在梳理研究思路的同时，顺便整理了一下辅助工具和网站。&lt;/p&gt;
 
 &lt;p&gt;欲善其事，先利其器。&lt;/p&gt;
@@ -143,4 +143,756 @@ cnki上的专业名词的翻译助手和名词定义，也是不错的资源。
 &lt;p&gt;&lt;strong&gt;终于折腾出点头绪了&lt;/strong&gt;&lt;br /&gt;
 不要着急着高兴，苦难才刚刚开始…&lt;/p&gt;</content><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><category term="方法杂论" /><category term="工具箱" /><summary type="html">最近开始接触全新的目标问题域，成果暂时还是空白。在梳理研究思路的同时，顺便整理了一下辅助工具和网站。
 
-欲善其事，先利其器。</summary></entry></feed>
+欲善其事，先利其器。</summary></entry><entry><title type="html">Road_to_https 既有系统的https的改造</title><link href="http://0.0.0.0:4000/2016/12/09/Road_to_https.html" rel="alternate" type="text/html" title="Road_to_https 既有系统的https的改造" /><published>2016-12-09T00:00:00+08:00</published><updated>2016-12-09T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2016/12/09/Road_to_https</id><content type="html" xml:base="http://0.0.0.0:4000/2016/12/09/Road_to_https.html">&lt;h2 id=&quot;section&quot;&gt;提要&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;研究目标&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;整理 https 相关的基本知识；&lt;/li&gt;
+  &lt;li&gt;梳理现存网站全面转向 https 的相关行动事项&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;主要内容&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;相关名词和基本知识&lt;/li&gt;
+  &lt;li&gt;简明的行动项清单&lt;/li&gt;
+  &lt;li&gt;重点技术项的细化阐述，包括证书，性能改善等&lt;/li&gt;
+  &lt;li&gt;一些行动建议&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--more--&gt;
+&lt;p&gt;## 引子 &lt;br /&gt;
+如果你对这个课题还没有什么&lt;strong&gt;感性认识&lt;/strong&gt;，为了避免一开始就掉入过于枯燥、抽象的技术名词的泥沼，建议先试试以下两个事情：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;使用chrome 或 Firefox 桌面（非手机端）浏览器，打开下面几个网站：&lt;br /&gt;
+第一组：&lt;a href=&quot;http://github.com&quot;&gt;http://github.com&lt;/a&gt;  ，&lt;a href=&quot;http://wallstreetcn.com&quot;&gt;http://wallstreetcn.com&lt;/a&gt; 或 &lt;a href=&quot;http://qiniu.com&quot;&gt;http://qiniu.com&lt;/a&gt; ; &lt;br /&gt;
+第二组：&lt;a href=&quot;http://data.stats.gov.cn/&quot;&gt;http://data.stats.gov.cn/&lt;/a&gt; 或 &lt;a href=&quot;http://www.cbrc.gov.cn/&quot;&gt;http://www.cbrc.gov.cn/&lt;/a&gt;  &lt;br /&gt;
+可以从地址栏上看到明显的返回结果的差异。&lt;br /&gt;
+&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20161209github.png-m640&quot; alt=&quot;github地址栏&quot; title=&quot;github地址栏&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;尝试访问 &lt;a href=&quot;https://www.ssllabs.com/ssltest/index.html&quot;&gt;第三方SSL 测试平台&lt;/a&gt; &lt;br /&gt;
+检测前面域名，也可以看到不同的测试结果返回。&lt;br /&gt;
+&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20161209wallstreetcn.png-m640&quot; alt=&quot;sslLABS测试wallstreetcn.com结果&quot; title=&quot;sslLABS测试wallstreetcn.com结果&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;建议&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;如果现在对整个事情的全貌有兴趣，你可以现在先阅读&lt;a href=&quot;#section-7&quot;&gt;第二部分 开始行动&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;一 基础知识&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;1.1 部分名词&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;CSP:&lt;br /&gt;
+(Content Security Policy) ,http 响应头。用来告诉浏览器，在当前页面采用何种内容安全策略。 可减轻内容注入的风险，降低应用执行的权限，提升安全的 “ 厚度 ” 。但不是防御内容注入的首选。&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;参考&lt;/strong&gt;：&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[Content Security Policy Level 3 的W3 官方文档]&lt;sup id=&quot;fnref:CSPl3&quot;&gt;&lt;a href=&quot;#fn:CSPl3&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;sample from w3.org：&lt;/em&gt; &lt;br /&gt;
+  Given a page with the following Content Security Policy:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  
+  Content-Security-Policy: child-src https://example.com/  
+   
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Fetches for the following code will all return network errors, as the URLs provided do not match child-src’s source list:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &amp;lt;iframe src=&quot;https://not-example.com&quot;&amp;gt;&amp;lt;/iframe&amp;gt;
+  &amp;lt;script&amp;gt;
+   var blockedWorker = new Worker(&quot;data:application/javascript,...&quot;);
+  &amp;lt;/script&amp;gt;
+ 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ocsp:&lt;br /&gt;
+在线证书状态检查协议 (RFC6960 ) ，用来向 CA 站点查询证书状态，比如是否撤销。通常情况下，浏览器使用 OCSP 协议发起查询请求， CA 返回证书状态内容，然后浏览器接受证书是否可信的状态。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;HSTS ：&lt;br /&gt;
+(HTTP  Strict Transport Security)  a way for sites to elect to always use HTTPS 。 http 协议响应头。要求浏览器通过 https 来访问网站。
+避免用户试图用 “http://” 访问时，通过 Web Server 的 301/302 重定向到 “https:// “ 方式（节省一个 RTT ）。
+&lt;strong&gt;需要浏览器支持&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;RTT ：&lt;br /&gt;
+(round trip time ) （网络协议）交互时间&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;SPDY :&lt;br /&gt;
+（ means  SPEEDY ）。 Google 开发的，为了改善 Http1.x 的 TCP 应用层协议。 修改了 HTTP 的请求与应答在网络上传输的方式，当使用 SPDY 的方式传输， HTTP 请求会被处理、标记简化和压缩。 关键特性已被吸收到了 HTTP/2 协议中。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;1.2 规避已知的风险&lt;/h3&gt;
+
+&lt;h4 id=&quot;section-6&quot;&gt;§ 漏洞及风险&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;规避已知的 HeartBleed 漏洞的涉及协议及产品版本  &lt;br /&gt;
+2014 年 4 月漏洞暴露。    &lt;br /&gt;
+对 2014 年 4 月前发布的基础系统，都要上官网确认是否存在安全漏洞，确认安装了必要的安全补丁。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;明确知道存在漏洞的基础系统（部分）    &lt;br /&gt;
+centos  6 系列（ 6.5 ， 6.6 及以后，不含 7 以后） 涉及到 HeartBleed , 还包括 Shellshock, PODDLE 漏洞。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;参考&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[Cent OS 官方对 HeartBleed ,PODDLE的安全说明] &lt;sup id=&quot;fnref:HeadBleed&quot;&gt;&lt;a href=&quot;#fn:HeadBleed&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;存在漏洞的协议  &lt;br /&gt;
+OpenSSL 版本为 1.0.1 至 1.0.1f （含）。较新版本（ 1.0.1g 以上）及先前版本（ 1.0.0 分支以前）不受影响。 OpenSSL 最新版本 1.1.0c （ 2016-11-10 发布） 
+SSL3.0 （ POODLE 攻击）， TLS1.0 （ 如 RC4 和 BEAST 攻击 ）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;参考&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[Turn off SSL3.0 and TLS 1.0] &lt;sup id=&quot;fnref:SSL3&quot;&gt;&lt;a href=&quot;#fn:SSL3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;已知的加密算法的风险
+    &lt;ul&gt;
+      &lt;li&gt;MD5  ， SHA － 1 ，都不再适合用于密钥交换和加密通信（一致性校验）&lt;/li&gt;
+      &lt;li&gt;RSA 算法需要使用 2048bit 或以上的密钥才能保证安全性（ 1024bit 密钥已经不再安全）&lt;/li&gt;
+      &lt;li&gt;ECC 算法需要 224bit 以上的密钥才能保证安全性（通常为 256bit ）&lt;/li&gt;
+      &lt;li&gt;RC4 （伪随机数流加密算法），已经在新版本 TLS 中被禁用   。&lt;br /&gt;
+  google 使用的 ChaCha20 已经在 RFC 7539 中标准化  ,性能较之AES-GCM更好&lt;/li&gt;
+      &lt;li&gt;TLS1.1 ， TLS1.2 尚未发现安全漏洞。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;参考&lt;/strong&gt; :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[ 建议用 AES-GCM 取代RC4 ] &lt;sup id=&quot;fnref:AES-GCM&quot;&gt;&lt;a href=&quot;#fn:AES-GCM&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;br /&gt;
+[ 通俗版椭圆曲线算法理论 ]&lt;sup id=&quot;fnref:pediy6014&quot;&gt;&lt;a href=&quot;#fn:pediy6014&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;section-7&quot;&gt;§ 针对协议与算法的常见攻击&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;BEAST:&lt;br /&gt;
+  ( Browser Exploit Against SSL/TLS)&lt;br /&gt;
+ 利用块加密的特性，破解出密文中的某块明文，比如 cookies 中的 SessionKey 。
+  TLS1.1 以后的版本已经修正了风险。但是攻击者可以通过 Downgrade Attack （参见：降级攻击）来试图迫使客户端降到 TLS1.0 来实施攻击。&lt;br /&gt;
+&lt;strong&gt;参考&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[ 一篇通俗易懂的 BEAST 原理的 BLOG ]&lt;sup id=&quot;fnref:BEAST&quot;&gt;&lt;a href=&quot;#fn:BEAST&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Downgrade Attack 降级攻击&lt;br /&gt;
+ 包括： 降级攻击一般包括两种：加密套件降级攻击 (cipher suite rollback) 和协议降级攻击（ version roll back ）。  &lt;br /&gt;
+降级攻击的原理就是攻击者伪造或者修改 client hello 消息，使得客户端和服务器之间使用比较弱的加密套件或者协议完成通信。&lt;br /&gt;
+&lt;strong&gt;参考&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[ 利用 TLS_FALLBACK_SCSV 协议值来防止降级攻击 ]&lt;sup id=&quot;fnref:TLS_FB&quot;&gt;&lt;a href=&quot;#fn:TLS_FB&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;HeartBleed&lt;sup id=&quot;fnref:HeadBleed:1&quot;&gt;&lt;a href=&quot;#fn:HeadBleed&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;：  &lt;br /&gt;
+ Heartbleed 是存在于 OpenSSL 加密软件库内的一个严重漏洞。此弱点让受保护的信息可以被盗取，它们本来是受 SSL ／ TLS 互联网加密协议所保护的。 SSL ／ TLS 为互联网上的应用程序提供安全通讯及私隐，这些程序包括有网页、电邮、即时通讯（ IM ）及某些虚拟专用网络（ VPN ）。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;POODLE:&lt;br /&gt;
+（ Padding Oracle On Downgraded Legacy Encryption ）。是协议降级攻击 version roll back 方式的一种。迫使浏览器降级至 SSL 3.0 而进行的中间人攻击。假若攻击者能成功利用此漏洞，他们平均只需 256 个 SSL 3.0 请求便能看穿加密信息内的 1 个字符。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;TLS Renegotiation 重新协商攻击&lt;br /&gt;
+ 包括： 
+ 加密套件重协商 (cipher suite renegotiation )、 协议重商攻击（ Protocol Renegotiation ）两类。&lt;br /&gt;
+&lt;strong&gt;最直接的保护手段是禁止客户端发起主动重新协商&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;参考&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[Understanding_the_TLS_Renegotiation ]&lt;sup id=&quot;fnref:TLS_Ren&quot;&gt;&lt;a href=&quot;#fn:TLS_Ren&quot; class=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;XSS  攻击  &lt;br /&gt;
+（ Cross-Site Scripting ）跨域脚本攻击   。在目标网站上执行非目标网站的原有脚本 。
+既有利用浏览器漏洞，也有利用代码的漏洞进行脚本注入。通过 https 和响应头设置，可以减少
+XSS 发生的可能。&lt;br /&gt;
+&lt;strong&gt;参见服务端响应头相关内容&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-8&quot;&gt;二 开始行动&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-9&quot;&gt;2.1 首先要澄清的几个事项&lt;/h3&gt;
+
+&lt;h4 id=&quot;https-&quot;&gt;§ 把域名切换到 https ，只是切换工作的一小部分&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;部署证书、修改 WebServer 配置支持 https 只是开始&lt;/li&gt;
+  &lt;li&gt;所需加载的资源，如 js ， css ，图片等都需要加入考量范畴。否则，依旧存在劫持的可能。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;https--1&quot;&gt;§ https 的改造可以不考虑内部系统之间的调用&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;但是，如果是跨局域网的内部服务间的交互，我们需要考虑敏感信息在链路上的安全&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;cdn-&quot;&gt;§ 如果所需加载资源利用了第三方服务，如 CDN ，那么要做方案上的决策。&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;信任 CDN ？ 把私钥交给 CDN ？&lt;br /&gt;
+ &lt;strong&gt;相信 CDN 是安全的,这一行为本身就是不安全的。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;仅利用 CDN 的动态加速， TCP 代理，不缓存内容？  &lt;br /&gt;
+ &lt;strong&gt;这样就大大降低了 CDN 的价值。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;寻找类似 CloudFlare ，提供 Keyless SSL 服务的 CDN 服务商。&lt;sup id=&quot;fnref:CloudF&quot;&gt;&lt;a href=&quot;#fn:CloudF&quot; class=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;     &lt;br /&gt;
+&lt;strong&gt;不用提供私钥，不用使用公共域名和证书&lt;/strong&gt; &lt;br /&gt;
+&lt;strong&gt;CloudFare 已经与百度合作&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;http--https-&quot;&gt;§ 把资源先改成 http 和 https 都支持？？&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;注意修改代码中的链接 , 协议无关地址（ Protocol-less URLs ）。    &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;href=\&quot;http://...\&quot;    改为   href=\&quot;//...\&quot;&lt;/code&gt;             &lt;br /&gt;
+&lt;strong&gt;问题：存在不兼容的可能，上线前需要严格测试&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;https--http-&quot;&gt;§ https 下重建连接的代价成本要远比 http 高&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;http/2 的头部压缩（ header compression ） , 连接多路复用（ one connection for parallelism ）等可以改善 TLS 带来的成本。  &lt;br /&gt;
+&lt;strong&gt;目前平均每个页面有 80 个部件 (Assets) ，平均每个头 (Header) 有 1400bytes&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;http/2 可以完全兼容 http1.1&lt;br /&gt;
+&lt;strong&gt;参考&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[HTTP2 的 FAQ]&lt;sup id=&quot;fnref:HTTP2&quot;&gt;&lt;a href=&quot;#fn:HTTP2&quot; class=&quot;footnote&quot;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;section-10&quot;&gt;§ 必须关注证书采购的成本&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;购买证书的投入，包括首次购买及续费成本&lt;/li&gt;
+  &lt;li&gt;未来运维管理的成本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;server-&quot;&gt;§  协议支持的，未必代表厂商（浏览器， Server 等）支持&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;必须要用特定的配置（兼容）清单 去验证所有的修改&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;step-by-step&quot;&gt;2.2 主要行动Step by Step&lt;/h3&gt;
+
+&lt;h4 id=&quot;step1-ca&quot;&gt;§ Step1 申请（购买）CA证书&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;需要根据自身业务使用域名的实况来确定采购的证书类型和数量。&lt;br /&gt;
+对现有域名资源进行适当的梳理和规划，可以节省证书和未来运维的成本。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;DV(Domain Validation SSL Certificate ) ,OV( Organization Validation SSL Certificate ),EV(  Extended Validation SSL Certificate )  与保护的域名数量之间没有直接关联&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;SAN SSL 证书   Subject Alternative Name certificates 又称为 UCC 证书 – Unified Communication Certificates. &lt;br /&gt;
+  可以保护若干数量的域名。超过默认数量，可能需要支付额外费用 。   （具体视厂商而定）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;通配符 证书   Wildcard SSL  Certificate    ， 也称为泛域名证书，&lt;br /&gt;
+ 可以保护下一级的子域名，及其本身。  &lt;br /&gt;
+ 即：如要保护多个四级域名，需要购买针对三级域名的通配符型的证书。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;不同的 CA 证书供应商，价格差异较大。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;正在兴起的 &lt;strong&gt;Let’s Encrypt&lt;/strong&gt;免费证书&lt;sup id=&quot;fnref:Letsen&quot;&gt;&lt;a href=&quot;#fn:Letsen&quot; class=&quot;footnote&quot;&gt;11&lt;/a&gt;&lt;/sup&gt; , &lt;sup id=&quot;fnref:acme-tiny&quot;&gt;&lt;a href=&quot;#fn:acme-tiny&quot; class=&quot;footnote&quot;&gt;12&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;示例：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;如：需要保护类似 ＊ .weixin.example.com , ＊ .api.weixin.example.com ，以及上层的 example.com 和 ＊.example.com&lt;br /&gt;
+&lt;strong&gt;【需要两张泛域名证书】&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;step2--&quot;&gt;§ Step2  生成和下载证书&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;证书供应商会都会提供管理和生成、下载证书的管理入口&lt;/li&gt;
+  &lt;li&gt;每张证书都是和特定的一个或者一组域名的保护相关联（生成）的&lt;/li&gt;
+  &lt;li&gt;将下载证书部署到服务端特定的位置&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;step3-cipher-suite&quot;&gt;§ Step3 选择加密套件Cipher Suite&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;每个利用 https 的客户端都有一组支持的加密套件（ Cipher Suite ），&lt;br /&gt;
+如果这组套件与服务器上的套件列表没有交集，则无法完成协商，握手失败。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;每个套件都是一组算法存在的，其中一般包含：&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;密钥交换（ Key Exchange ）&lt;/li&gt;
+      &lt;li&gt;证书签名认证（ Authentication ）&lt;/li&gt;
+      &lt;li&gt;加密算法（ Encrytion ）&lt;/li&gt;
+      &lt;li&gt;内容完整性（一致性）校验算法（ Message Authentication Code ，简称 MAC ）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[iana.org 管理的完整套件列表 ]&lt;sup id=&quot;fnref:iana&quot;&gt;&lt;a href=&quot;#fn:iana&quot; class=&quot;footnote&quot;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;openssl 不同版本支持的套件不同，可以通过命令查看：  &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt; $ openssl ciphers -V | column -t&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;命令运行后，展现以下形式内容 , 其中第一列为套件的编号：&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  0xC0,0x30  -  ECDHE-RSA-AES256-GCM-SHA384    TLSv1.2  Kx=ECDH        Au=RSA    Enc=AESGCM(256)    Mac=AEAD  
+  0xC0,0x2C  -  ECDHE-ECDSA-AES256-GCM-SHA384  TLSv1.2  Kx=ECDH        Au=ECDSA  Enc=AESGCM(256)    Mac=AEAD  
+  0xC0,0x28  -  ECDHE-RSA-AES256-SHA384        TLSv1.2  Kx=ECDH        Au=RSA    Enc=AES(256)       Mac=SHA384  
+  0xC0,0x24  -  ECDHE-ECDSA-AES256-SHA384      TLSv1.2  Kx=ECDH        Au=ECDSA  Enc=AES(256)       Mac=SHA384  
+  0xC0,0x14  -  ECDHE-RSA-AES256-SHA           SSLv3    Kx=ECDH        Au=RSA    Enc=AES(256)       Mac=SHA1  
+  0xC0,0x0A  -  ECDHE-ECDSA-AES256-SHA         SSLv3    Kx=ECDH        Au=ECDSA  Enc=AES(256)       Mac=SHA1  
+  0xC0,0x22  -  SRP-DSS-AES-256-CBC-SHA        SSLv3    Kx=SRP         Au=DSS    Enc=AES(256)       Mac=SHA1  
+....  
+
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;参考&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;非对称密钥交换算法 key Exchange 。    &lt;br /&gt;
+建议优先使用 ECDHE ，禁用 DHE ，次优先选择 RSA 。&lt;/li&gt;
+    &lt;li&gt;证书签名算法 。  &lt;br /&gt;
+由于部分浏览器及操作系统不支持 ECDSA 签名，目前默认都是使用 RSA 签名，其中 SHA1 签名已经不再安全， &lt;strong&gt;chrome 及微软 2016 年开始不再支持 SHA1 签名的证书&lt;/strong&gt; &lt;sup id=&quot;fnref:SHA1&quot;&gt;&lt;a href=&quot;#fn:SHA1&quot; class=&quot;footnote&quot;&gt;14&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+    &lt;li&gt;对称加解密算法。    &lt;br /&gt;
+优先使用 AES-GCM 算法，针对 1.0 以上协议禁用 RC4 （rfc7465）。&lt;/li&gt;
+    &lt;li&gt;内容一致性校验算法。    &lt;br /&gt;
+Md5 和 SHA1 都已经不安全，建议使用 SHA256 等安全哈希函数。&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;step4--&quot;&gt;§ Step4  修改服务器配置&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;修改 Nginx 配置 （包括指定证书的路径）&lt;/li&gt;
+  &lt;li&gt;是否在 Nginx 的配置中加入不同的响应头，需要小心评估。  &lt;br /&gt;
+例如： 如下响应头可以自动将 http 资源请求，升级会 https 请求。&lt;br /&gt;
+（需要保证资源路径相同，包括第三方资源可支持 https ）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;W3.org上的例子 &lt;a href=&quot;https://www.w3.org/TR/upgrade-insecure-requests/&quot;&gt;https://www.w3.org/TR/upgrade-insecure-requests/&lt;/a&gt; :&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  server {
+    ...
+
+    add_header Content-Security-Policy upgrade-insecure-requests;
+
+    ...
+  }
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;下载 openSSL 包&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;示例 &lt;a href=&quot;https://github.com/diafygi/acme-tiny &quot;&gt;https://github.com/diafygi/acme-tiny &lt;/a&gt; : &lt;sup id=&quot;fnref:acme-tiny:1&quot;&gt;&lt;a href=&quot;#fn:acme-tiny&quot; class=&quot;footnote&quot;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    server {  
+      listen 443;  
+      server_name yoursite.com, www.yoursite.com;   
+      ssl on;  
+      ssl_certificate /path/to/chained.pem;  
+      ssl_certificate_key /path/to/domain.key;  
+      ssl_session_timeout 5m;  
+      ssl_protocols TLSv1.1 TLSv1.2;  
+      ssl_ciphers ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA;  
+      ssl_session_cache shared:SSL:50m;  
+      ssl_dhparam /path/to/server.dhparam;  
+      ssl_prefer_server_ciphers on;   
+      ...the rest of your config  
+    } 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;更多内容可参见后文 &lt;a href=&quot;#section-10&quot;&gt;重点行动项的进一步说明&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;参考&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[ 官方 Module ngx_http_ssl_module]&lt;sup id=&quot;fnref:ngx_http&quot;&gt;&lt;a href=&quot;#fn:ngx_http&quot; class=&quot;footnote&quot;&gt;15&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;step5-&quot;&gt;§ Step5 修改代码&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;采用 https 协议 “https://…” ，或者改为 协议无关的方式 “ //…” &lt;br /&gt;
+改为协议无关 “//…” 方式，是种很有风险的方式，存在网络供应商篡改，导致资源路径失败的可能&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;页面从存在任何不安全的链接（ http ），浏览器地址栏的小绿锁 就会消失。    &lt;br /&gt;
+ **要去掉所有可能导致警告和绿锁消失的链接 **&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;注意可能从配置文件 或者 数据库字段中生成的 地址&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;注意所有的外链和外部接口&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;参考&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;[Move a site with URL changes]&lt;sup id=&quot;fnref:Move&quot;&gt;&lt;a href=&quot;#fn:Move&quot; class=&quot;footnote&quot;&gt;16&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+    &lt;li&gt;[RFC3986]&lt;sup id=&quot;fnref:RFC3986&quot;&gt;&lt;a href=&quot;#fn:RFC3986&quot; class=&quot;footnote&quot;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;final-step--&quot;&gt;§ final Step  监控日志&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;必须关注和分析服务器日志，确定资源请求失败的客户端，或者资源本身。&lt;/li&gt;
+  &lt;li&gt;监控日志，只是一轮改造的最后一步，更可能是新一轮迭代的开始。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-11&quot;&gt;三 重点行动项的进一步说明&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-12&quot;&gt;3.1 证书问题&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;通过 Nginx ，在同一 IP 上部署多个 HTTPS 站点，会存在证书冲突的问题   ，除了 SNI （ Server Name Indication ）外，利用 SAN 证书也可以解决这个问题    &lt;br /&gt;
+&lt;strong&gt;Windows XP IE6~8 、 Android 2.x Webview 都不支持 SNI&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-13&quot;&gt;3.2 服务端响应头&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;参考示例&lt;/strong&gt;
+可以参考和研究其它网站的响应头，然后结合自身实况来决定怎么做&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Google:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  x-content-type-options: nosniff  
+  x-frame-options: SAMEORIGIN  
+  x-xss-protection: 1 ; mode=block  
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Twitter:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  strict-transport-security: max-age= 631138519
+  x-frame-options: SAMEORIGIN
+  x-xss-protection: 1 ; mode=block
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;PayPal:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  X-Frame-Options: SAMEORIGIN
+  Strict-Transport-Security: max-age= 14400
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Facebook 则使用了这些（配置了详细的 CSP ，关闭了 XSS 保护）:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  strict-transport-security: max-age= 60
+  x-content-type-options: nosniff
+  x-frame-options: DENY
+  x-xss-protection: 0
+  content-security-policy: default-src *;script-src https://*.facebook.com http://*.facebook.com https://*.fbcdn.net http://*.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0 . 0.1 :* *.spotilocal.com:* chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl 'unsafe-inline' 'unsafe-eval' https://*.akamaihd.net http://*.akamaihd.net;style-src * 'unsafe-inline' ;connect-src https://*.facebook.com http://*.facebook.com https://*.fbcdn.net http://*.fbcdn.net *.facebook.net *.spotilocal.com:* https://*.akamaihd.net ws://*.facebook.com:* http://*.akamaihd.net https://fb.scanandcleanlocal.com:*;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;section-14&quot;&gt;3.3 让交互更快的策略&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;参考建议&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;采取任何优化策略前，先要对内部基础设施（包括web server，用户浏览器使用分布等），做清晰梳理。然后再寻找、评估和采用针对性的策略。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;tcp-fast-open&quot;&gt;§ TCP FAST OPEN&lt;/h4&gt;
+&lt;p&gt;RFC7413&lt;br /&gt;
+  TFO 需要高版本内核的支持， linux 从 3.7 以后支持 TFO ，但是目前的 windows 系统还不支持 TFO ，所以只能在公司内部服务器之间发挥作用。&lt;/p&gt;
+
+&lt;h4 id=&quot;ocsp-stapling&quot;&gt;§ OCSP Stapling&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;OCSP 方式向 CA 站点检查证书状态请求， CA 返回证书状态（是否有效／可信／撤销等）的过程，会因为 CA 站点服务器的位置，网络的稳定性等因素，会额外消耗大量 RTT 的时间。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;OCSP 装订 /( 封套 ). 是一个 TLS 证书状态查询扩展，作为在线证书状态协议的代替方法对 X.509 证书状态进行查询   。
+  服务器在 TLS 握手时发送事先缓存的 OCSP 响应，用户只需验证该响应的有效性而不用再向数字证书认证机构（ CA ）发送请求。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;服务器端的支持情况：&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+  Httpd ： 2.3.3          
+  Nginx ： 1.3.7  
+  IIS ： Windows Server 2008  
+  HAProxy ： 1.5.0  
+&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;浏览器的支持情况：主流浏览器都已获得支持。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Nginx 开启配置的方式  &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;ssl_stapling on;ssl_stapling_file ocsp.staple;
+&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;参考&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[OCSP_Stapling,wikipedia ]&lt;sup id=&quot;fnref:OCSP&quot;&gt;&lt;a href=&quot;#fn:OCSP&quot; class=&quot;footnote&quot;&gt;18&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;session--session--resume-&quot;&gt;§ Session 复用（ Session  Resume ）的两种方式&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Session Cache &amp;amp;  Session Ticket &lt;br /&gt;
+通过在服务端缓存已有的 Session 握手信息来实现：避免再次计算和非对程密钥的交换，节省一个 RTT 交互时间和计算成本。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;策略&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;存储方式&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;存储容量&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;恢复方式&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;共享能力&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;优缺点与风险&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;session cache&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;服务端内存&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;4K session/M&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;通过 Session id 查找&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;单机多进程间&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;浏览器支持度高，不支持分布式，消耗内存&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;session ticket&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;服务端文件&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;通过 Session 本身（加密成 ticket ）&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;可以在多个 Server 间共享&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;支持度略低，需维护 ticket 加解密的额外 key&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;为了保证 Session Tickets 的可复用，在 配置Nginx 时不要使用 web server 随机生成的保存文件。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;参考&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[nginx 官方 ssl_session_ticket_key]&lt;sup id=&quot;fnref:ticket&quot;&gt;&lt;a href=&quot;#fn:ticket&quot; class=&quot;footnote&quot;&gt;19&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;app&quot;&gt;3.4 APP周边相关&lt;/h3&gt;
+&lt;p&gt;#### § 原生功能的安全
+  - 仅使用 MD5 的 token 是很容易被伪冒的。对于涉及资金的交易，显然不够；  需要同时利用［敏感内容先加密（如 利用 RSA 算法），同时完整交易信息签名验证（比如利用 appKey+appSecret+userName+tradeTime
+，进行 MD5 或者 SHA256 ）。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;进一步提高安全性： &lt;br /&gt;
+  每天至少进行一次握手，交换和更新下 token （密钥）。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;h5-&quot;&gt;§ 内嵌H5 页面的安全&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;可以选择高层或底层的不同方式&lt;br /&gt;
+  （如 android 的 HttpsURLConnection ，或 SSLSocket ） &lt;br /&gt;
+  &lt;strong&gt;参考&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://developer.android.com/training/best-security.html&quot;&gt;Android 官方 : Best Practices for  Security and Privacy&lt;/a&gt; &lt;sup id=&quot;fnref:Android&quot;&gt;&lt;a href=&quot;#fn:Android&quot; class=&quot;footnote&quot;&gt;20&lt;/a&gt;&lt;/sup&gt;   &lt;br /&gt;
+&lt;a href=&quot;https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW33&quot;&gt;ios  官方： App Transport Security (ATS) &lt;/a&gt; &lt;sup id=&quot;fnref:ATS&quot;&gt;&lt;a href=&quot;#fn:ATS&quot; class=&quot;footnote&quot;&gt;21&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;section-15&quot;&gt;3.5 测试与验证&lt;/h3&gt;
+
+&lt;h4 id=&quot;section-16&quot;&gt;§ 工具&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;免费的第三方检测平台。&lt;br /&gt;
+如：&lt;a href=&quot;https://www.ssllabs.com/ssltest/index.html&quot;&gt;ssl Labs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-17&quot;&gt;五 结语&lt;/h2&gt;
+
+&lt;p&gt;回到本文的最前面，如果你只是想让你的网站，在地址栏出现一个“小绿锁”（也许它会时隐时现），那么一切都比较简单。借助cloudflare 提供的服务，也许只要半个小时就看上去万事大吉了。&lt;/p&gt;
+
+&lt;p&gt;但是，对于一个有一定规模的网站来说，向https 、 http/2 的切换，目标显然不仅是看上去有了个“小绿锁”。真正实现在安全层面的提升和切换，一定会是一个艰难和充满风险的过程。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-18&quot;&gt;六 延伸阅读&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-19&quot;&gt;6.1 来自其它公司的实践&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;大型网站的https实践(百度)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://op.baidu.com/2015/04/https-s01a01/&quot;&gt;http://op.baidu.com/2015/04/https-s01a01/&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;淘宝的https探索&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://velocity.oreilly.com.cn/2015/ppts/lizhenyu.pdf&quot;&gt;http://velocity.oreilly.com.cn/2015/ppts/lizhenyu.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-20&quot;&gt;6.2  其他链接&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.nginx.com/blog/nginx-1-9-5/&quot;&gt;nginx官方: Open Source Nginx 1.9.5  Released with  HTTP/2 support&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://segmentfault.com/a/1190000004232801&quot;&gt;nginx1.8.x 配置 https&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;参考索引汇总&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:CSPl3&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.w3.org/TR/CSP/&quot;&gt;Content Security Policy Level 3 的W3 官方文档&lt;/a&gt; &lt;a href=&quot;#fnref:CSPl3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:HeadBleed&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://wiki.centos.org/zh/Security&quot;&gt;Cent OS 官方对 HeartBleed ,PODDLE的安全说明&lt;/a&gt; &lt;a href=&quot;#fnref:HeadBleed&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:HeadBleed:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:SSL3&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.ssl.com/how-to/turn-off-ssl-3-0-and-tls-1-0-in-your-browser/&quot;&gt;Turn off SSL3.0 and TLS 1.0&lt;/a&gt; &lt;a href=&quot;#fnref:SSL3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:AES-GCM&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://blogs.technet.microsoft.com/srd/2013/11/12/security-advisory-2868725-recommendation-to-disable-rc4/&quot;&gt; 建议用 AES-GCM 取代RC4 &lt;/a&gt; &lt;a href=&quot;#fnref:AES-GCM&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:pediy6014&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.pediy.com/kssd/pediy06/pediy6014.htm&quot;&gt; 通俗版椭圆曲线算法理论 &lt;/a&gt; &lt;a href=&quot;#fnref:pediy6014&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:BEAST&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://securityalley.blogspot.com/2014/07/ssltls-beast.html&quot;&gt;一篇通俗易懂的 BEAST 原理的 BLOG &lt;/a&gt; &lt;a href=&quot;#fnref:BEAST&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:TLS_FB&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.ietf.org/html/draft-ietf-tls-downgrade-scsv-00#page-3&quot;&gt;ietf: 利用 TLS_FALLBACK_SCSV 协议值来防止降级攻击 &lt;/a&gt; &lt;a href=&quot;#fnref:TLS_FB&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:TLS_Ren&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.educatedguesswork.org/2009/11/understanding_the_tls_renegoti.html&quot;&gt;Understanding_the_TLS_Renegotiation&lt;/a&gt; &lt;a href=&quot;#fnref:TLS_Ren&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:CloudF&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.cloudflare.com/ssl/&quot;&gt;Cloudflare one-click SSL&lt;/a&gt; &lt;a href=&quot;#fnref:CloudF&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:HTTP2&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://http2.github.io/faq/&quot;&gt;HTTP2的FAQ&lt;/a&gt; &lt;a href=&quot;#fnref:HTTP2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:Letsen&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://letsencrypt.org/getting-started/&quot;&gt;Let’s Encrypt 免费证书&lt;/a&gt; &lt;a href=&quot;#fnref:Letsen&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:acme-tiny&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/diafygi/acme-tiny&quot;&gt;issue and renew Let’s Encrypt certificates&lt;/a&gt; &lt;a href=&quot;#fnref:acme-tiny&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:acme-tiny:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:iana&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml#tls-parameters-4&quot;&gt;iana.org 管理的完整套件列表&lt;/a&gt; &lt;a href=&quot;#fnref:iana&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:SHA1&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://googleonlinesecurity.blogspot.jp/2014/09/gradually-sunsetting-sha-1.html&quot;&gt;chrome 及微软 2016 年开始不再支持 SHA1 签名的证书&lt;/a&gt; &lt;a href=&quot;#fnref:SHA1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:ngx_http&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://nginx.org/en/docs/http/ngx_http_ssl_module.html&quot;&gt;官方:配置 Module ngx_http_ssl_module &lt;/a&gt; &lt;a href=&quot;#fnref:ngx_http&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:Move&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://support.google.com/webmasters/answer/6033049?hl=en&amp;amp;ref_topic=6033084&amp;amp;rd=1&quot;&gt;Google:  Move a site with URL changes&lt;/a&gt; &lt;a href=&quot;#fnref:Move&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:RFC3986&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.ietf.org/html/rfc3986#section-4.2&quot;&gt;RFC3986:(URI): Generic Syntax&lt;/a&gt; &lt;a href=&quot;#fnref:RFC3986&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:OCSP&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/OCSP_stapling&quot;&gt;OCSP_Stapling,wikipedia&lt;/a&gt; &lt;a href=&quot;#fnref:OCSP&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:ticket&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://nginx.org/en/docs/http/ngx_http_ssl_module.html#ssl_session_ticket_key&quot;&gt;nginx官方：ssl_session_ticket_key&lt;/a&gt; &lt;a href=&quot;#fnref:ticket&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:Android&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://developer.android.com/training/best-security.html&quot;&gt;Android官方: Best Practices for  Security and Privacy&lt;/a&gt; &lt;a href=&quot;#fnref:Android&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:ATS&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW33&quot;&gt;ios 官方： App Transport Security (ATS) &lt;/a&gt; &lt;a href=&quot;#fnref:ATS&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><category term="架构" /><category term="互联网" /><category term="基础系统" /><summary type="html">提要
+
+研究目标
+
+  整理 https 相关的基本知识；
+  梳理现存网站全面转向 https 的相关行动事项
+
+
+主要内容
+
+
+  相关名词和基本知识
+  简明的行动项清单
+  重点技术项的细化阐述，包括证书，性能改善等
+  一些行动建议</summary></entry></feed>

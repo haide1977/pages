@@ -1,5 +1,195 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://0.0.0.0:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="zh" /><updated>2018-03-21T22:38:09+08:00</updated><id>http://0.0.0.0:4000//</id><title type="html">Ryan Wang’s blog</title><subtitle>Ryan Wang's Blog
-</subtitle><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><entry><title type="html">场景式的研究工具箱杂论</title><link href="http://0.0.0.0:4000/2017/12/16/research_resources.html" rel="alternate" type="text/html" title="场景式的研究工具箱杂论" /><published>2017-12-16T00:00:00+08:00</published><updated>2017-12-16T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2017/12/16/research_resources</id><content type="html" xml:base="http://0.0.0.0:4000/2017/12/16/research_resources.html">&lt;p&gt;最近开始接触全新的目标问题域，成果暂时还是空白。在梳理研究思路的同时，顺便整理了一下辅助工具和网站。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://0.0.0.0:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="zh" /><updated>2018-04-03T22:38:47+08:00</updated><id>http://0.0.0.0:4000//</id><title type="html">Ryan Wang’s blog</title><subtitle>Ryan Wang's Blog
+</subtitle><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><entry><title type="html">能源区块链项目采样与思考</title><link href="http://0.0.0.0:4000/2017/12/27/Energy_Blockchain_Cases_and_Thinking.html" rel="alternate" type="text/html" title="能源区块链项目采样与思考" /><published>2017-12-27T00:00:00+08:00</published><updated>2017-12-27T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2017/12/27/Energy_Blockchain_Cases_and_Thinking</id><content type="html" xml:base="http://0.0.0.0:4000/2017/12/27/Energy_Blockchain_Cases_and_Thinking.html">&lt;p&gt;针对区块链和数字币在能源领域的国外的应用案例，做了一个管窥式的快速采样。以便对这一领域方向，有一些自己直观的判断。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;jouliette&quot;&gt;▸ 荷兰 Jouliette(焦耳币)&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171227topic.png-m640?v=71227&quot; alt=&quot;焦耳币社区&quot; title=&quot;图片来自Jouliette.net&quot; /&gt; 
+&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171227jwallet.png-m640?v=71227&quot; alt=&quot;焦耳币／钱包&quot; title=&quot;图片来自Jouliette.net&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Jouliette &lt;strong&gt;焦耳币&lt;/strong&gt;  &lt;br /&gt;
+荷兰国内首创 。名字源自能量的计量单位：焦耳。&lt;/p&gt;
+
+&lt;h4 id=&quot;section&quot;&gt;§ 发起组织&lt;/h4&gt;
+&lt;p&gt;总部在阿姆斯特丹的智慧能源公司Spectral 和荷兰分布式系统运营者联盟（Dutch distribution system operator Alliander）。&lt;/p&gt;
+
+&lt;h4 id=&quot;section-1&quot;&gt;§ 项目目标&lt;/h4&gt;
+&lt;p&gt;通过这一新的电子货币——焦耳币，帮助个人和社区更方便的管理和分享本地产出的可再生能源。
+希望成为利用区块链技术的能力来产生更大的社会价值的一个示范。以100%的可再生的能源为基础，来支持“自底向上”的，更加分布式的，强壮的，透明的经济方式转换。&lt;/p&gt;
+
+&lt;h4 id=&quot;section-2&quot;&gt;§ 运营情况&lt;/h4&gt;
+
+&lt;p&gt;2017-9-15，在阿姆斯特丹的下属的 De Ceuvel 创新实验社区发行。利用 “焦耳”币，社区居民可以安全的、点对点的直接利用他们的虚拟货币钱包进行交易。 
+这个经济生态系统在De Ceuvel可行的基础是：该地区是典型的，基于智能电网的私人可再生能源区。没有任何对太阳能光伏生产的可再生能源交易的限制，也规避了现存的市场障碍（market barriers）。&lt;/p&gt;
+
+&lt;p&gt;通过“焦耳”币平台，社区可以方便的管理其“微经济” （micro-economy ）。不同于存粹的投机货币（speculative currencies），焦耳币有物理能源的生产作为支撑——或者说 &lt;strong&gt;现实映射&lt;/strong&gt; 。&lt;/p&gt;
+
+&lt;p&gt;社区在探索的进一步的焦耳币应用包括，在当地咖啡馆消费，本地时间银行系统（时间交换），以及与其他跨社区服务的整合，如共享汽车（car-sharing ）。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;参考：&lt;br /&gt;
+&lt;a href=&quot;http://deceuvel.nl/en/&quot;&gt;De Ceuvel 社区&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://timebanks.org/what-is-timebanking/&quot;&gt; 本地时间银行系统(local time-banking system )&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;除了点对点的交易，焦耳币平台还提供实时的社区能量流地图，高分辨率的数据可视化以及基于机器学习的预测系统，帮助用户更好洞察自己的实时能量使用、能量生产和消费规划的情况。&lt;/p&gt;
+
+&lt;p&gt;Pallas Agterberg, 联盟的战略总监（strategy director at Alliander ）：
+ “ 总体来说，当社会向可再生能源系统过渡的路上，需要一个大的解决方案。较之于（转换不易度量，昂贵和远离大众的）二氧化碳的地下深埋和远海岸的风场等方式，我们希望有一种成本适中，甚至降低成本的方式来加速向可再生利用的转换。”&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;参考：&lt;br /&gt;
+Pallas Agterberg, strategy director at Alliander:&lt;a href=&quot;https://www.linkedin.com/in/pallas-agterberg-9564a95/&quot;&gt;linkedin资料&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;section-3&quot;&gt;§ 平台功能特点&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Community Map 社区地图    展现实时的社区微网的电流（包括生产和消费），同时具体到每个建筑情况，也可以展现热泵的消耗情况。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;预测  &lt;br /&gt;
+预测在微网内，太阳能光伏的能量生产。借助Icarus 系统（荷兰可再生运营联盟研发的：通过机器学习等算法、气候预测（包括云的移动）、能实时太阳能板任何给定区域的太阳能生产）。
+能实现实时的预、实对比。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;焦耳币  &lt;br /&gt;
+只在社区内部流通。用户客户通过数字币浏览器来验证和查看自己的币，通过平台进行币的赠送。支持可配置功能实现自动交易。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;参考：  &lt;br /&gt;
+- &lt;a href=&quot;https://dashboard.icarus.energy/&quot;&gt;Icarus 系统&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&quot;http://www.renewableenergyworld.com/articles/2017/09/blockchain-token-to-share-renewable-energy-unveiled.html&quot;&gt;blockchain-token-to-share-renewable-energy-unveiled&lt;/a&gt;     &lt;br /&gt;
+- &lt;a href=&quot;https://jouliette.net/blockchain.html&quot;&gt;jouliette.net &lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;▸纽约 布鲁克林 社区微网（与区块链 ）&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171227bmg.png-m640?v=71227&quot; alt=&quot;布鲁克林微网&quot; title=&quot;图片来自brooklynmicrogrid@facebook&quot; /&gt; &lt;br /&gt;
+布鲁克林微网（简称 BMG），2015年开始建设。&lt;/p&gt;
+
+&lt;h4 id=&quot;section-5&quot;&gt;§ 发起组织&lt;/h4&gt;
+&lt;p&gt;LO3 energy （ https://lo3energy.com/ ）， 西门子下属的风投 Next47投资。&lt;br /&gt;
+Braemar energy ventures 和 Centrica 在2017年10月跟投（据称，超过10亿英镑）。&lt;/p&gt;
+
+&lt;h4 id=&quot;section-6&quot;&gt;§ 项目目标&lt;/h4&gt;
+&lt;p&gt;安装和未安装光伏系统（photovoltaic（PV） systems）的社区邻居，通过一个区块链平台，进行光伏太阳能电能的相互买卖和交易记账。&lt;/p&gt;
+
+&lt;h4 id=&quot;section-7&quot;&gt;§ 运营情况&lt;/h4&gt;
+&lt;p&gt;过去两年，LO3 Energy 团队优化了在复杂智能计量技术基础上的区块链的安全和延迟问题，来确保真实用户使用时的强壮和稳定性。 &lt;br /&gt;
+交易的思路参照了美国的绿证制度。只不过用户购买的不再是虚拟的能源供应者，而是社区内邻居生产的可再生能源。&lt;/p&gt;
+
+&lt;p&gt;截止2017年初，系统包括了50栋褐石别墅、一些公寓房、学校、还有一个加气站，一个消防站和一些工厂建筑。预计到2018年，将会有1000个参与者。同时计划安装储能站和更多的光伏系统。西门子数字电网部门提供包括微网管理系统在内的支撑。&lt;/p&gt;
+
+&lt;p&gt;为了确保成功，区块链平台和微网需要一套监管制度框架。在纽约州，“改革能源愿景（REV，“Reforming the Energy Vision”）”的战略规划，提供了这样的框架。&lt;/p&gt;
+
+&lt;h4 id=&quot;section-8&quot;&gt;§ 平台功能特点&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;强调社区文化和社区内用户间的互动&lt;/li&gt;
+  &lt;li&gt;整体架构规划比较完整。&lt;/li&gt;
+  &lt;li&gt;有西门子完整的能源层智能设备和解决方案的支撑。
+&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171227bmgLayers.png-m640?v=71227&quot; alt=&quot;BMG技术架构整理&quot; title=&quot;BMG技术架构整理&quot; /&gt; &lt;br /&gt;
+      -TAG-e :  能量计量，计算，通信一体的混合终端设备。 &lt;br /&gt;
+      -Exergy 体系，整个BMG中区块链基础和市场。（产生Exergy 币，并提供交易能力）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;参考:  &lt;br /&gt;
+  -&lt;a href=&quot;https://lo3energy.com/&quot;&gt;LO3 energy&lt;/a&gt;&lt;br /&gt;
+  -&lt;a href=&quot;http://brooklynmicrogrid.com/&quot;&gt;brooklynmicrogrid.com&lt;/a&gt;&lt;br /&gt;
+  -&lt;a href=&quot;https://futurism.com/blockchain-and-renewable-energy-are-utterly-disrupting-society-as-we-know-it/&quot;&gt;blockchain-and-renewable-energy-are-utterly-disrupting-society-as-we-know-it&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;powr-token&quot;&gt;▸澳州（POWR token币）&lt;/h2&gt;
+
+&lt;h4 id=&quot;section-9&quot;&gt;§ 发起组织&lt;/h4&gt;
+&lt;p&gt;Power Ledger (https://web.powerledger.io/ ）。 &lt;br /&gt;
+2017-10-06，通过 ICO，完成了超过3.4亿澳元（约2.4亿美元的），获得来自15000名支持者的筹资。
+而后，在72小时内，平台成交了价值1.7亿美元的POWR token （POWR币）。
+环境学家保罗·多诺万（Paul Donovan） 投资了Power Ledger（能量账本）&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;参考：&lt;br /&gt;
+&lt;a href=&quot;http://www.abc.net.au/news/2017-10-11/blockchain-technology-fuels-peer-to-peer-energy-trading-start-up/9035616&quot;&gt;区块链技术助推点对点能量交易的创业公司 &lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;section-10&quot;&gt;§ 运营情况&lt;/h4&gt;
+&lt;p&gt;POWR币可与以太币，SPARKz【备注：SPARKz是它系统内的能量计量单位】等进行交易。&lt;/p&gt;
+
+&lt;p&gt;在目前的项目中，也可以根据用户的需求以不同的方式进行，交易单位是自行生产的太阳能或自行存储的电池能量。&lt;/p&gt;
+
+&lt;p&gt;Power Ledger (能量账本)支持真实世界的能源销售商。2016年秋天，在西澳，就行了15个家庭的试验。2016年末，在新西兰，进行了500个现场项目设备的试验。2017年夏天，首次在Fremantle（注：弗里曼特尔,西澳）居民区进行商业运行，成为澳洲第一个 “不通过电力零售商，便利化电力计量和管理定居点的电力交易” 的公司。&lt;/p&gt;
+
+&lt;p&gt;与Indra Australia（英德拉公司 https://www.indracompany.com/en/indra ）达成了技术整合协议；与西澳的电力供应商启动了在平台上进行充电交易的计划。&lt;/p&gt;
+
+&lt;p&gt;Power Ledger(能量账本) 是较好的几个能源领域的商业模式之一：他们积极与公用事业的公司合作，并且试图找出在现有监管体系下进行运营的空间。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;参考：&lt;br /&gt;
+&lt;a href=&quot;https://www.greentechmedia.com/articles/read/power-ledger-blockchain-energy-trading-startup-raises-17-cryptocurrency&quot;&gt;Blockchain Energy Trading Startup Power Ledger Raises $17M in Cryptocurrency&lt;/a&gt;     ，2017-09-06  （后续有更新）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;section-11&quot;&gt;§ 平台功能特点&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;支持点对点的售电（光伏生产商）。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;引入全新的Sparkz单位，作为能量的数字表示
+  系统会计量能量的生产和消费。把两部分信息记录到区块链，并且利用 Sparkz这个计量单位来记录能量在交易者之间的转移。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;平台电子钱包间的 Sparkz的转移（几乎和能量生产、交易同步），用户还可以把Sparkz转换为澳元。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-12&quot;&gt;▸其它案例&lt;/h2&gt;
+
+&lt;h4 id=&quot;conjoule&quot;&gt;§ 东电投资德国点对点交易商Conjoule&lt;/h4&gt;
+&lt;p&gt;东京电力公司向德国知名点对点交易商 &lt;a href=&quot;http://conjoule.de&quot;&gt; Conjoule&lt;/a&gt;投资三百万欧元，作为与德国能源公司 &lt;a href=&quot;http://innogy.com/&quot;&gt;Innogy SE&lt;/a&gt;  共同向其A轮投资四百五十万欧元的一部分。&lt;/p&gt;
+
+&lt;h4 id=&quot;section-13&quot;&gt;§ 另外一些初创公司&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.joindrift.com/get-estimate&quot;&gt;Drift &lt;/a&gt;
+ 为用户寻找绿色、省钱的能源方案，利用区块链来完成点对点交易。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://gridsingularity.com&quot;&gt;Grid Singularity&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.electron.org.uk&quot;&gt;Electron &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://emotorwerks.com&quot;&gt;eMotorWerks&lt;/a&gt;加州的共享家庭充电桩平台利用区块链技术来提升交易的效率和便捷度。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;参考：&lt;br /&gt;
+&lt;a href=&quot;https://www.greentechmedia.com/articles/read/leading-energy-blockchain-firms&quot;&gt;全球领先的15家能量区块链公司&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-14&quot;&gt;▸观点&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;封闭体系内运行的能源币，接近“积分”模式，可以简化问题复杂度（如“焦耳”币）；开放可交换的能源币（如Sparkz），对技术、政策、商业模式的挑战度更大，面临现有监管和市场的障碍也更多。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;国外的创业项目多数从用户端视角出发，按照完全市场化的模式运作。与国内目前绝大所数能源互联网的示范项目存在本质上的差异。从传统互联网的发展经验来说，是“得用户者得天下”。我们会不会“起个大早，赶个晚集”，值得关注。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;国外的落地项目，同样会面临市场、法律和监管的障碍，结合实际，寻找合适的切入和成长空间是商业模式能成功的关键。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;能得到投资者青睐的能源区块链项目，一定是将区块链价值和能源价值形成现实映射的————即便映射和价值闭环未必完整。同时，也必须是助推绿色、环保、高效、可持续的可再生能源运用的“故事”。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;选择既有的、基础设施条件较成熟的可再生能源微网区域，是起步项目实现区块链与之现实映射的捷径。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;技术架构中要解决两个关键点：在哪里算和怎么算。 哪里算————可能好的方案是在用能和产能的最终端实现计量、计算、通信的一体化；怎么算————要解决如何对能量生产（可能包括传输、存储）的贡献价值的统一、客观、合理的计算。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;作为起步项目，可以考虑把业务场景问题简化，能把简单的场景做到可持续扩展，同样会产生巨大的价值。然后再来考量是否需要把复杂场景进一步纳入现有体系中。本文中的涉及的部分项目，可作参考。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;*&lt;end&gt;*&lt;/end&gt;&lt;/p&gt;</content><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><category term="架构" /><category term="能源互联网" /><category term="区块链" /><summary type="html">针对区块链和数字币在能源领域的国外的应用案例，做了一个管窥式的快速采样。以便对这一领域方向，有一些自己直观的判断。</summary></entry><entry><title type="html">场景式的研究工具箱杂论</title><link href="http://0.0.0.0:4000/2017/12/16/research_resources.html" rel="alternate" type="text/html" title="场景式的研究工具箱杂论" /><published>2017-12-16T00:00:00+08:00</published><updated>2017-12-16T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2017/12/16/research_resources</id><content type="html" xml:base="http://0.0.0.0:4000/2017/12/16/research_resources.html">&lt;p&gt;最近开始接触全新的目标问题域，成果暂时还是空白。在梳理研究思路的同时，顺便整理了一下辅助工具和网站。&lt;/p&gt;
 
 &lt;p&gt;欲善其事，先利其器。&lt;/p&gt;
 
@@ -143,26 +333,25 @@ cnki上的专业名词的翻译助手和名词定义，也是不错的资源。
 &lt;p&gt;&lt;strong&gt;终于折腾出点头绪了&lt;/strong&gt;&lt;br /&gt;
 不要着急着高兴，苦难才刚刚开始…&lt;/p&gt;</content><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><category term="方法杂论" /><category term="工具箱" /><summary type="html">最近开始接触全新的目标问题域，成果暂时还是空白。在梳理研究思路的同时，顺便整理了一下辅助工具和网站。
 
-欲善其事，先利其器。</summary></entry><entry><title type="html">Road_to_https 既有系统的https的改造</title><link href="http://0.0.0.0:4000/2016/12/09/Road_to_https.html" rel="alternate" type="text/html" title="Road_to_https 既有系统的https的改造" /><published>2016-12-09T00:00:00+08:00</published><updated>2016-12-09T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2016/12/09/Road_to_https</id><content type="html" xml:base="http://0.0.0.0:4000/2016/12/09/Road_to_https.html">&lt;h2 id=&quot;section&quot;&gt;提要&lt;/h2&gt;
-
-&lt;h3 id=&quot;section-1&quot;&gt;研究目标&lt;/h3&gt;
+欲善其事，先利其器。</summary></entry><entry><title type="html">Road_to_https 既有系统的https的改造</title><link href="http://0.0.0.0:4000/2016/12/09/Road_to_https.html" rel="alternate" type="text/html" title="Road_to_https 既有系统的https的改造" /><published>2016-12-09T00:00:00+08:00</published><updated>2016-12-09T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2016/12/09/Road_to_https</id><content type="html" xml:base="http://0.0.0.0:4000/2016/12/09/Road_to_https.html">&lt;h3 id=&quot;section&quot;&gt;研究目标&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;整理 https 相关的基本知识；&lt;/li&gt;
-  &lt;li&gt;梳理现存网站全面转向 https 的相关行动事项&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;section-2&quot;&gt;主要内容&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;相关名词和基本知识&lt;/li&gt;
-  &lt;li&gt;简明的行动项清单&lt;/li&gt;
-  &lt;li&gt;重点技术项的细化阐述，包括证书，性能改善等&lt;/li&gt;
-  &lt;li&gt;一些行动建议&lt;/li&gt;
+  &lt;li&gt;梳理现存网站全面转向 https 的相关行动事项；&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!--more--&gt;
-&lt;p&gt;## 引子 &lt;br /&gt;
-如果你对这个课题还没有什么&lt;strong&gt;感性认识&lt;/strong&gt;，为了避免一开始就掉入过于枯燥、抽象的技术名词的泥沼，建议先试试以下两个事情：&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;主要内容&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;相关名词和基本知识；&lt;/li&gt;
+  &lt;li&gt;简明的行动项清单；&lt;/li&gt;
+  &lt;li&gt;重点技术项的细化阐述，包括证书，性能改善等；&lt;/li&gt;
+  &lt;li&gt;一些行动建议；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;引子&lt;/h2&gt;
+&lt;p&gt;如果你对这个课题还没有什么&lt;strong&gt;感性认识&lt;/strong&gt;，为了避免一开始就掉入过于枯燥、抽象的技术名词的泥沼，建议先试试以下两个事情：&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -813,7 +1002,7 @@ Md5 和 SHA1 都已经不安全，建议使用 SHA256 等安全哈希函数。&l
 &lt;/ul&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;&lt;strong&gt;参考索引汇总&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;参考索引&lt;/strong&gt;&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
@@ -881,21 +1070,10 @@ Md5 和 SHA1 都已经不安全，建议使用 SHA256 等安全哈希函数。&l
       &lt;p&gt;&lt;a href=&quot;https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW33&quot;&gt;ios 官方： App Transport Security (ATS) &lt;/a&gt; &lt;a href=&quot;#fnref:ATS&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><category term="架构" /><category term="互联网" /><category term="基础系统" /><summary type="html">提要
-
-研究目标
+&lt;/div&gt;</content><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><category term="架构" /><category term="互联网" /><category term="基础系统" /><summary type="html">研究目标
 
   整理 https 相关的基本知识；
-  梳理现存网站全面转向 https 的相关行动事项
-
-
-主要内容
-
-
-  相关名词和基本知识
-  简明的行动项清单
-  重点技术项的细化阐述，包括证书，性能改善等
-  一些行动建议</summary></entry><entry><title type="html">从零开始的平台总体安全体系的考量</title><link href="http://0.0.0.0:4000/2016/10/18/System_Security-Considerations_From_Scratch.html" rel="alternate" type="text/html" title="从零开始的平台总体安全体系的考量" /><published>2016-10-18T00:00:00+08:00</published><updated>2016-10-18T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2016/10/18/System_Security%20Considerations_From_Scratch</id><content type="html" xml:base="http://0.0.0.0:4000/2016/10/18/System_Security-Considerations_From_Scratch.html">&lt;p&gt;现在互联网的新生平台比以往面临着更复杂的技术环境。平台一上线，即面临着全方位、体系性的安全风险考验。以如下几方面情况的引入，可能衍生的安全风险尤为突出：&lt;/p&gt;
+  梳理现存网站全面转向 https 的相关行动事项；</summary></entry><entry><title type="html">从零开始的平台总体安全体系的考量</title><link href="http://0.0.0.0:4000/2016/10/18/System_Security-Considerations_From_Scratch.html" rel="alternate" type="text/html" title="从零开始的平台总体安全体系的考量" /><published>2016-10-18T00:00:00+08:00</published><updated>2016-10-18T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2016/10/18/System_Security%20Considerations_From_Scratch</id><content type="html" xml:base="http://0.0.0.0:4000/2016/10/18/System_Security-Considerations_From_Scratch.html">&lt;p&gt;现在互联网的新生平台比以往面临着更复杂的技术环境。平台一上线，即面临着全方位、体系性的安全风险考验。以如下几方面情况的引入，可能衍生的安全风险尤为突出：&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;面向多种类型端的用户APP产品入口的推出&lt;/li&gt;

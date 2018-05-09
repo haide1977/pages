@@ -1,11 +1,11 @@
 ---
 layout: post
-title: JSR 133 FAQ的翻译和扩展（1）——关于内存模型
+title: JSR 133 FAQ 的翻译和扩展（1）——关于内存模型
 key: 20160108
 tags: 架构 并发与并行 开发语言
 ---
 ## 前言  
-网上有很多JSR 133 FAQ的中文翻译版本，一大半是大家为便于自己的学习理解，做的读书笔记似的翻译。这一点上，这个版本也不例外。  
+网上有很多JSR 133 FAQ 的中文翻译版本，一大半是大家为便于自己的学习理解，做的读书笔记似的翻译。这一点上，这个版本也不例外。  
   
 不过, 本系列版本，尝试在不打破原文表达结构，更准确翻译表述的基础上，尝试对于一些关键概念，特别是随着时间推移已经有所变化的知识点，做一些拓展梳理。  
 <!--more-->   
@@ -75,12 +75,12 @@ public void reader() {
 
 比如说，这段代码在两个线程中并发执行，且对 y 读取到值 2 。因为程序中对 y 的写是在 x 之后，所以，编程人员可能会假设此时能读取 x 的值会是 1 。然而，实际上，这段写操作可能会被重排序（ reordered ）。如果这个情况真的发生了，那么有可能， y 先被写成了 2 ，然后对 x ， y 两个变量的读取接着进行，最后对 x 的写操作才会开始。此时的结果就可能变成了 r1 的值等于 2 ，而 r2 的值却还是 0 。     
    
-java 内存模型描述了什么样的行为在多线程的代码中是合法的（legal in multithreaded code ），以及线程与内存的可能交互方式。同时，描述了程序代码中的变量与它们在真实计算机系统的内存或寄存器中的存、取的底层（low－level ）细节之间的关系。以便通过这种方式，保证代码在差异巨大的硬件和不同的编译器优化时，都能够正确的运行。     
+java 内存模型描述了什么样的行为在多线程的代码中是合法的（legal in multithreaded code ），以及线程与内存的可能交互方式。同时，描述了程序代码中的变量与它们在真实计算机系统的内存或寄存器中的存、取的底层（low－level ）细节之间的关系。以便通过这种方式，保证代码在差异巨大的硬件和不同的编译器优化时，都能够正确的实现。     
    
-java 包含了若干种的语言构造方式（ contructs ），包括 volatile ， final 和 synchronized, 来帮助编程人员向编译器表述一段程序的并发态下的需求。 java 内存模型定义了 volatile 和 synchronized 行为方式，而且，更重要的是，保证了（任意）一段（包含了）正确同步（ synchronized ）处理的java程序代码在所有处理器架构下都能正确地运行。  
+java 包含了若干的语言结构，包括 volatile ， final 和 synchronized , 以帮助编程人员向编译器表述一段程序的并发（状态下的）需求。 java 内存模型不仅定义了 volatile 和 synchronized 的行为方式，而且，更重要的是，保证了（任意）一段（包含了）正确同步（ synchronized ）处理的java 程序代码在所有处理器架构下都能正确地运行。  
   
 
-## ▸其他语言，比如C++，有内存模型么？【译】    
+## ▸其他语言，比如C++ ，有内存模型么？【译】    
 
 [原文][Do other languages, like C++, have a memory model?](http://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.html#otherlanguages)  
   
@@ -117,7 +117,7 @@ java 包含了若干种的语言构造方式（ contructs ），包括 volatile 
 所以，了解还有很多不同内存模型的处理器[^MemPaul]，比如大量存在移动计算节点的ARM架构，对于我们开发一些特定应用时，或许会增加一些避免犯错的预见能力。  
 
 
-### § C++的内存模型    
+### § C++ 的内存模型    
 
 在C++标准1998(C++89 ) 年版发布了13年以后，新的C++标准2011版（C++11 )，终于增加了多线程特性的支持[^Cpp11] 。
   
@@ -133,7 +133,7 @@ java 包含了若干种的语言构造方式（ contructs ），包括 volatile 
 
 C++ 并发编程这个主题不再这里进一步展开了。有一本对C++11 标准相对实操的"名"著（目前已出第二版） *"C++ Concurrency in Action"* [^CppAction]，可在对相对抽象的官方文档了解地基础上延伸阅读。      
 
-### § Go的内存模型  
+### § Go 的内存模型  
 
 本段要讨论，不是Go语言的语法。只是作为获得越来越多社区支持，为并发编程而生的语言样本进行研究。
   
@@ -156,9 +156,10 @@ Go从语言层面定义了”goroutine " ————由Go运行环境管理的�
   
 现在，回到主题。Go 的内存模型，同样是为了表述在什么样的条件下，一个“线程” 的 “读” 操作可以保证 “看“ 到另一个 “线程” 对同一个变量 “写” 的值的结果。这里的 ”线程“ 在Go 语言中特指的是"goroutine" 。 如果用锁（lock ）这样的方式，来显式的控制同步，保证goroutine 共享内存的严格有序，显然也是可行的。但，无论从代码书写的优雅简洁，避免代码里的逻辑混乱（加锁就要解锁），还是性能角度（所有的锁，都意味着强行的串行化）————都可以有更恰当的方式。  
 
-或许是基于此，Go语言设计了Channel 和 Channel Buffer （即，限定了缓存数量的Channel ），通过Channel 通信，是Go语言中goroutine 之间同步（sychronization）的主要方式，保证了多个goroutine 对共享变量 “写” 和 “读” 的严格有序。 在 Go 语言中，这个场景通常是用“send” 和 “reveive” 。  
+或许是基于此，Go语言设计了Channel 和 Channel Buffer （即，限定了缓存数量的Channel ），通过Channel 通信，是Go语言中goroutine 之间同步（sychronization）的主要方式，保证了多个goroutine 对共享变量 “写” 和 “读” 的严格有序。 在 Go 语言中，这个场景下的更常见表述方式是“send” 和 “reveive” 。   
 
-关于Go 语言的内存模型，会随着本系列FAQ 中其他一些概念的展开，继续讨论。
+“Do not communicate by sharing memory; instead, share memory by communicating.” 这句“ 名言 ”，很好的概括了这一设计思想。[^GoComm]  
+  
 
 
 ## 本部分小结    
@@ -178,7 +179,7 @@ Go从语言层面定义了”goroutine " ————由Go运行环境管理的�
 
 
 
-*<end>*
+
 ---   
 **参考索引** 
 
@@ -189,5 +190,7 @@ Go从语言层面定义了”goroutine " ————由Go运行环境管理的�
 [^CppTLS]:[C++ 线程本地存储（Thread Local storage ）](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2008/n2659.htm  )  
 [^MemPaul]:[Memory Ordering in Modern Microprocessors by Paul McKenney](http://www.rdrop.com/users/paulmck/scalability/paper/ordering.2007.09.19a.pdf )
 [^CppAction]:[C++ Concurrency in Action ](http://www.bogotobogo.com/cplusplus/files/CplusplusConcurrencyInAction_PracticalMultithreading.pdf)  
-[^Corou]:[协程 Coroutine](https://en.wikipedia.org/wiki/Coroutine ) 
+[^Corou]:[协程 Coroutine](https://en.wikipedia.org/wiki/Coroutine )   
+[^GoComm]:[Go Blog :Share Memory By Communicating ](https://blog.golang.org/share-memory-by-communicating)  
 
+*<end>*

@@ -111,7 +111,7 @@ tags: 架构 并发与并行 开发语言
 
 
 ### § JIT与重排序
-![JIT 原理图](https://i.postimg.cc/6qGdTcTV/20160122jit.png){:height="100%" width="100%"}  
+![JIT 原理图](https://i.postimg.cc/6qGdTcTV/20160122jit.png)
   
 >原图出处：http://belajarjava-19.blogspot.jp/2011/05/jdk-dan-jre.html  
 

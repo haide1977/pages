@@ -1,11 +1,165 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://0.0.0.0:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="zh" /><updated>2018-05-11T15:39:49+08:00</updated><id>http://0.0.0.0:4000//</id><title type="html">Ryan Wang’s blog</title><subtitle>Ryan Wang's Blog
-</subtitle><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><entry><title type="html">能源区块链项目采样与思考</title><link href="http://0.0.0.0:4000/2017/12/27/Energy_Blockchain_Cases_and_Thinking.html" rel="alternate" type="text/html" title="能源区块链项目采样与思考" /><published>2017-12-27T00:00:00+08:00</published><updated>2017-12-27T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2017/12/27/Energy_Blockchain_Cases_and_Thinking</id><content type="html" xml:base="http://0.0.0.0:4000/2017/12/27/Energy_Blockchain_Cases_and_Thinking.html">&lt;p&gt;针对区块链和数字币在能源领域的国外的应用案例，做了一个管窥式的快速采样。以便对这一领域方向，有一些自己直观的判断。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://0.0.0.0:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" hreflang="zh" /><updated>2018-11-30T15:35:56+08:00</updated><id>http://0.0.0.0:4000//</id><title type="html">Ryan Wang’s blog</title><subtitle>Ryan Wang's Blog
+</subtitle><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><entry><title type="html">MockingBot(墨刀)和 Axure RP的选择项</title><link href="http://0.0.0.0:4000/2018/10/21/choices_between_mockingbot_and_axure.html" rel="alternate" type="text/html" title="MockingBot(墨刀)和 Axure RP的选择项" /><published>2018-10-21T00:00:00+08:00</published><updated>2018-10-21T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2018/10/21/choices_between_mockingbot_and_axure</id><content type="html" xml:base="http://0.0.0.0:4000/2018/10/21/choices_between_mockingbot_and_axure.html">&lt;p&gt;因为偶然原因，“被迫”用MockingBot（墨刀）做了一回项目的产品原型。事情的最终走向是：费劲做完第一版原型后放弃，大家改用Axure重新制作了一版高保真原型。期间，再次体会了选择合适工具、才能有利于提高工作效率，准确传达设计意图，降低沟通成本。&lt;br /&gt;
+【本文非研究文章，只谈直观感受。】
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;总体感受&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;如果你之前没有用原型工具甚至没有技术背景，可以用免费版本的墨刀先玩玩，找找感觉。&lt;/li&gt;
+  &lt;li&gt;如果你要直观展现复杂的交互或者逻辑铺陈，不要犹豫，直奔Axure吧。&lt;/li&gt;
+  &lt;li&gt;如果你想与非技术用户快速澄清几个需求点，用墨刀可能更省时间。你甚至可以和用户边讨论边改原型，直至方案定型。&lt;/li&gt;
+  &lt;li&gt;如果你只是对现有成熟APP的功能点做迭代改进，且技术团队就是现有系统的维护者，那么，用墨刀很合适。&lt;/li&gt;
+  &lt;li&gt;如果你要从头构建一个企业级的产品应用，放弃不切实际的幻想，老老实实用Axure吧。试图用墨刀呈现出Axure那样复杂度的高保真原型，你要花的工作量可能是翻倍再翻倍的。&lt;/li&gt;
+  &lt;li&gt;如果协作是远程的，目前的墨刀的的点评系统，显然距离满足协作的需求还很远。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;对原型工具的理解&lt;/h2&gt;
+&lt;p&gt;学习门槛低，肯定不是最首要的考虑因素。当然会有这样一部分需求的用户群。但是，用美图秀秀对比Photoshop的类比，来衬托原型工具的学习门槛低的价值，显然是不恰当的。毕竟，再简单的原型工具，也是生产力工具；而美图秀秀之类，天生是面向普通消费者的娱乐工具。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;原型的使命&lt;/h3&gt;
+&lt;p&gt;通过制作原型，便于直观澄清语言表达不直观、理解容易有二义的需求，展现最终产物的关键面目。从而，达到降低成本和风险的目的。&lt;/p&gt;
+
+&lt;h4 id=&quot;section-3&quot;&gt;1.降低沟通成本。&lt;/h4&gt;
+&lt;p&gt;一个好的原型结合其他材料，可以减少各方为弄清状况而进行沟通————“这个是什么意思？”、“那个是要来干嘛的？”、“我上次说的流程在哪里呢？“诸如此类，而更多的将沟通聚焦在“这是不是我想要的？”，“我觉得这里还需要进一步修改简化”等等。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;沟通成本，当然也意味着时间成本和项目推进的节奏。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;section-4&quot;&gt;2.降低研发成本。&lt;/h4&gt;
+&lt;p&gt;变更和演进是不可避免的。但是因为各方理解的偏差，导致的变更和反复，应该尽量在前期予以消除。不同阶段修改的不同代价付出，大家都很清楚，此处不再赘述。&lt;/p&gt;
+
+&lt;p&gt;所以，从项目管理的角度，好的原型对于项目范围、进度、成本、质量都可以产生积极影响，利于消除或者减弱相应的风险。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://postimg.cc/Wt90Wqn8&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/GhRzpkTW/20181021-PMfacts.png&quot; alt=&quot;项目管理的关键要素&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;无论是传统的项目管理，或是敏捷项目管理。这些关键要素无一例外。
+原图出处：https://www.tapd.cn/forum/view/23641&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;优秀原型工具的特质&lt;/h3&gt;
+
+&lt;p&gt;既要降低项目成本和风险，又要在规划阶段保证产品的质量，同时还要兼顾项目推进，那么，对于所用的原型工具至少需要具备以下特性（对于20屏以下的简单小应用场景不在此讨论范畴）：&lt;/p&gt;
+
+&lt;h4 id=&quot;section-6&quot;&gt;1.优秀的逻辑铺陈能力。&lt;/h4&gt;
+&lt;p&gt;好的代码依靠代码本身和少量的注释，就能很好阅读。好的原型，应该也是如此。&lt;/p&gt;
+
+&lt;p&gt;所谓优秀的逻辑铺陈能力，是指能通过原型本身呈现的逻辑线索，让用户或开发人员比较顺畅的走完整个原型，而不至于变成瞎子摸象，掉入功能细节的泥沼。&lt;/p&gt;
+
+&lt;p&gt;反之，要依靠设计者再对着静态屏幕图片的逐一讲解，或者过多依赖原型之外的流程图和文档注释才能让使用者找到逻辑条线，显然会让原型的价值大打折扣。&lt;/p&gt;
+
+&lt;p&gt;所以，首先工具要支持，然后是原型本身的“故事”要讲清楚。&lt;/p&gt;
+
+&lt;h4 id=&quot;section-7&quot;&gt;2.组件的复用能力。&lt;/h4&gt;
+&lt;p&gt;原型主要用于早期沟通，所以快速、修改迭代是基本要求。&lt;br /&gt;
+  就像糟糕的程序是把大同小异的代码不加提炼的反复复制一样；糟糕的原型制作同样如此。屏幕能够快速复制当然是必须的，但是组件间既有的逻辑关系是否应该优先保持稳定？ 如果所有的组件及其逻辑关系也是反复复制的，随着原型页面规模和复杂度的增加，修改的代价一定会翻着倍的提高。&lt;/p&gt;
+
+&lt;h4 id=&quot;section-8&quot;&gt;3.运用上述两项能力的代价要合理。&lt;/h4&gt;
+&lt;p&gt;毕竟，原型不是最终系统。如果制作和修订的成本（人力、时间等）过高，就适得其反了。&lt;br /&gt;
+  最直接的，其实是系统要具备对元素及其关系的“ copy as link” 还是 “copy as duplicate”的可选项。&lt;/p&gt;
+
+&lt;p&gt;另外，还是回到专业工具的一个话题。好的工具，就是当你高频使用的时候，会感觉越用越简单，越顺手。反之，差的设计是，偶然用一次觉得好像挺简单，但是随着量的累积，就会发现越来越繁琐。用拉线的方式来做链接，即是一例。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://postimg.cc/5jNpPVwB&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/Wp0K1pzH/20181021links.png&quot; alt=&quot;崩溃的拉线链接方式&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;电脑绣花&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;用了这么多年的工具，有一个比较直接的经验：所有一开始感觉用起来很简单的工具，最后发现都只能作为入门级玩具。原型工具，也差不多如此。玩具当然也有存在的价值，但工具的专业和业余的差别价值，无论在哪个行业都是毋庸讳言的道理了。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-9&quot;&gt;把视角稍微放大一点&lt;/h2&gt;
+
+&lt;p&gt;如果把视角放大一些，思维再扩散一点，我前面大部分的表述可以被轻松推倒————因为假设条件未必成立。&lt;br /&gt;
+&lt;strong&gt;都是中文惹的祸&lt;/strong&gt;。&lt;br /&gt;
+从英文的角度，&lt;strong&gt;“原型”&lt;/strong&gt;其实本来就是几个不同的事情，代表了产品设计不同阶段的产物，主要的有：&lt;br /&gt;
+&lt;strong&gt;wireframe ，mockups ，prototype&lt;/strong&gt; 。&lt;/p&gt;
+
+&lt;h3 id=&quot;wireframes&quot;&gt;第一阶段：wireframes【直译：线框图】。&lt;/h3&gt;
+&lt;p&gt;这个阶段，各方关心的焦点是核心的业务功能和流程。至于布局、按钮大小／样式、logo在哪里等等细节，可以暂时不关心。wireframes 通过更加直观的方式，明确关键需求，作为需求规格说明的补充表述。&lt;/p&gt;
+
+&lt;p&gt;这个阶段，拿个word，excel 做几个表格，其实也未尝不可。传说中，画在餐巾纸上，效果最佳。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://wireframe.cc/&quot;&gt;wireframe cc&lt;/a&gt;这个非常纯粹的的“原型”工具，可以了解一下。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;mockups&quot;&gt;第二阶段：Mockups【直译：实物模型】&lt;/h3&gt;
+&lt;p&gt;怎么界定模型？以日常所见的汽车模型，飞机模型为例：看上去挺逼真，轮子能转，门能开，甚至还能打开引擎盖、后备箱。或者，售楼处的看到的房子模型，沙盘上的模型挺漂亮，实际上，售楼处隔壁的茅草可能还挺长。大致如此。&lt;/p&gt;
+
+&lt;p&gt;从APP或者软件产品的角度，原来干这个活的岗位，其实叫&lt;strong&gt;“美工”&lt;/strong&gt;，但是时代进步了，单单静态，孤立的图片或页面，对于表达产品的设想显然已经远远不够了。所以，我们需要把静态的元素和画面串起来，虽然不是真正的交互，但是可以把交互的意思表达出来。&lt;/p&gt;
+
+&lt;p&gt;当然，本来&lt;strong&gt;美工&lt;/strong&gt;（或者类似的专业叫：工业设计）很擅长的东西————&lt;strong&gt;色彩，布局，字体，按钮&lt;/strong&gt;等等关键视觉元素，也可以涵盖在内了。&lt;/p&gt;
+
+&lt;p&gt;很适合拿着这个酷炫的东西，去给领导或用户汇报，搞定关键的项目资源。但是，切记不要让他们自己动手玩，容易让他们陷入困扰，弄巧成拙。&lt;/p&gt;
+
+&lt;p&gt;那些 &lt;strong&gt;mock&lt;/strong&gt;开头的“原型”工具，大多针对的是这个阶段。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://proto.io&quot;&gt;proto.io&lt;/a&gt; 也可以归于这一类。 
+&lt;a href=&quot;https://www.mockplus.com/&quot;&gt;mockplus&lt;/a&gt;,倒是显得特性比较含糊了，对于工具产品来说，这未必是件好事情。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;prototype&quot;&gt;第三阶段：Prototype【直译：原型】&lt;/h3&gt;
+&lt;p&gt;这个阶段，真正的意义上的&lt;strong&gt;原型&lt;/strong&gt;来了。 “原型车”这个词大家很耳熟吧？ 展会上经常看到。如果说模型车多数是放在桌上跑不了的，那原型概念车可是实实在在能跑起来的车子。&lt;/p&gt;
+
+&lt;p&gt;所以，本文前两部分的讨论焦点，就是这个狭义的、高保真的、有逻辑铺陈和交互能力“原型” 。具备以下部分或全部特征的产品可能需要这样的原型：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;业务复杂的&lt;strong&gt;To B 类项目&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;开发团队完全&lt;strong&gt;陌生的全新产品&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;项目涉及的&lt;strong&gt;协作方多&lt;/strong&gt;，对最终需求和目标容易产生理解偏差。&lt;/li&gt;
+  &lt;li&gt;开发团队分散在不同地点、&lt;strong&gt;需要远程协作&lt;/strong&gt;。&lt;/li&gt;
+  &lt;li&gt;最终用户的&lt;strong&gt;需求稳定性差&lt;/strong&gt;，存在需求蔓延和项目验收的风险。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;同时，如果是以下特征的项目，未必需要做这样的原型：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;既有团队基于&lt;strong&gt;成熟产品的短期（如两周）的功能迭代&lt;/strong&gt;改进。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;产品处于种子期&lt;/strong&gt;，产品规模和研发团队规模都很微小。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;产品逻辑简单&lt;/strong&gt;，重点在 UI/UX的体验。&lt;/li&gt;
+  &lt;li&gt;集中办公、采用敏捷迭代的&lt;strong&gt;开发小团队&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-10&quot;&gt;写在最后&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;“没有最好的工具，只有最适合的工具”&lt;/strong&gt;，这是一句正确而无用的鸡汤文。修饰词落脚在任何名词上，看上去都没什么问题。&lt;/p&gt;
+
+&lt;p&gt;但是,任何选择都有机会成本。发现不合适需要成本，修正这个不恰当的选择，也需要代价。 所以，从不同视角，先弄清楚自己的工作需要，才有可能不被各种原型工具的产品宣传文晃晕。或者说，在不同场景下，灵活运用不同的工具来达到目标。本文从场景、团队、产品形态和研发特征等角度来看的那些选择项，算是提供一种参考模板吧。&lt;/p&gt;
+
+&lt;p&gt;用一段RAP+绕口令来结束本文：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Mockups是Mockups ,&lt;br /&gt;
+Prototype是Prototype; &lt;br /&gt;
+此原型非彼原型，&lt;br /&gt;
+不要把彼原型当成此原型。&lt;br /&gt;
+谁用Mockups工具做Prototype，&lt;br /&gt;
+谁就成了“棒～槌”。 &lt;br /&gt;
+别把Prototype做成了Mockups，&lt;br /&gt;
+那你就成了Mock PM.。&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-11&quot;&gt;&lt;strong&gt;更多参考&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://uiux.blog/prototyping-tools-review-is-axure-rp-the-best-tool-for-prototyping-cefbb562d01c&quot;&gt;Prototyping Tools Review: Is Axure RP the Best Tool for Prototyping &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mindinventory.com/blog/the-difference-between-wireframe-mockup-and-prototype/&quot;&gt;The Difference Between Wireframe, Mockup and Prototype&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;*&lt;end&gt;*&lt;/end&gt;&lt;/p&gt;</content><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><category term="工具" /><category term="产品" /><category term="研发" /><summary type="html">因为偶然原因，“被迫”用MockingBot（墨刀）做了一回项目的产品原型。事情的最终走向是：费劲做完第一版原型后放弃，大家改用Axure重新制作了一版高保真原型。期间，再次体会了选择合适工具、才能有利于提高工作效率，准确传达设计意图，降低沟通成本。
+【本文非研究文章，只谈直观感受。】</summary></entry><entry><title type="html">能源区块链项目采样与思考</title><link href="http://0.0.0.0:4000/2017/12/27/Energy_Blockchain_Cases_and_Thinking.html" rel="alternate" type="text/html" title="能源区块链项目采样与思考" /><published>2017-12-27T00:00:00+08:00</published><updated>2017-12-27T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2017/12/27/Energy_Blockchain_Cases_and_Thinking</id><content type="html" xml:base="http://0.0.0.0:4000/2017/12/27/Energy_Blockchain_Cases_and_Thinking.html">&lt;p&gt;针对区块链和数字币在能源领域的国外的应用案例，做了一个管窥式的快速采样。以便对这一领域方向，有一些自己直观的判断。&lt;/p&gt;
 
 &lt;!--more--&gt;
 
 &lt;h2 id=&quot;jouliette&quot;&gt;▸ 荷兰 Jouliette(焦耳币)&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171227topic.png-m640?v=71227&quot; alt=&quot;焦耳币社区&quot; title=&quot;图片来自Jouliette.net&quot; /&gt; 
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171227jwallet.png-m640?v=71227&quot; alt=&quot;焦耳币／钱包&quot; title=&quot;图片来自Jouliette.net&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://postimg.cc/xkqqHyS2&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/9fY96J8r/20171227topic.png&quot; alt=&quot;焦耳币社区&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://postimg.cc/tsBYYvwk&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/mrsMp0Sv/20171227jwallet.png&quot; alt=&quot;焦耳币／钱包&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;图片来自 Jouliette.net&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;The Jouliette &lt;strong&gt;焦耳币&lt;/strong&gt;  &lt;br /&gt;
 荷兰国内首创 。名字源自能量的计量单位：焦耳。&lt;/p&gt;
@@ -66,8 +220,13 @@ Pallas Agterberg, strategy director at Alliander:&lt;a href=&quot;https://www.li
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;section-4&quot;&gt;▸纽约 布鲁克林 社区微网（与区块链 ）&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171227bmg.png-m640?v=71227&quot; alt=&quot;布鲁克林微网&quot; title=&quot;图片来自brooklynmicrogrid@facebook&quot; /&gt; &lt;br /&gt;
-布鲁克林微网（简称 BMG），2015年开始建设。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://postimg.cc/tZxTvqTv&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/TwkDwhXx/20171227bmg.jpg&quot; alt=&quot;布鲁克林微网&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;图片来自brooklynmicrogrid@facebook&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;布鲁克林微网（简称 BMG），2015年开始建设。&lt;/p&gt;
 
 &lt;h4 id=&quot;section-5&quot;&gt;§ 发起组织&lt;/h4&gt;
 &lt;p&gt;LO3 energy （ https://lo3energy.com/ ）， 西门子下属的风投 Next47投资。&lt;br /&gt;
@@ -90,10 +249,14 @@ Braemar energy ventures 和 Centrica 在2017年10月跟投（据称，超过10�
   &lt;li&gt;强调社区文化和社区内用户间的互动&lt;/li&gt;
   &lt;li&gt;整体架构规划比较完整。&lt;/li&gt;
   &lt;li&gt;有西门子完整的能源层智能设备和解决方案的支撑。
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171227bmgLayers.png-m640?v=71227&quot; alt=&quot;BMG技术架构整理&quot; title=&quot;BMG技术架构整理&quot; /&gt; &lt;br /&gt;
-      -TAG-e :  能量计量，计算，通信一体的混合终端设备。 &lt;br /&gt;
-      -Exergy 体系，整个BMG中区块链基础和市场。（产生Exergy 币，并提供交易能力）&lt;/li&gt;
+&lt;a href=&quot;https://postimg.cc/bGMrRDz2&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/4d4csVqw/20171227bmg-Layers.png&quot; alt=&quot;BMG技术架构整理&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;BMG技术架构整理&lt;br /&gt;
+  -TAG-e :  能量计量，计算，通信一体的混合终端设备。 &lt;br /&gt;
+  -Exergy 体系，整个BMG中区块链基础和市场。（产生Exergy 币，并提供交易能力）&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;参考:  &lt;br /&gt;
@@ -201,7 +364,7 @@ Braemar energy ventures 和 Centrica 在2017年10月跟投（据称，超过10�
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://acronymify.com/&quot;&gt;acronymify.com&lt;/a&gt;&lt;br /&gt;
 提供一段关键词，网站会自动创造一个系列候选缩写，选上一个满意的。 
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216acronymify.png-m640?v=11188&quot; alt=&quot;acronymify.com&quot; title=&quot;自动起名列表&quot; /&gt;&lt;/li&gt;
+&lt;a href=&quot;https://postimg.cc/SnJgv36Y&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/nh1NCtM2/20171216acronymify.png&quot; alt=&quot;acronymify.com&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;section-1&quot;&gt;▸利用研究管理平台&lt;/h2&gt;
@@ -229,8 +392,8 @@ google学术，通过收藏检索结果，快速建立自己的文献库。加�
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;http://trend.cnki.net/&quot;&gt;trend.cnki.net&lt;/a&gt;     &lt;br /&gt;
-cnki上的专业名词的翻译助手和名词定义，也是不错的资源。
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216cnki.png-m640?v=11188&quot; alt=&quot;trend.cnki.net&quot; title=&quot;Cnki学术趋势&quot; /&gt;&lt;/p&gt;
+cnki上的专业名词的翻译助手和名词定义，也是不错的资源。&lt;br /&gt;
+&lt;a href=&quot;https://postimg.cc/bs66Lptj&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/HkmfYLWj/20171216cnki.png&quot; alt=&quot;cnki上的趋势曲线&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;http://wanfangdata.com.cn&quot;&gt;万方&lt;/a&gt; &lt;br /&gt;
@@ -238,9 +401,9 @@ cnki上的专业名词的翻译助手和名词定义，也是不错的资源。
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216wanfang.png-m640?v=11188&quot; alt=&quot;万方上的研究趋势曲线&quot; title=&quot;万方上的研究趋势曲线&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://postimg.cc/Cn78hMgM&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/Bt9BCt7F/20171216wanfang.png&quot; alt=&quot;万方上的研究趋势曲线&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216wanfang3.png-m640?v=11188&quot; alt=&quot;标准参考引用格式生成&quot; title=&quot;标准参考引用格式生成&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://postimg.cc/9RGTktg7&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/DZNg8xqB/20171216wanfang3.png&quot; alt=&quot;标准参考引用格式生成&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.semanticscholar.org/&quot;&gt;semanticscholar.org&lt;/a&gt;    &lt;br /&gt;
@@ -258,7 +421,7 @@ cnki上的专业名词的翻译助手和名词定义，也是不错的资源。
   &lt;li&gt;&lt;a href=&quot;https://www.semanticscholar.org/&quot;&gt;semanticscholar.org&lt;/a&gt;  【前文已经提到】&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://gen.lib.rus.ec/&quot;&gt;library genesis&lt;/a&gt;  &lt;br /&gt;
 除了全文下载，也有检索关键词的文献趋势查询。&lt;br /&gt;
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216librarygenesis.png-m640?v=11188&quot; alt=&quot;library genesis&quot; title=&quot;library genesis首页&quot; /&gt;&lt;/li&gt;
+&lt;a href=&quot;https://postimg.cc/jLqgzLCX&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/vHfJwnsp/20171216librarygenesis.png&quot; alt=&quot;library genesis&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;专业技术书籍下载&lt;/strong&gt; &lt;br /&gt;
@@ -273,18 +436,18 @@ cnki上的专业名词的翻译助手和名词定义，也是不错的资源。
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;https://www.numberempire.com/&quot;&gt;numberempire.com&lt;/a&gt;&lt;br /&gt;
-各类数值计算器和编辑器，包括LaTex的编辑器。&lt;br /&gt;
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216numberempire.png-m640?v=11188&quot; alt=&quot;numberempire函数大全&quot; title=&quot;numberempire函数大全&quot; /&gt;&lt;/p&gt;
+各类数值计算器和编辑器，包括LaTex的编辑器。 &lt;br /&gt;
+&lt;a href=&quot;https://postimg.cc/BtB7LxZb&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/ZY1GQc18/20171216numberempire.png&quot; alt=&quot;numberempire函数大全&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;https://www.derivative-calculator.net/&quot;&gt;derivative-calculator.net&lt;/a&gt;  &lt;br /&gt;
 导数计算 ，包括高阶导数的求导。有步骤及图形化的结果展示和导出。&lt;br /&gt;
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216derivative.png-m640?v=11188&quot; alt=&quot;可视化求导&quot; title=&quot;可视化求导&quot; /&gt;&lt;/p&gt;
+&lt;a href=&quot;https://postimg.cc/XX4QbpKb&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/xjb7Lmcc/20171216derivative.png&quot; alt=&quot;可视化求导&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;支持导出LaTex表达式。&lt;br /&gt;
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216derivative2.png-m640?v=11188&quot; alt=&quot;导出LaTex&quot; title=&quot;导出LaTex&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;支持导出LaTex表达式。 &lt;br /&gt;
+&lt;a href=&quot;https://postimg.cc/njY2mJJg&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/26gKPkXk/20171216derivative2.png&quot; alt=&quot;导出LaTex&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;section-5&quot;&gt;▸数据源&lt;/h2&gt;
 &lt;p&gt;这个主题很大。不同的研究方向都会有一套自己的实验数据源。比如，做AI人脸识别，需要人脸库。
@@ -302,7 +465,7 @@ cnki上的专业名词的翻译助手和名词定义，也是不错的资源。
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;http://data.stats.gov.cn/&quot;&gt;data.stats.gov.cn&lt;/a&gt;&lt;br /&gt;
 国家统计局的官方网站数据源【最小时间跨度为月度】&lt;br /&gt;
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216nationalstatistics.png-m640?v=11188&quot; alt=&quot;国家统计局数据源&quot; title=&quot;国家统计局数据源&quot; /&gt;&lt;/p&gt;
+&lt;a href=&quot;https://postimg.cc/D4ns3JRY&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/NFrxTRDY/20171216nationalstatistics.png&quot; alt=&quot;国家统计局数据源&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;https://www.ecmwf.int/&quot;&gt;ecmwf.int&lt;/a&gt;    &lt;br /&gt;
@@ -318,7 +481,7 @@ cnki上的专业名词的翻译助手和名词定义，也是不错的资源。
 &lt;ul&gt;
   &lt;li&gt;词语搭配查询   &lt;br /&gt;
 &lt;a href=&quot;http://linggle.com/&quot;&gt;linggle.com&lt;/a&gt; 和 &lt;a href=&quot;http://www.netspeak.org/&quot;&gt;netspeak.org&lt;/a&gt;    &lt;br /&gt;
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216lingglenetspeak.png-m640?v=11188&quot; alt=&quot;linggle &amp;amp; netspeak &quot; title=&quot;linggle &amp;amp; netspeak&quot; /&gt;&lt;/li&gt;
+&lt;a href=&quot;https://postimg.cc/bGn3znFz&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/N0JVk76r/20171216lingglenetspeak.png&quot; alt=&quot;linggle &amp;amp; netspeak &quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;【其实，“有道”字典里的例句功能，也是非常好的参考。】&lt;/strong&gt;&lt;/p&gt;
@@ -326,7 +489,7 @@ cnki上的专业名词的翻译助手和名词定义，也是不错的资源。
 &lt;ul&gt;
   &lt;li&gt;在线学术写作  &lt;br /&gt;
 &lt;a href=&quot;https://www.overleaf.com/&quot;&gt;overleaf.com&lt;/a&gt;  丰富的排版模板，所见即所得的在线编辑，方便的文档生成和分享。&lt;br /&gt;
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20171216overleaf.png-m640?v=11188&quot; alt=&quot;linggle &amp;amp; netspeak &quot; title=&quot;linggle &amp;amp; netspeak&quot; /&gt;&lt;/li&gt;
+&lt;a href=&quot;https://postimg.cc/S2pVjKwc&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/W3dyWF8Y/20171216overleaf.png&quot; alt=&quot;overleaf &quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
@@ -354,18 +517,18 @@ cnki上的专业名词的翻译助手和名词定义，也是不错的资源。
 &lt;p&gt;如果你对这个课题还没有什么&lt;strong&gt;感性认识&lt;/strong&gt;，为了避免一开始就掉入过于枯燥、抽象的技术名词的泥沼，建议先试试以下两个事情：&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;使用chrome 或 Firefox 桌面（非手机端）浏览器，打开下面几个网站：&lt;br /&gt;
+  &lt;li&gt;使用chrome 或 Firefox 桌面（非手机端）浏览器，打开下面几个网站：&lt;br /&gt;
 第一组：&lt;a href=&quot;http://github.com&quot;&gt;http://github.com&lt;/a&gt;  ，&lt;a href=&quot;http://wallstreetcn.com&quot;&gt;http://wallstreetcn.com&lt;/a&gt; 或 &lt;a href=&quot;http://qiniu.com&quot;&gt;http://qiniu.com&lt;/a&gt; ; &lt;br /&gt;
 第二组：&lt;a href=&quot;http://data.stats.gov.cn/&quot;&gt;http://data.stats.gov.cn/&lt;/a&gt; 或 &lt;a href=&quot;http://www.cbrc.gov.cn/&quot;&gt;http://www.cbrc.gov.cn/&lt;/a&gt;  &lt;br /&gt;
-可以从地址栏上看到明显的返回结果的差异。&lt;br /&gt;
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20161209github.png-m640&quot; alt=&quot;github地址栏&quot; title=&quot;github地址栏&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;尝试访问 &lt;a href=&quot;https://www.ssllabs.com/ssltest/index.html&quot;&gt;第三方SSL 测试平台&lt;/a&gt; &lt;br /&gt;
+可以从地址栏上看到明显的返回结果的差异。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://postimg.cc/ctvWHXqK&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/NF4jdzpx/20161209github.png&quot; alt=&quot;github地址栏&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;尝试访问 &lt;a href=&quot;https://www.ssllabs.com/ssltest/index.html&quot;&gt;第三方SSL 测试平台&lt;/a&gt; &lt;br /&gt;
 检测前面域名，也可以看到不同的测试结果返回。&lt;br /&gt;
-&lt;img src=&quot;http://p1wq6a0o4.bkt.clouddn.com/20161209wallstreetcn.png-m640&quot; alt=&quot;sslLABS测试wallstreetcn.com结果&quot; title=&quot;sslLABS测试wallstreetcn.com结果&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
+&lt;a href=&quot;https://postimg.cc/xq8ntTk0&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/c1MC1v08/20161209wallstreetcn.png&quot; alt=&quot;sslLABS测试wallstreetcn.com结果&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;建议&lt;/strong&gt;&lt;/p&gt;
@@ -1550,7 +1713,833 @@ Md5 和 SHA1 都已经不安全，建议使用 SHA256 等安全哈希函数。&l
   平台自有的多个支付渠道和多类型收付交易行为的引入， 如 三方支付、交易中途改变支付方式等
   更加复杂的结算和清算场景 ， 如 用户奖励提现，外部积分互换等
   更加复杂的业务和个性化的促销策略， 如 折扣策略、优惠券和羊毛党等
-  以及，快速的业务场景和功能的演进。</summary></entry><entry><title type="html">JSR 133 FAQ 的翻译和扩展（1）——关于内存模型</title><link href="http://0.0.0.0:4000/2016/01/08/JSR_133_FAQ_Trans_and_Ext_P1_Memory_Model.html" rel="alternate" type="text/html" title="JSR 133 FAQ 的翻译和扩展（1）——关于内存模型" /><published>2016-01-08T00:00:00+08:00</published><updated>2016-01-08T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2016/01/08/JSR_133_FAQ_Trans_and_Ext_P1_Memory_Model</id><content type="html" xml:base="http://0.0.0.0:4000/2016/01/08/JSR_133_FAQ_Trans_and_Ext_P1_Memory_Model.html">&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
+  以及，快速的业务场景和功能的演进。</summary></entry><entry><title type="html">JSR 133 FAQ的翻译和扩展（5）—— volatile相关</title><link href="http://0.0.0.0:4000/2016/06/19/JSR_133_FAQ_Trans_and_Ext_P2_Volatile_do.html" rel="alternate" type="text/html" title="JSR 133 FAQ的翻译和扩展（5）—— volatile相关" /><published>2016-06-19T00:00:00+08:00</published><updated>2016-06-19T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2016/06/19/JSR_133_FAQ_Trans_and_Ext_P2_Volatile_do</id><content type="html" xml:base="http://0.0.0.0:4000/2016/06/19/JSR_133_FAQ_Trans_and_Ext_P2_Volatile_do.html">&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
+&lt;p&gt;valotile 关键字对很多 java 开发人员来说并不陌生。 但，也许因为它看上去过于简单，便有了一些似是而非的认识。&lt;/p&gt;
+
+&lt;p&gt;本部分，从FAQ中的 “What does volatile do ” 问题开始，聊一聊 volatile 的能做和不能做的事情以及在并发编程中的相关主题。&lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;volatile&quot;&gt;▸volatile是用来做什么的？【译】&lt;/h2&gt;
+
+&lt;p&gt;[原文]&lt;a href=&quot;http://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.html#volatile&quot;&gt;What does volatile do ?&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;注1：本段在2018年初，重新进行了修订。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;volatile 字段是用来线程间状态通信（ communicating state ）的特殊字段。每次对一个 volatile 字段的读取都可看到其它线程对这个字段的写入（的最新值）；实际上，它们是编程人员设定用来保证不接收 “ 过期 ” （ stale ）值的。这些过期值可能是重排序或者缓存的结果。编译器和运行时会被禁止把它们分配入寄存器。同样，它们也必须确保在被改写后，被从缓存中刷新到主存，以便可以让它们被其它线程立即可见。类似的，在一个 volatile 字段被读取之前，缓存必须先失效，以保证读取到的值是来自主存，而不是在本地处理器缓存。在重排序访问 volatie 变量时，也会有一些额外的限制。&lt;/p&gt;
+
+&lt;p&gt;在旧的内存模型里，对几个 volatile 变量的访问不能相互间重排序，但是它们可以与 &lt;strong&gt;非 volatile （ nonvolatile ）&lt;/strong&gt;变量的访问顺序进行重排序。这就削弱了 volatile 字段作为线程间信号条件（ signaling conditions ）手段的作用。 &lt;br /&gt;
+ &lt;br /&gt;
+在新的内存模型中，对几个 volatile 变量的访问依旧不能相互间重排序。差别是，对它们周围的普通字段的访问，也不再那么容易重排序了。写入一个 volatile 字段，会有监视器释放（ monitor release ）相同的内存效果，而读取一个 volatile 字段，则有监视器获取（ monitor acquire ）同样的内存效果。实际上，因为新的内存模型设置了对 volatile 字段访问和其它类型字段访问的更加严格的重排序限制，无论（字段） volatile 与否，任何线程 A 在写入 volatile 字段 f 时可见的（周围）字段，对于线程 B 在读取 f 时候，都会变成可见。   &lt;br /&gt;
+ &lt;br /&gt;
+下面的简单例子展现了 volatile 字段怎么使用：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;    
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;VolatileExample&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; 
+  &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; 
+  &lt;span class=&quot;kd&quot;&gt;volatile&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; 
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;writer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; 
+    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; 
+    &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; 
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; 
+&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;reader&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; 
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; 
+      &lt;span class=&quot;c1&quot;&gt;//uses x - guaranteed to see 42. &lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; 
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; 
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; 
+&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;假设有个线程正在调用 “writer()” 方法，而另一个正在调用 “reader()” 方法。则，在 writer 中对 v 的写入时， x 的写入也会被释放 （ release ）到内存，因而对 v 的读取，可以从内存中获取 (acquire) 该值。这样，如果可以在 “reader()” 中看到 v 的 true 值，也可确保之前对 x 写入的值 42 可见。在旧的内存模型中，情况未必会这样。（旧模型中）如果 v 不是 volatile 类型，那么编译器可以在 writer() 方法中对写入重排序，这样，在 reader() 方法中，可能会读到 x 的值为 “0” 。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;注2：在本系列的第（4）篇中的“构建良好的执行”的例子中，其实更好解释了这一问题。这里有点语焉不详。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;对 volatile 类型语义的大幅度增强，几乎使之达到了同步的级别（ the level of synchronization ）。为了可见性的目的，对 volatile 字段的每个读、写，就像扮演了 “ 半 ” 同步的操作。&lt;/p&gt;
+
+&lt;p&gt; 
+重要提示：为了正确地建立前序（ happens-before ）关系，重要的一点是要让所有线程访问相同的 volatile 变量。否则，诸如当线程 A 写入的是 volatile 字段 f ，而在线程 B 读取的却是 volatile 字段 g ，那么所有的可见情况，未必会如预期。 释放（ Release ）和 获取（ acquire ）必须要 “ 匹配（ match ） ” （比如：要针对同一个 volatile 字段），以获得正确的语义。&lt;/p&gt;
+
+&lt;h2 id=&quot;volatile-&quot;&gt;volatile 能做和不能做的&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;volatile 可以保证可见性，即 每次读取时都从主存中读，每次修改时，都将修改后的值重新写入了主存。&lt;/li&gt;
+  &lt;li&gt;volatile 可以防止了容易产生超出预期结果的指令重排序，这个影响可以扩散到程序顺序中前序的指令。【具体可参见 本系列第 (4) 篇】。&lt;/li&gt;
+  &lt;li&gt;volatile 不能保证原子性（所以，不能用做多线程下的计数器）。&lt;/li&gt;
+  &lt;li&gt;凡事都有代价。volatile 防止一部分指令重排序的特性，削弱了JVM中的运行时优化，同时强制的缓存刷新和失效的操作，都会降低运行效率。 所以不要过度使用。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;volatile--1&quot;&gt;volatile 的用与不用&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;不适合的场景&lt;/h3&gt;
+&lt;p&gt;1.常量（ final ）字段 &lt;strong&gt;不能&lt;/strong&gt;用 volatile 修饰，否则会编译出错。&lt;/p&gt;
+
+&lt;p&gt;2.只有单线程访问的变量，&lt;strong&gt;不需要&lt;/strong&gt;用 volatile 来保证可见（好像有点废话 ）。&lt;/p&gt;
+
+&lt;p&gt;3.存在复杂的 “锁” 的操作需求的场景（比如对变量值修改期间，要阻止读取——即，读取值锁定），&lt;strong&gt;不适合&lt;/strong&gt; 用 volatile 来实现。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;适合的场景&lt;/h3&gt;
+&lt;p&gt;作为类似 “信号量” 变量 来使用，保证每个线程都可以看到当前的最新“信号”标志，且信号值的改变与当前值无关，并且不关心改变的历史量。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;但，如果需要管理大量类似的 “信号量” ，使用 java.util.concurrent 包中的一些数据结构，显然是效率和性能更好的选择。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;go--volatile&quot;&gt;为什么 GO 语言中没有 volatile&lt;/h2&gt;
+&lt;p&gt;“Do not communicate by sharing memory; instead, share memory by communicating.” 这句“ 名言 ”，很好的概括了这一设计思想。&lt;sup id=&quot;fnref:GoComm&quot;&gt;&lt;a href=&quot;#fn:GoComm&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;volatile---atomic-&quot;&gt;volatile 和  Atomic 类型变量&lt;/h2&gt;
+&lt;p&gt;2004年，就在这篇 FAQ 发布后的半年后，JDK1.5 （JDK5 ）也发布了。JDK5 包含了全新
+的并发工具包，就是大家熟知的 &lt;strong&gt;java.util.concurrent&lt;/strong&gt; 包。 concurrent 包很大程度
+地简化了并发应用的开发，后续影响深远。其中包括：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Executor 执行框架&lt;/strong&gt;，更好的管理线程池的方式。（较之于很多人自己手动管理多线程任务，
+  可能更稳定，也能更好的管理资源的消耗。）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;更好支持并发的集合类型&lt;/strong&gt;，比如 &lt;strong&gt;BlockingQueue（ 阻塞队列 ）接口&lt;/strong&gt;，&lt;strong&gt;ConcurrentMap 接口&lt;/strong&gt;及引用此接口的 &lt;strong&gt;ConcurrentHashMap类&lt;/strong&gt; 等。（后续的版本里，这部分集合被持续的丰富了。也是很多面试官的考题来源）。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Atomic 工具类&lt;/strong&gt;，提供了无锁（lock-free）、线程安全（thread-safe）的变量操作。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Atomic类型是对volatile修饰的进一步扩展&lt;/strong&gt; ，&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;（对Atomic 变量的）&lt;em&gt;get&lt;/em&gt; 操作（如：incrementAndGet ）等同于对一个 &lt;em&gt;volatile&lt;/em&gt;变量的读取（等同的内存操作效果）。 类似的，&lt;em&gt;set&lt;/em&gt; 操作，相当于对一个 &lt;em&gt;volatile&lt;/em&gt; 的写入效果。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;weakCompareAndSet 操作，相当于先进行了一次 Atomic读取，然后再决定是否写入。但是这个过程不与周边代码形成强的“ happen-before（先序）”，所以只确保本身的可见性，不会确保周边变量的可见性。【关于这一点，之前的几篇的篇幅里，有例子提到过】&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;JDK 1.6 以后，又引入了lazyset&lt;sup id=&quot;fnref:LazySet&quot;&gt;&lt;a href=&quot;#fn:LazySet&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;。典型场景是应用在垃圾收集时，清零（nulling out ）一个永远不会再次访问的引用。采用的是 store-store 的内存栅栏方式，即保证这个写入能在后续其他的写入前，被其他线程可见。&lt;sup id=&quot;fnref:Store-Store&quot;&gt;&lt;a href=&quot;#fn:Store-Store&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; .&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Atomic 使原本非线程安全的数组（Array ），具有了线程安全的替代（AtomicLongArray ）。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;小结&lt;/h2&gt;
+&lt;p&gt;volatile 是个相当古老的编程语言关键词了。有不少经典的文章,如 &lt;em&gt;volatile vs. volatile&lt;/em&gt;&lt;sup id=&quot;fnref:VvsV&quot;&gt;&lt;a href=&quot;#fn:VvsV&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;。今天来聊这个话题，似乎显得有点过时。 也可以预见，对它的运用也会逐渐的淡出。&lt;/p&gt;
+
+&lt;p&gt;不过，深入到底层，我们还是可以发现，原理性的东西，其实并没有想象中的变化那么大————较之于眼花缭乱的时髦新技术名词而言————依然有助于我们理解和思考并发状态下的一些问题。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;&lt;strong&gt;其他参考链接&lt;/strong&gt;&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;-&lt;a href=&quot;https://stackoverflow.com/questions/1468007/atomicinteger-lazyset-vs-set&quot;&gt;Stack overflow:atomicinteger-lazyset-vs-set&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;-&lt;a href=&quot;https://docs.oracle.com/javase/tutorial/essential/concurrency/highlevel.html&quot;&gt;Oracle:High Level Concurrency Objects&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;-&lt;a href=&quot;https://www.classes.cs.uchicago.edu/archive/2013/spring/12300-1/labs/lab6/&quot;&gt;Concurrency in C++11&lt;/a&gt;&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-5&quot;&gt;&lt;strong&gt;参考索引&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;end&gt;
+
+&lt;/end&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:GoComm&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://blog.golang.org/share-memory-by-communicating&quot;&gt;Go Blog :Share Memory By Communicating &lt;/a&gt; &lt;a href=&quot;#fnref:GoComm&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:LazySet&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://bugs.java.com/bugdatabase/view_bug.do?bug_id=6275329&quot;&gt;JDK-6275329 : Add lazySet methods to atomic classes&lt;/a&gt; &lt;a href=&quot;#fnref:LazySet&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:Store-Store&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://dreamrunner.org/blog/2014/07/05/multithreadingxiang-guan-zhu-yu-zong-jie/&quot;&gt;Multithreading相关术语总结&lt;/a&gt; &lt;a href=&quot;#fnref:Store-Store&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:VvsV&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.drdobbs.com/parallel/volatile-vs-volatile/212701484?pgno=1&quot;&gt;volatile vs. volatile&lt;/a&gt; &lt;a href=&quot;#fnref:VvsV&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><category term="架构" /><category term="并发与并行" /><category term="开发语言" /><summary type="html">前言
+valotile 关键字对很多 java 开发人员来说并不陌生。 但，也许因为它看上去过于简单，便有了一些似是而非的认识。
+
+本部分，从FAQ中的 “What does volatile do ” 问题开始，聊一聊 volatile 的能做和不能做的事情以及在并发编程中的相关主题。</summary></entry><entry><title type="html">JSR 133 FAQ的翻译和扩展（4）—— 关键定义（二）</title><link href="http://0.0.0.0:4000/2016/05/28/JSR_133_FAQ_Trans_and_Ext_P4_chp17-2.html" rel="alternate" type="text/html" title="JSR 133 FAQ的翻译和扩展（4）—— 关键定义（二）" /><published>2016-05-28T00:00:00+08:00</published><updated>2016-05-28T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2016/05/28/JSR_133_FAQ_Trans_and_Ext_P4_chp17-2</id><content type="html" xml:base="http://0.0.0.0:4000/2016/05/28/JSR_133_FAQ_Trans_and_Ext_P4_chp17-2.html">&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;本篇，着重结合 JSR 133 FAQ 中的同步相关 FAQ ，以及JSR 133 中的其余的关键定义，围绕同步 sychronization ，happen before 等进行展开。 &lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;▸ 不正确的同步意味着什么？【译】&lt;/h2&gt;
+
+&lt;p&gt;[原文]&lt;a href=&quot;http://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.html#incorrectlySync&quot;&gt;What do you mean by “incorrectly synchronized”? &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;不正确的同步处理代码（ incorrectly synchronized code ），对不同的人有着不同含义。 当我们在 java 内存模型语义下讨论不正确的同步代码时，是指任何代码中出现了以下现象：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;有某个线程对某个变量有写操作，&lt;/li&gt;
+  &lt;li&gt;另一个线程对同一个变量有读操作，&lt;/li&gt;
+  &lt;li&gt;且，读和写没有通过同步来实现有序。 
+ 
+当有这些规则被违背的时候，我们就说存在对于这个变量的数据竞争（ data race ）。一个有数据竞争的程序，就是不正确地同步的程序。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;▸ 同步会做些什么？【译】&lt;/h2&gt;
+&lt;p&gt;[原文]&lt;a href=&quot;http://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.html#synchronization&quot;&gt;What does synchronization do? &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;同步（ Synchronization ）包括若干个方面。最广为人知的是互斥（ mutual exclusion ） —— 即，只有一个线程在某个时刻拥有监视器（ monitor，或译作管程  ）&lt;sup id=&quot;fnref:Monitor&quot;&gt;&lt;a href=&quot;#fn:Monitor&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;，所以，基于监视器的同步行为意味着一旦一个线程进入了被监视器保护的同步块（ synchronized block ），在这个线程退出前，没有任何其它线程再可以进入被这个监视器保护的块。     &lt;br /&gt;
+ &lt;br /&gt;
+但是，同步还有 “ 互斥 “ 之外的更多含义。在基于同一个的同步监视器的前提下，同步确保了一块内存被一个线程写入前或写入中，该同步块对于其它线程的可见过程是处于可预测的状态下。当我们 &lt;strong&gt;退出&lt;/strong&gt;（ exit ）同步块，我们通过 &lt;strong&gt;释放&lt;/strong&gt;（ release ）监视器来达到 &lt;strong&gt;刷新&lt;/strong&gt;（ flushing ）缓存数据到主存的效果，从而使本线程完成的写入能够对其它线程可见。在我们能 &lt;strong&gt;进入&lt;/strong&gt;（ enter ）同步块之前，我们通过 &lt;strong&gt;获取&lt;/strong&gt;（ acquire ）监视器来达到使本地处理器缓存失效，让变量重新从主存中 &lt;strong&gt;载入&lt;/strong&gt;（ reloaded ）的效果。这样，我们就可以看到由之前的（其他线程的） &lt;strong&gt;释放&lt;/strong&gt;（ release) 涉及到的所有写入。   &lt;br /&gt;
+ &lt;br /&gt;
+从缓存的角度讨论这个话题，似乎听起来这些问题只影响到多处理器机器（ multiprocessor machines ）。然而，重排序效果其实也可以很容易在单处理器（ single processor ）上见到。例如，让编译器在 &lt;strong&gt;获取&lt;/strong&gt; 前，或者在 &lt;strong&gt;释放&lt;/strong&gt;后去移动你的代码（ code ）是不可能的。 当我们谈到缓存的 &lt;strong&gt;获取&lt;/strong&gt;和 &lt;strong&gt;释放&lt;/strong&gt;动作时，我们简略掉了其中大量的可能影响。 &lt;br /&gt;
+ 
+新内存模型创建了对于内存操作行为（读字段 read field ，写字段 write field ，锁 lock ，解锁 unlock ）和其它线程操作行为（开始 start ，阻塞等待 join 【翻译注：参见 官方文档中线程行为的表述&lt;sup id=&quot;fnref:ConJoin&quot;&gt;&lt;a href=&quot;#fn:ConJoin&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; 】）等实现部分有序的语义：即，要求某些操作，比其他一些操作要 &lt;strong&gt;“先于发生”（ happen before ）&lt;/strong&gt;。如果一个行为是发生在另一个之前（ happens before ），那么意味着第一个是确保在前序发生（be  ordered before）的且对第二个可见。具体的有序规则如下：&lt;/p&gt;
+
+&lt;p&gt;∙ 在一个线程中的每个动作（ action ），都要比该线程中，按代码顺序（ program order ）的每一个后续动作先发生 &lt;strong&gt;“先于发生”（ happen before ）&lt;/strong&gt;。 &lt;br /&gt;
+  ∙ 对一个监视器的解锁（ unlock ）动作 ，要比&lt;strong&gt;该监视器&lt;/strong&gt;的每一个后续锁（ lock ）动作 ** “先于发生”（ happen before ）&lt;strong&gt;。 &lt;br /&gt;
+  ∙ 对于一个可变( volatile )字段的 **写&lt;/strong&gt;操作 ，都要比&lt;strong&gt;该变量&lt;/strong&gt;的每一个后续&lt;strong&gt;读&lt;/strong&gt;操作  ** “先于发生”（ happen before ）&lt;strong&gt;。 &lt;br /&gt;
+  ∙ 对于某个线程的 start() 方法调用，都要比&lt;/strong&gt;该线程&lt;strong&gt;启动后的任何动作先发生。   &lt;br /&gt;
+  ∙ 对于某个线程中的所有动作，都要比其它任何线程调用 join() 方法阻塞等待从这个线程返回&lt;/strong&gt; “先于发生”（ happen before ）&lt;strong&gt;。   &lt;br /&gt;
+ &lt;br /&gt;
+这就意味着，在同一个监视器保护的同步块，对于某个线程在退出同步块前可见的任何内存操作，对于后续进入同步块的其它任何线程也是可见的。因为，所有的内存操作比释放（ release ）行为 **“先于发生”（ happen before ）&lt;/strong&gt;，所有释放（ release ）行为比获取（ acquire ）行为 &lt;strong&gt;“先于发生”（ happen before ）&lt;/strong&gt;   &lt;br /&gt;
+ &lt;br /&gt;
+  &amp;gt;【翻译注：为更简洁和符合中文习惯，happen - before ，在后文部分中文句式中，我简称为 “前序” 关系】 。&lt;/p&gt;
+
+&lt;p&gt;另有一层含义是，像下面这样，有些人通常用来进行强制内存隔离的模式，实际是无效的：&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;   
+  synchronized (new Object()) {} 
+ &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;这实际上是一个空操作，编译器可以把它完全移除，因为它知道没有其它线程会基于这个监视器同步。你必须为线程建立好&lt;strong&gt;“ 前序 （happen - before）”&lt;/strong&gt; 关系，才能使一个线程（正确地）看到其它线程的操作结果。   &lt;br /&gt;
+ &lt;br /&gt;
+&lt;strong&gt;重要提示：&lt;/strong&gt; 为了建立恰当的 &lt;strong&gt;“ 前序 ”&lt;/strong&gt; 关系，很重要的一点，是要让线程同步在 &lt;strong&gt;同一个监视器&lt;/strong&gt;上。 A 线程同步在对象 X 时的所有可见，不会变成线程 B 之后对对象 Y 的可见。释放（ release ）和获取（ acquire ）必须相 匹配（例如，基于同一个监视器），来确保正确的语义。否则，代码就会有数据竞争（ data race ） 。&lt;/p&gt;
+
+&lt;h2 id=&quot;jsr-133&quot;&gt;JSR 133中的关键定义（二）&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;说明：JSR 133 的第 5 部分 Definations 中的第一部分概念，已在系列（3）中涉及。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在继续往下前聊JSR133 （JSR133中英文原文链接 &lt;sup id=&quot;fnref:JSR133&quot;&gt;&lt;a href=&quot;#fn:JSR133&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&quot;fnref:JSR133cn&quot;&gt;&lt;a href=&quot;#fn:JSR133cn&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; ） 相关内容前，有必要再来聊一下顺序一致模型。理论上来说，只要有一个全局优化器，就可以实现顺序一致执行了。同时也可以很大程度简化代码编写的复杂度。但，实际上，无论是对硬件还是运行时（runtimes），都很难有这样的全局优化器。原因显而易见。一个较之弱化的模型，不是对全局，而是只对部分特殊的行为来有序。&lt;/p&gt;
+
+&lt;h3 id=&quot;pososwhb&quot;&gt;1. po、so、sw和hb&lt;/h3&gt;
+&lt;p&gt;从开发层面去了解Java 内存模型的动作行为，实际是理解以下四个行为的逻辑：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;程序顺序&lt;/strong&gt; (Program Order ）—— “关键定义（一）“中已经说明， &lt;script type=&quot;math/tex&quot;&gt;\xrightarrow{\text{ po }}&lt;/script&gt;   &lt;br /&gt;
+这里需要重点强调是：从线程间动作的视角看，程序顺序不能也不会提供任何重排序的保证，它只是代表了最终执行和原始代码之间的关联。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;同步顺序&lt;/strong&gt;（Sychronization Order），&lt;script type=&quot;math/tex&quot;&gt;\xrightarrow{\text{ so }}&lt;/script&gt;  &lt;br /&gt;
+在某一次执行中，所有同步动作的完整执行顺序 。 从单线程的角度看，同步顺序 （so) 和 程序顺序 （ po ）是一致的。在同步顺序中的所有的“读” 都能看到最新的 “写” 。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Sychronizes-With 边界&lt;/strong&gt;（Sychronization-With edges），&lt;script type=&quot;math/tex&quot;&gt;\xrightarrow{\text{ sw }}&lt;/script&gt; &lt;br /&gt;
+ 每个同步动作的起始点或者结束点，就是动作的“Sychronizes-With “ edges （同步动作间的边界）。&lt;br /&gt;
+ 如公式示意：&lt;br /&gt;
+ &lt;script type=&quot;math/tex&quot;&gt;\ release(m) \xrightarrow{\text{ sw }}  acquire(m)&lt;/script&gt;   ，“Sychronizes-With “ 边界的起点是同步动作的结束（ release ） ，终点是同步动作的开始 （ acquire ）。 &lt;br /&gt;
+   &lt;strong&gt;【注：是同步动作引出了 “ Sychronizes-With “ 关系，从而形成了同步顺序。而不是相反  】&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;“前序”&lt;/strong&gt;关系 （Happen - before ），&lt;script type=&quot;math/tex&quot;&gt;\xrightarrow{\text{ hb }}&lt;/script&gt;  &lt;br /&gt;
+同步顺序中的前序关系的发生是由 程序顺序与“ Sychronizes-With “ 关系共同作用的结果。&lt;br /&gt;
+**但是有前序关系，不等于执行就会按照这个关系进行重排序 ** 。&lt;br /&gt;
+∙ 如果 &lt;script type=&quot;math/tex&quot;&gt;\ x \xrightarrow{\text{ sw }}  y&lt;/script&gt; （即，动作 x 和后续的动作 y 有“ Sychronizes-With “ 关系） ,那么，也意味着 &lt;script type=&quot;math/tex&quot;&gt;\ x \xrightarrow{\text{ hb }}  y&lt;/script&gt; 关系的存在 。&lt;/p&gt;
+
+    &lt;p&gt;∙ &lt;script type=&quot;math/tex&quot;&gt;\xrightarrow{\text{ hb }}&lt;/script&gt;  属于偏序关系&lt;sup id=&quot;fnref:PartOrd&quot;&gt;&lt;a href=&quot;#fn:PartOrd&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;，具有自反性，传递性和非对称性的特征。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;接下来，我们就从这几个定义出发来进一步理解内存模型。&lt;/p&gt;
+
+&lt;h3 id=&quot;actions-and-executions-&quot;&gt;2.动作和执行( Actions and Executions )&lt;/h3&gt;
+
+&lt;p&gt;内存模型的一个作用，就是为了构建良好（ well- formed  ）的执行。所以，这里先要定义一下执行。一个执行E可以用元组&amp;lt; P,A,po,so,W,V,sw,hb&amp;gt; 来描述&lt;sup id=&quot;fnref:ExeTurp&quot;&gt;&lt;a href=&quot;#fn:ExeTurp&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; 。出了前文提到的 po,so,sw,hb 四种行为逻辑之外，
+还包括：&lt;br /&gt;
+    ∙ P - 程序 。&lt;br /&gt;
+    ∙ A - 一组动作 。 可以用 &amp;lt;t,k,v,u&amp;gt; 元组，即&amp;lt;执行线程，动作类型（前面已经表述），变量／监视器，唯一标识符&amp;gt;来定义。     &lt;br /&gt;
+    ∙ W - “写-可见”（ write-seen ）函数 。对于 A 中的每个读操作 r，W(r) 代表在执行 E 中对 r 可见的写。  &lt;br /&gt;
+    ∙ V - “值写入”（ value-written ）函数。对于 A 中的每个读操作 w，V(w)代表在执行 E 中 w写入的值 。&lt;/p&gt;
+
+&lt;p&gt;本文并没有计划重复和深入相关的数学推导，这里强调元组定义的目的，只是为了帮助后续讨论建立完整概貌。&lt;/p&gt;
+
+&lt;h3 id=&quot;well-formed-executions-&quot;&gt;3.构建良好的执行( Well-Formed Executions )&lt;/h3&gt;
+
+&lt;p&gt;终于离问题的目标越来越接近了。前面的所有的铺垫和解释，现在到了一个思考的聚焦点： &lt;br /&gt;
+E=&amp;lt; P,A,po,so,W,V,sw,hb&amp;gt;。  现在的问题是，如果有一段程序摆在我们面前，我们如何合理的推断出一个正确、无二义的执行计划 E 。
+不太确切的说，最后的 E 是元组中不同元素的相互约束，制约的结果，从多组可能的候选执行计划中，选出满足各个约束的最终交集。&lt;/p&gt;
+
+&lt;p&gt;我们还是先直接跳到结论吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://postimg.cc/tZy7s0Ds&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/rmR4YMrN/20160528eplan.png&quot; alt=&quot;执行的生成&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;除了上图已经明确表达的约束。构建良好的执行【JSR133 §7.3 以及 JLS § 17.4.7 】也包括对 W ，V 的约束。即，对与volatile的变量的写都要确保每个读取的可见。但这并不以意味着对 &lt;script type=&quot;math/tex&quot;&gt;\xrightarrow{\text{ so }}&lt;/script&gt; 约束要求的放松。因为，这里的每个读取可见的实质含义是每次的写都被刷新到了主存中，以便读取的不是过期的值。但是，如果有没有同步序 so 的约束，不能互斥。&lt;/p&gt;
+
+&lt;p&gt;举个直观的例子来说明下：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;VSC&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;volatile&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;T&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;val&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;synchronized&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+     &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;val&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;val&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+     &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; 
+   
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;T&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;val&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; 
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+ &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;如上例： 
+    ∙  set（） 方法前的，synchronized 修饰仍是需要的，否则不能实现互斥，保证 val 只被设置一次。
+    ∙  另一方面，如果 val 前没有 volatile 修饰，在保持代码其他部分不变的情况下，在几个线程的 同步边界间（ sw ）发生的 val 的写入的值 ，未必一定对另一个线程可见。 &lt;br /&gt;
+    ∙  get（）方法前， 加上 synchronized 的修饰 在这个场景下 &lt;strong&gt;不是必须&lt;/strong&gt; 的。除了增加系统瓶颈外（因为读的线程数可能远远超过写的），没有额外作用。&lt;/p&gt;
+
+&lt;p&gt;关于基于因果关系的可提交【 JSR133 §7.3 】的9条原则，以及 其中的一些测试例子，这里不打算再展开。因为，从开发角度来说，我们还是更关心，按照怎么样的语法和语义，可以让程序按照我们期望的方式运行。而不是相反的：如果不加以约束，JIT 编译器和运行时会有多少种可能的运行。这个问题，显然复杂的多，而且也更适合像 JVM 虚拟机编写等岗位去研究。&lt;/p&gt;
+
+&lt;p&gt;所以，抛开可提交这个约束 ，构建良好的执行需要满足如下条件【JLS §17.4.7】&lt;sup id=&quot;fnref:ExeWell&quot;&gt;&lt;a href=&quot;#fn:ExeWell&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;对于 volatile 变量，每个读都可以看到对这个变量的写的值 v。&lt;/strong&gt;  即，W(r).v =r.v 。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;hb （通过 po 和 sw 传递构成）是偏序关系 。&lt;/strong&gt; 即，符合偏序的自反、传递和反对称三个特性。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;遵循线程内一致性（Intra-Thread Consistency）。&lt;/strong&gt; 即 P 的执行遵循线程内语义。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;执行满足 hb 一致性 （ happens-before consistent ）。&lt;/strong&gt;  即，对于任何变量的读操作，不存在 hb(r, W(r))  ；也不存在满足 w.v = r.v ， hb(W(r), w) 和 hb(w, r) 的 w 。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;执行满足 so 一致性 。&lt;/strong&gt; 即对于所有volatile变量的读操作，不存在 so(r, W(r))  ；也不存在满足 w.v = r.v ， so(W(r), w) 和 so(w, r) 的 w 。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;4.理解代码的执行结构。&lt;/h3&gt;
+
+&lt;p&gt;以及涉及到了相对抽象的概念和定义（当然 JSR133 原文中还要更多）。接下来，我要说一下从我的理解角度，怎么比较快速的理解代码的在多线程状态下的执行结构（包括执行结果）————暂时仅围绕本章已经涉及的概念。&lt;/p&gt;
+
+&lt;p&gt;∙ 如果没有 volatile 修饰的 变量。我们先可以假设在不违背单线程语义的情况下，一切的重排序都是有可能的。&lt;/p&gt;
+
+&lt;p&gt;∙ 如果有 volatile 修饰的变量，我们要先找到这些变量在多线程间的 release - acquire 关系，找到关键的 sw 关系，并结合 sw 前后代码序的，分析可见的影响范围。&lt;/p&gt;
+
+&lt;p&gt;∙ 对第2点，关于写入的可见问题。我们可以认为，如果 volatile 变量可见了，按照代码序po “前序”的变量也对其他线程可见了。 在该代码序之后的写入，可能可见（不排除重排序）。&lt;/p&gt;
+
+&lt;p&gt;∙ Synchronized 修饰的存在，意味着互斥（锁）的存在。 按照互斥隔离的思路考虑执行结果。&lt;/p&gt;
+
+&lt;p&gt;举个例子来说明上述的的理解：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://postimg.cc/hXgP99L5&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/g2LXbsnm/20160528vsc.png&quot; alt=&quot;happen - before相关 &quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;如上例：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;在 ready 变量有 volatile 修饰的情况下，对 &lt;code class=&quot;highlighter-rouge&quot;&gt;ready = true&lt;/code&gt;的写，和&lt;code class=&quot;highlighter-rouge&quot;&gt;ready == true&lt;/code&gt; 之间形成了 sw （同步边界）关系。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;同时 ，由于 po关系 ，&lt;code class=&quot;highlighter-rouge&quot;&gt;a=12&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;ready = true&lt;/code&gt;  形成了 hb （先序）关系。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;又，a 变量，由于没有其他特定修饰，很有概率&lt;code class=&quot;highlighter-rouge&quot;&gt;a=13&lt;/code&gt; 在执行时被重排序。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;综上，Thread - 2 和 Thread - 3 会打印 12 或者13 。这两个线程输出的结果可能相同也可能不同。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;4.假设：ready 变量去掉 volatile 修饰。那么， 线程间实际上失去了明确的同步边界。也就意味着在不做执行顺序的假设的情况，任何执行结果都有可能，即，打印出0、11、12、13的可能。&lt;/p&gt;
+
+&lt;p&gt;5.在实际代码中，这样的线程间关系，也可能很容易制造死锁。需要根据情况加上必要的线程暂停保护,如 sleep(）.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;本篇小结&lt;/h2&gt;
+&lt;p&gt;至此，除了更偏底层的理论，已经把内存模型的来龙去脉、主要概念和总体结构做了相对完整的全貌的整理复述。&lt;br /&gt;
+   而在JSR 133 FAQ中的问题中，主要就剩下 volatile 和 final 字段相关的了。由于 final 语义的问题，更多是出在内存模型本身的问题——一般开发者对其运用并无太多疑问。而 volatile 在实际开发运用中，经常有些似是而非的理解，所以，下一篇，将重点关注这部分内容。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;参考索引&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;*&lt;end&gt;*&lt;/end&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:Monitor&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/zh-cn/監視器_(程序同步化)&quot;&gt;wiki 监视器（管程）&lt;/a&gt; &lt;a href=&quot;#fnref:Monitor&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:ConJoin&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://docs.oracle.com/javase/tutorial/essential/concurrency/join.html&quot;&gt;Java官方文档：join操作等 &lt;/a&gt; &lt;a href=&quot;#fnref:ConJoin&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:JSR133&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.cs.umd.edu/~pugh/java/memoryModel/jsr133.pdf&quot;&gt;JSR-133: JavaTM Memory Model and Thread Specification &lt;/a&gt; &lt;a href=&quot;#fnref:JSR133&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:JSR133cn&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://ifeve.com/wp-content/uploads/2014/03/JSR133%E4%B8%AD%E6%96%87%E7%89%881.pdf&quot;&gt;JSR-133 非官方中文翻译 &lt;/a&gt; &lt;a href=&quot;#fnref:JSR133cn&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:PartOrd&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%81%8F%E5%BA%8F%E5%85%B3%E7%B3%BB&quot;&gt;wiki 偏序关系 &lt;/a&gt; &lt;a href=&quot;#fnref:PartOrd&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:ExeTurp&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://docs.oracle.com/javase/specs/jls/se8/html/jls-17.html#jls-17.4.6&quot;&gt;执行（ Executions ）的定义 &lt;/a&gt; &lt;a href=&quot;#fnref:ExeTurp&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:ExeWell&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://docs.oracle.com/javase/specs/jls/se8/html/jls-17.html#jls-17.4.7&quot;&gt;well-formed Executions  &lt;/a&gt; &lt;a href=&quot;#fnref:ExeWell&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><category term="架构" /><category term="并发与并行" /><category term="开发语言" /><summary type="html">前言
+
+本篇，着重结合 JSR 133 FAQ 中的同步相关 FAQ ，以及JSR 133 中的其余的关键定义，围绕同步 sychronization ，happen before 等进行展开。</summary></entry><entry><title type="html">JSR 133 FAQ的翻译和扩展（3）—— 关键定义（一）</title><link href="http://0.0.0.0:4000/2016/05/14/JSR_133_FAQ_Trans_and_Ext_P3_chp17.html" rel="alternate" type="text/html" title="JSR 133 FAQ的翻译和扩展（3）—— 关键定义（一）" /><published>2016-05-14T00:00:00+08:00</published><updated>2016-05-14T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2016/05/14/JSR_133_FAQ_Trans_and_Ext_P3_chp17</id><content type="html" xml:base="http://0.0.0.0:4000/2016/05/14/JSR_133_FAQ_Trans_and_Ext_P3_chp17.html">&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;如果真正对Java 语言和 JVM 的很多底层细节和原理有兴趣，那么，阅读官方的 Java 语言规范 （&lt;em&gt;The Java Language Specification&lt;/em&gt;  简称 JLS ）和 Java 虚拟机规范 （&lt;em&gt;The Java Virtual Machine Specification&lt;/em&gt;  简称 JVMS ） ，无疑是最有帮助的，也最原汁原味。但是，对于很多研发人员来说，阅读这样的文档，无疑是一种挑战 。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;jsr-133-&quot;&gt;▸JSR 133 是讲什么的？【译】&lt;/h2&gt;
+
+&lt;p&gt;[原文]&lt;a href=&quot;http://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.html#jsr133&quot;&gt;What is JSR 133 about? &lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;翻译注：&lt;br /&gt;
+JSR 133 里的内容和思想，最终是要在 &lt;strong&gt;Java 语言规范&lt;/strong&gt;  和  &lt;strong&gt;Java 虚拟机规范&lt;/strong&gt; 中体现。&lt;sup id=&quot;fnref:JSR133&quot;&gt;&lt;a href=&quot;#fn:JSR133&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;1997 年以来，定义在 Java Language  Specification 第 17 章（ Chapter 17 ）的 Java 内存模型已经被发现了一些严重的缺陷（ flaws ）。这些缺陷会允许一些令人困惑的（ confusing ）行为发生 ( 例如 final 字段（ fields ）被发现改变了它们值 ) ，同时也削弱了编译器执行常见优化的能力。   &lt;br /&gt;
+ &lt;br /&gt;
+Java 内存模型是一个雄心勃勃的尝试；它第一次从一个编程语言规格说明（ specification ）层面来体现一个可以在跨越不同架构时，仍可保持对并发的语义上一致的内存模型。不幸的是，定义一个既能保持一致性，又直观无二义的内存模型，已经被证明要远比想像的更困难。 &lt;br /&gt;
+ &lt;br /&gt;
+完整的语义表述可参见：http://www.cs.umd.edu/users/pugh/java/memoryModel ,   但是正式的语义不是为小心翼翼者准备的。它以令人吃惊和清醒的方式揭示了像同步这样看上去简单的概念，实际上会多么的复杂。幸运的是，你不需要去了解正式语义中的全部细节 ——JSR133 的目标，是创造一整套正式语义来为 &lt;strong&gt;volatile&lt;/strong&gt; ，&lt;strong&gt;synchronized&lt;/strong&gt; 和 &lt;strong&gt;final&lt;/strong&gt;   的运行提供一套直观无二义的框架。&lt;/p&gt;
+
+&lt;p&gt;具体来说， JSR133 的目标包括：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;保留已有的安全保障，如，类型安全（ type-safety ），同时强化一些其它保障。例如，变量的值不能无中生有（ out of thin air ）的生成：某个线程能观察（ observed ）到的一个变量的每个值，必须是被其他某线程合理设置的值。&lt;/li&gt;
+  &lt;li&gt;正确同步的程序的语义应该尽可能的简单、直观。&lt;/li&gt;
+  &lt;li&gt;不完整或者不正确的同步程序的语义，也应该被定义出来，以便把潜在安全威胁降到最低。&lt;/li&gt;
+  &lt;li&gt;使编程人员能够确信地推断出多线程的程序是如何与内存进行交互的。&lt;/li&gt;
+  &lt;li&gt;使设计出正确、高性能，同时能广泛的跨越多个流行硬件架构的 JVM （具体）实现成为可能。&lt;/li&gt;
+  &lt;li&gt;提供一个新的叫做 &lt;strong&gt;初始化安全&lt;/strong&gt; （initialization safety ） 的安全保障。如果一个对象被正确的构建了（即，对它的引用不会在构造期间暴露（ do not escape during construction ）），那么所有对这个对象的引用可见的线程，同样对它在构造器中设定的 &lt;strong&gt;final&lt;/strong&gt; 字段（ final fields ）的值可见，并且，这个过程不需要同步。&lt;/li&gt;
+  &lt;li&gt;对已有代码的影响应该最小化。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;jsr-133&quot;&gt;JSR 133中的关键定义（一）&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;说明：JSR 133 的第 5 部分 Definations 为一些概念做了更详细的定义。这些定义还是偏抽象理论。这部分会结合JLS 和 JVMS 的具体内容来进一步解读。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;shared-variablesheap-memory-&quot;&gt;1. 共享变量／堆内存 (Shared variables/Heap memory ）&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;JSR 133 原文翻译：&lt;br /&gt;
+能够在线程间共享的内存被称为 “&lt;strong&gt;共享&lt;/strong&gt;（shared 
+）“内存 或者 “&lt;strong&gt;堆&lt;/strong&gt;（Heap ）”内存 。所有的实例字段（instance fields ），静态字段（static fields ）以及数组元素都存储在 &lt;strong&gt;堆&lt;/strong&gt;内存中。(翻译注：为便于表述 ) 我们使用 &lt;strong&gt;变量(variable )&lt;/strong&gt;这个词来表示字段和数组元素。 方法中的局部变量永远不会在线程间共享且不受内存模型影响。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;本定义中涉及的部分关键词，在JLS 和JVMS 中的具体落地包括 ：&lt;/p&gt;
+
+&lt;h4 id=&quot;shared-variables---conflicting--jls-1741--shavar&quot;&gt;∙  &lt;strong&gt;共享变量 （Shared Variables ）&lt;/strong&gt; 及 &lt;strong&gt;冲突（Conflicting ）&lt;/strong&gt; 【JLS §17.4.1 】 &lt;sup id=&quot;fnref:ShaVar&quot;&gt;&lt;a href=&quot;#fn:ShaVar&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h4&gt;
+&lt;p&gt;在JSR 133 明确三类共享变量。JLS中，进一步明确 &lt;strong&gt;冲突&lt;/strong&gt; 概念 。&lt;br /&gt;
+  所谓 &lt;strong&gt;冲突&lt;/strong&gt; ，就是同时对同一个恭喜变量，同时有两个（或以上）的 “读 ” ， “写 ”访问， 且其中至少存在一个 “ 写 ”访问。 换言之，如果所有的访问都是“读 ”，那么就不存在冲突了。&lt;/p&gt;
+
+&lt;h4 id=&quot;static-fields--jls-8311-stafie&quot;&gt;∙  &lt;strong&gt;实例字段&lt;/strong&gt; 和 &lt;strong&gt;静态字段 （static fields ）&lt;/strong&gt; 【JLS §8.3.1.1 】&lt;sup id=&quot;fnref:StaFie&quot;&gt;&lt;a href=&quot;#fn:StaFie&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/h4&gt;
+&lt;p&gt;结合这两个文档的说明：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;实例字段（或称：实例变量，或：非静态 non-static 字段 ）： 如果一个字段没有被声明为&lt;em&gt;static&lt;/em&gt;， 当它的类被实例化为对象时，这些字段会生成独立的字段变量拷贝，这些变量被称为实例变量。它们属于不同的实例对象，保存在不同的内存地址（注：是保存在 &lt;strong&gt;“堆”&lt;/strong&gt;内存内），可以拥有各自不同的值。 实例对象生成的数量决定了实例变量在内存中的数量。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;静态字段（或称：类变量 ）：加上了 &lt;em&gt;static&lt;/em&gt; 声明修饰的类字段。每个类的实例共享它们的类变量，也可以去尝试改变它们的值。类变量仅与类相关，与该类生产实例的数量无关（甚至可以是 0 个），唯一的保存在一个固定内存地址（注：&lt;strong&gt;“堆”&lt;/strong&gt;内存中），不需要通过类实例化后再去操作（manipulate）它。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;下面这张图做了比较好的示意。  &lt;br /&gt;
+    &lt;a href=&quot;https://postimg.cc/p5DnqPpQ&quot; width=&quot;100%&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/3NqCrRhq/20160514fields.png&quot; alt=&quot;字段示意图&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;原图出处：https://cdn.crunchify.com/wp-content/uploads/2013/04/Java-Instance-Field-Crunchify-Tips-768x395.png&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在【JLS §8.3.1.1 】&lt;sup id=&quot;fnref:StaFie:1&quot;&gt;&lt;a href=&quot;#fn:StaFie&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; 中的几个例子，对于理解包括这两类变量在继承状态下处理原理等，也很有帮助。&lt;/p&gt;
+
+&lt;p&gt;也可以参考： &lt;a href=&quot;https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html&quot;&gt;Oracle，Java Tutorial：Classes and Objects&lt;/a&gt; 中的表述。&lt;/p&gt;
+
+&lt;p&gt;此处不再进一步展开。&lt;/p&gt;
+
+&lt;h4 id=&quot;local-variables--jls-144--locvar&quot;&gt;∙  &lt;strong&gt;本地变量 （Local Variables ）&lt;/strong&gt;等 【JLS §14.4 】 &lt;sup id=&quot;fnref:LocVar&quot;&gt;&lt;a href=&quot;#fn:LocVar&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/h4&gt;
+&lt;p&gt;在JLS 在明确共享变量的同时，也明确了 &lt;strong&gt;本地变量、方法的形式参数以及例外（ exception ）处理参数&lt;/strong&gt; 这三类，不会在线程间共享，也不会受内存模型影响。&lt;/p&gt;
+
+&lt;p&gt;本地变量是指定义在程序块( Block ）中的变量，比如两个“ { }”括起来的部分 。程序块的严格定义略繁琐，不太严格的说，就是一段形成闭合结构的程序片段。 对 Java 语言而言，这里有一个嵌套的概念。比如：if 外面套 for 循环，for 外面再套 switch。我们可以说，每一个都是 Block 。它们组合的每一层，也可以称为 Block 。&lt;/p&gt;
+
+&lt;p&gt;回到主题，对于本地变量等而言，每个线程都在执行时有一套自己的变量拷贝，不存在共享问题。【JVMS §2.6.1】 &lt;sup id=&quot;fnref:JvmsLoc&quot;&gt;&lt;a href=&quot;#fn:JvmsLoc&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; 。  进一步从JVM机制上说，是因为每个线程在调用方法时，会其形成一个不共享的运行帧（Frames，或译作栈帧），而局部变量【注：这里指的变量，不是具体的变量的对象，对象仍然在“堆”内存中 】也被包含在其中。&lt;/p&gt;
+
+&lt;h4 id=&quot;array-variables-----arrays-jls-102-jlsarr---jvms-39--jvmsarr&quot;&gt;∙  数组变量 （ Array Variables ） 和  数组 Arrays 【JLS §10.2 】&lt;sup id=&quot;fnref:JlsArr&quot;&gt;&lt;a href=&quot;#fn:JlsArr&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;  和 【JVMS §3.9 】 &lt;sup id=&quot;fnref:JvmsArr&quot;&gt;&lt;a href=&quot;#fn:JvmsArr&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/h4&gt;
+&lt;p&gt;数组变量大家都很熟悉。 数组的本质是一组指向对象的地址引用。它有一旦创建，就长度固定的特点。所以，在多线程共享状态下，可能产生以下两种的不安全状态：&lt;/p&gt;
+
+&lt;p&gt;∙ 初始化的冲突。常见的indexOutOfBoundsException。  &lt;br /&gt;
+  ∙ 对特定数组指向的对象的值写入和可见问题（共享变量的共同问题）。&lt;/p&gt;
+
+&lt;h4 id=&quot;heap---run-time-areas--jvms-253--jvmsheap-jvms-25jvmsrta&quot;&gt;∙  &lt;strong&gt;堆（Heap ）&lt;/strong&gt; 和 &lt;strong&gt;运行时数据区（Run-Time Areas ）&lt;/strong&gt; 【JVMS §2.5.3 】 &lt;sup id=&quot;fnref:JvmsHeap&quot;&gt;&lt;a href=&quot;#fn:JvmsHeap&quot; class=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt; ，【JVMS §2.5】&lt;sup id=&quot;fnref:JvmsRTA&quot;&gt;&lt;a href=&quot;#fn:JvmsRTA&quot; class=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/h4&gt;
+&lt;p&gt;关于 &lt;strong&gt;堆&lt;/strong&gt; 和 &lt;strong&gt;栈&lt;/strong&gt; 技术文章很多。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;需要快速直观认识这两个概念，可阅读 &lt;a href=&quot;https://www.guru99.com/java-stack-heap.html&quot;&gt;Java Stack and Heap: Java Memory Allocation Tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这里强调以下几点：    &lt;br /&gt;
+  ∙ &lt;strong&gt;堆&lt;/strong&gt;中保存所有对象【包括局部变量指向的对象】和数组。   &lt;br /&gt;
+  ∙ 类和方法体代码都 &lt;strong&gt;不在&lt;/strong&gt; 堆内，而是在 &lt;strong&gt;方法区（ method area ）&lt;/strong&gt;中 。&lt;br /&gt;
+  ∙ &lt;strong&gt;方法区（ method area ）&lt;/strong&gt; 虽然逻辑上也是堆的一部分。但通常不进行垃圾回收，所以一般不作为 我们通常讨论的 &lt;strong&gt;堆&lt;/strong&gt;的范围指向。    &lt;br /&gt;
+  ∙ &lt;strong&gt;堆&lt;/strong&gt;里的每个对象都和 &lt;strong&gt;方法区（ method area ）&lt;/strong&gt; 的对应的类相关联 。&lt;/p&gt;
+
+&lt;p&gt;下图较清晰的表现多线程态下的JVM 内存运行时数据区（ Run-Time Data Areas ）逻辑划分：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://postimg.cc/Sj88yfDX&quot; width=&quot;100%&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/CMr4sv84/20160514runtime-Rev.png&quot; alt=&quot;Run-Time Data Areas&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;原图复刻自：http://slideplayer.com/slide/12666692/   （原图字体过小）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;inter-thread-actions-&quot;&gt;2. 线程间动作 (Inter-thread Actions ）&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;JSR 133 原文：线程间的动作是由某一线程执行，能被另一线程探测或直接影响的动作（action）。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我们并不需要真正关心线程内动作（ Intra-thread Actions ）———因为理所当然的是遵循Java语言的语义。&lt;/p&gt;
+
+&lt;p&gt;相对于JSR 133中的表述（此处不再赘述），【JLS §17.4.2 Actions】 &lt;sup id=&quot;fnref:JlsAct&quot;&gt;&lt;a href=&quot;#fn:JlsAct&quot; class=&quot;footnote&quot;&gt;10&lt;/a&gt;&lt;/sup&gt;的表述述更加直接一些。归纳来说，有如下若干类线程间动作：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read (normal, or non-volatile)。 读取一个变量。&lt;/li&gt;
+  &lt;li&gt;Write (normal, or non-volatile)。写入一个变量。&lt;/li&gt;
+  &lt;li&gt;同步（Sychronization ）动作，包括：&lt;br /&gt;
+  ∙ Volatile 读。  Volatile方式读取一个变量（注：关于 Volatile 会在另外系列表述）。&lt;br /&gt;
+  ∙ Volatile 写。  Volatile方式写入一个变量。&lt;br /&gt;
+  ∙ 锁（Lock ）。 锁定一个监视器（或译作：管程）[^ Monitor] 
+  ∙ 解锁（Unlock ）。 解锁一个监视器（或译作：管程）
+  ∙ 生成线程的第一动作和最后一个动作。 
+  ∙ 启动一个线程或者检测线程是否已经中止。&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;外部动作（External Actions ） 。 &lt;br /&gt;
+  外部动作是可以从外部观察到的（程序）执行动作，结果取决于（程序）执行的外部环境。&lt;br /&gt;
+  &amp;gt; JSR 133 ：与外部世界交互的动作。 &lt;br /&gt;
+  似乎都有点语焉不详，那么到底是指哪些动作呢？  &lt;br /&gt;
+  确切的说，是指：&lt;strong&gt;JIT 编译器无法评估执行效果和影响的，与执行环境相关的动作&lt;/strong&gt;&lt;br /&gt;
+  具体来说，包括：&lt;strong&gt;JNI 指令、与外部的socket 通信、对文件系统的操作、与控制台的交互（非排他方式）&lt;/strong&gt;等。 &lt;br /&gt;
+  这些动作的共同特点是涉及动作在Java 虚拟机进程的完全控制边界之外（从而无法预先评估结果影响），所以，也 &lt;strong&gt;不会被重排序&lt;/strong&gt;。&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;JSR 133 ：针对外部动作的参数（例如：准备写入 socket通信的字节流），不属于外部动作的一部分。属于线程的内部动作语义的结果范畴。&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;线程分离动作（Thread divergence actions ）。 
+ &amp;gt; JSR 133 ：让线程进入无限循环的动作，且这个动作不涉及内存（操作）、同步或外部动作。 
+ 典型的线程分离动作代码片段：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;       &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;thread1&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;（）&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+         &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 线程分离动作 &lt;/span&gt;
+           &lt;span class=&quot;n&quot;&gt;abc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;     
+           &lt;span class=&quot;c1&quot;&gt;//to-do lists#1&lt;/span&gt;
+           &lt;span class=&quot;n&quot;&gt;Thread&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sleep&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; 
+           &lt;span class=&quot;c1&quot;&gt;//to-do lists#2&lt;/span&gt;
+         &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; 
+       &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+      &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;thread2&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;（）&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+         &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;（&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;abc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+           &lt;span class=&quot;c1&quot;&gt;//TODO somethings &lt;/span&gt;
+         &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+           &lt;span class=&quot;c1&quot;&gt;//TODO some other things &lt;/span&gt;
+         &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; 
+       &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+     &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;按照上述例子，由于thread1 加了线程分离动作 &lt;code class=&quot;highlighter-rouge&quot;&gt;while (true);&lt;/code&gt; , 循环中的&lt;code class=&quot;highlighter-rouge&quot;&gt;abc=123&lt;/code&gt;和 其他 &lt;code class=&quot;highlighter-rouge&quot;&gt;//to-do lists#1&lt;/code&gt; 代码行中的语句不会被 &lt;strong&gt;重排序&lt;/strong&gt;【重排序概念可参见本系列（2）】，即便代码块中, 线程主动插入 &lt;code class=&quot;highlighter-rouge&quot;&gt;sleep（）&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;上述thread1的代码中，如果没有&lt;code class=&quot;highlighter-rouge&quot;&gt;sleep()&lt;/code&gt; 动作，则很可能出现 JLS §17.4.4所说的导致其他线程停止或挂起（没办法继续执行）的情况。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Thread divergence actions are introduced to model how a thread may cause all other threads to stall and fail to make progress.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;线程分离动作的应用场景可能有两个：&lt;br /&gt;
+    ∙  确保某些线程沿着预期的分支走（比如在测试的时候）。 &lt;br /&gt;
+    ∙  在某种状态下，让一部分线程完全进入阻塞状态 。&lt;/p&gt;
+
+&lt;p&gt;关于线程分离还需要明确的一点： 例子里的 abc 的字段，无论是否采用 atomic 类型，都不能确保线程间相互的“可见”完全如预期。换言之，thread2中的两个分支的执行顺序，并不能做确定的假设。除非在程序中加入更强约束的，&lt;/p&gt;
+
+&lt;h3 id=&quot;program-order-intra-thread-semantics&quot;&gt;3. 程序顺序 (Program Order ）和线程内语义（Intra-thread semantics）&lt;/h3&gt;
+&lt;p&gt;这两个定义，都是为了界定一个线程，在隔离或孤立运行状态下，正确的执行顺序和执行语义。
+此处不再重复 JSR 133 中的表述。&lt;/p&gt;
+
+&lt;p&gt;这里需要了解的一个重要的概念是在 【JLS §17.4.3 】&lt;sup id=&quot;fnref:JlsSeq&quot;&gt;&lt;a href=&quot;#fn:JlsSeq&quot; class=&quot;footnote&quot;&gt;11&lt;/a&gt;&lt;/sup&gt; 中提到的 顺序一致性 （ Sequential consistency ） 问题 。顺序一致性是保证可见性和有序性的强保证。换言之，运作环境可以把多线程的行为，进行全局排序执行，且每个动作都是原子的，就像单线程那样，那么，就不会存在数据竞争 （ Data Race）了。&lt;/p&gt;
+
+&lt;p&gt;实现严格顺序一致性处理的代价是很大的，尤其对于多核系统而言。 所以，我们显然需要更 &lt;strong&gt;自由&lt;/strong&gt; 顺序的内存模型，不同线程间不需要假定相对顺序，而是接下来要说的同步动作和同步顺序来进行竞争与协作。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;未完待续&lt;/h2&gt;
+
+&lt;p&gt;接下来，我们就要借着原文 FAQ 的中相关问题，继续聊一聊同步动作和同步顺序，以及 happen-before 等问题了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;参考链接汇总:&lt;br /&gt;
+ -&lt;a href=&quot;https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html&quot;&gt;Oracle， Java Tutorial：Classes and Objects&lt;/a&gt; &lt;br /&gt;
+ -&lt;a href=&quot;https://crunchify.com/java-tips-never-make-an-instance-fields-of-class-public/&quot;&gt;Java Tips: Never Make an Instance Fields of Class Public&lt;/a&gt;&lt;br /&gt;
+ -&lt;a href=&quot;http://slideplayer.com/slide/12666692/&quot;&gt;CS432:Compiler Construction lecture 15&lt;/a&gt;  &lt;br /&gt;
+ -&lt;a href=&quot;https://www.guru99.com/java-stack-heap.html&quot;&gt;Java Stack and Heap: Java Memory Allocation Tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;参考索引&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;*&lt;end&gt;*&lt;/end&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:JSR133&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.cs.umd.edu/~pugh/java/memoryModel/jsr133.pdf&quot;&gt;JSR-133: JavaTM Memory Model and Thread Specification &lt;/a&gt; &lt;a href=&quot;#fnref:JSR133&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:ShaVar&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://docs.oracle.com/javase/specs/jls/se10/html/jls-17.html#jls-17.4.1&quot;&gt; JLS §17.4.1 Shared Variables &lt;/a&gt; &lt;a href=&quot;#fnref:ShaVar&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:StaFie&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://docs.oracle.com/javase/specs/jls/se10/html/jls-8.html#jls-8.3.1.1&quot;&gt;JLS §8.3.1.1 static fields &lt;/a&gt; &lt;a href=&quot;#fnref:StaFie&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:StaFie:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:LocVar&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://docs.oracle.com/javase/specs/jls/se10/html/jls-14.html#jls-14.4&quot;&gt; JLS §14.4 Local variables &lt;/a&gt; &lt;a href=&quot;#fnref:LocVar&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:JvmsLoc&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://docs.oracle.com/javase/specs/jvms/se10/html/jvms-2.html#jvms-2.5.3&quot;&gt;JVMS §2.6.1 Local variables&lt;/a&gt; &lt;a href=&quot;#fnref:JvmsLoc&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:JlsArr&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://docs.oracle.com/javase/specs/jls/se10/html/jls-10.html&quot;&gt;JLS §10.2 Array Variables &lt;/a&gt; &lt;a href=&quot;#fnref:JlsArr&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:JvmsArr&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://docs.oracle.com/javase/specs/jvms/se10/html/jvms-3.html#jvms-3.9&quot;&gt;JVMS §3.9 Arrays &lt;/a&gt; &lt;a href=&quot;#fnref:JvmsArr&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:JvmsHeap&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://docs.oracle.com/javase/specs/jvms/se10/html/jvms-2.html#jvms-2.5.3&quot;&gt;JVMS §2.5.3 Heap &lt;/a&gt; &lt;a href=&quot;#fnref:JvmsHeap&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:JvmsRTA&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://docs.oracle.com/javase/specs/jvms/se10/html/jvms-2.html#jvms-2.5&quot;&gt;JVMS §2.5  &lt;/a&gt; &lt;a href=&quot;#fnref:JvmsRTA&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:JlsAct&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://docs.oracle.com/javase/specs/jls/se10/html/jls-17.html#jls-17.4.2&quot;&gt; JLS §17.4.2 Actions &lt;/a&gt; &lt;a href=&quot;#fnref:JlsAct&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:JlsSeq&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://docs.oracle.com/javase/specs/jls/se10/html/jls-17.html#jls-17.4.3&quot;&gt; Sequential consistency &lt;/a&gt; &lt;a href=&quot;#fnref:JlsSeq&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><category term="架构" /><category term="并发与并行" /><category term="开发语言" /><summary type="html">前言
+
+如果真正对Java 语言和 JVM 的很多底层细节和原理有兴趣，那么，阅读官方的 Java 语言规范 （The Java Language Specification  简称 JLS ）和 Java 虚拟机规范 （The Java Virtual Machine Specification  简称 JVMS ） ，无疑是最有帮助的，也最原汁原味。但是，对于很多研发人员来说，阅读这样的文档，无疑是一种挑战 。</summary></entry><entry><title type="html">JSR 133 FAQ的翻译和扩展（2）—— 内存模型的困扰</title><link href="http://0.0.0.0:4000/2016/01/22/JSR_133_FAQ_Trans_and_Ext_P2_Volatile_Reordering.html" rel="alternate" type="text/html" title="JSR 133 FAQ的翻译和扩展（2）—— 内存模型的困扰" /><published>2016-01-22T00:00:00+08:00</published><updated>2016-01-22T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2016/01/22/JSR_133_FAQ_Trans_and_Ext_P2_Volatile_Reordering</id><content type="html" xml:base="http://0.0.0.0:4000/2016/01/22/JSR_133_FAQ_Trans_and_Ext_P2_Volatile_Reordering.html">&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
+&lt;p&gt;多线程并发态下的内存模型经常带给开发者的困扰，概括来说就是反直觉（ counterintuitive ）。
+看上去代码逻辑没有问题啊，但是结果却出乎了我们的预料。这类问题实际更像是“ 一个硬币的两面 ”。&lt;/p&gt;
+
+&lt;p&gt;本部分，会结合FAQ原文中的“重排序（Reordering ）” 和“旧的内存模型的问题” 等相关问题来展开相关讨论。&lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;硬币的两面&lt;/h2&gt;
+&lt;p&gt;一面，在多数情况下，是开发者对该开发语言底层原理，包括与之相关体系架构的代码编译和运行时（Run time ）逻辑并不真正的了解，而仅仅是站在高级语言的角度去揣测低层运行行为。这一点，是高级语言的程序开发和书写汇编语言程序的一个重要的差别。&lt;/p&gt;
+
+&lt;p&gt;另外，有些高些语言，为了提升业务逻辑的开发效率、平缓学习曲线，也会无意间向开发者传递这样的错觉。&lt;/p&gt;
+
+&lt;p&gt;在单线程态下的程序代码，开发者的上述不足，基本可以通过测试用例的设计来弥补，因为其中潜在问题的复现是相对稳定的。而在多线程态的程序代码中，由于存在更多的不确定性，这类BUG 往往会躲过不完善的测试【注1】，被发布到生产环境中。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;注1: 本系列会在覆盖其他有关知识点后，对这类场景下的“ 测试 ”问题 进行专题梳理。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一面，任何一个语言的编译器、运行时（Run time ）的优化，同样需要一个较漫长的过程。真正的稳定成熟，从Java ，
+或者Go 来看，差不多需要10 年左右周期。2004 年，对JVM 而言，差不多到了这样的演进节点。对于Go 这样的新生语言来说，内存模型或许不再需要完全摸石头，但是新的场景同样意味着新的挑战&lt;sup id=&quot;fnref:ToGo2&quot;&gt;&lt;a href=&quot;#fn:ToGo2&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;【注2】。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;注2：本段在2018年初，重新进行了修订。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;▸旧的内存模型哪些问题？【译】&lt;/h2&gt;
+
+&lt;p&gt;[原文]&lt;a href=&quot;http://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.html#oldmm&quot;&gt;What was wrong with the old memory model?&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;翻译注：&lt;br /&gt;
+本段提到的final，volatile等语言结构，会在系列的其他部分中单独讨论，此处暂不需展开。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;旧的内存模型存在一些严重的问题。由于理解起来困难，也存在大量的使用背离。例如，在很多场景下，旧的内存模型，不允许在 JVM 中发生多种的重排序。 这种旧内存模型的潜规则的困扰在 JSR-133 中被正式的公式化表达了出来。 &lt;br /&gt;
+ &lt;br /&gt;
+之前有一个被广泛确信的想法是，如果使用了 final 字段，那么线程间的同步时，就不需要去额外保证去确保另一个线程对这个字段值的可见。然而，这个貌似合理的假设且明智的行为模式，在旧的内存模型里，当我们真希望事情如此进展的时候，显然情况不是真的（如此）。在旧的内存模型里，对待 final 字段与其它任何字段，并无二致——这意味着，同步处理是保证所有线程可以看到被构造器写入后的 final 字段值的唯一途径。由于（在旧的内存模型里）一个线程既可能看到这个字段的默认值，也可以在之后看到它被构造后的值。也就是说，例如，一些不可变对象，如 String ，可以看上去它们在改变自己的值 —— 这着实是令人困扰的预期。   &lt;br /&gt;
+ &lt;br /&gt;
+旧的内存模型允许可变的（ volatile ）（字段）“ 写 ”与不可变的（ nonvolatile ）字段的“ 读 ”，“ 写 ” 进行重排序，这与大部分开发人员对于可变的（ volatile ）语义的直观理解不一致，并会由此产生困扰。  &lt;br /&gt;
+ &lt;br /&gt;
+最后，正如我们所见，编程人员对于他们的程序在不正确地同步时会发生什么的直觉，通常是错误的。 JSR-133 的其中一个目标，也是为了让这一事实引起注意。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;▸重排序的含义是什么? 【译】&lt;/h2&gt;
+
+&lt;p&gt;[原文]&lt;a href=&quot;http://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.html#reordering&quot;&gt;What is meant by reordering? &lt;/a&gt;  &lt;br /&gt;
+ &lt;br /&gt;
+在很多场景里，访问程序变量（对象实例的字段，类静态字段及数组元素）的执行顺序可能不同于程序中确定的顺序。编译器可以根据优化的需要，自由地改变指令的执行顺序【注3】 。在某些特定的环境下，处理器会打乱执行指令的顺序。数据也可能不按照程序中设定的顺序在寄存器、处理器缓存和主存间移动。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;注3：本文后半部分有对指令执行相关的补充。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;例如，如果一个线程先写字段 a ，然后写 b ，且 b 的值不依赖 a 的值的话，编译器可以自主地重排序这几个操作，而且缓存也可以自主地，在 a 之前，把 b 刷新到内存。存在许多潜在的重排序根源，比如，编译器、 JIT （翻译注：这里应该是指实时编译器，后文会有补充）和缓存等。&lt;/p&gt;
+
+&lt;p&gt;编译器，运行时（runtime ）和硬件共同造成了一种 “ 看上去顺序化( as-if-serial) ” 的语义假象，即，在单线程的程序里，应该不能够观察到重排序的效果。然而，在不正确地同步的多线程程序中，重排序的效果就会显现出来。此时，一个线程能够感受到其它线程的影响，可能会发现对其它线程可见的变量访问（variable accesses ）的顺序，与程序内设定的或者执行的顺序是不一样的。   &lt;br /&gt;
+ &lt;br /&gt;
+大多数时候，一个线程不关注其它线程在做什么。但是，如果需要在意的话，就需要涉及到同步了（ that’s what syschronization is for ）。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;与重排序有关的概念和语义&lt;/h2&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;§ 指令周期与重排序&lt;/h3&gt;
+&lt;p&gt;一般而言，CPU 的指令周期主要包括四个步骤：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;获取指令 Fetch the instruction&lt;/li&gt;
+  &lt;li&gt;解析指令 Decode the instruction 。解码指令的过程也会把指令所需数据等从主存中载入（ load ）&lt;/li&gt;
+  &lt;li&gt;执行指令 Execute the instruction&lt;/li&gt;
+  &lt;li&gt;写回（ Write- Back ）结果。 把指令产生的结果数据写回（ Store）主存等存储中。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;或者像类似下面的伪代码表述（这里没有包含例外处理过程）&lt;sup id=&quot;fnref:IssJvms&quot;&gt;&lt;a href=&quot;#fn:IssJvms&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;  
+  do {
+      // pc-- program counter 指令计数器 
+      // opcode--  指令码 ，JVM的指令码长度为1个字节。
+      atomically calculate pc  and fetch opcode at pc;  
+
+      //operands   操作数，一条指令码可能需要 {0...n}个操作数。 
+      if (operands) fetch operands;
+      execute the action for the opcode;
+   } while (there is more to do);  
+ &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;不同的 CPU 有不同的指令集，也有不同的指令周期，具体载入和写回的策略也有不同，实际情况远远比这四个步骤更多，也更复杂。但总体不影响讨论重排序主题。&lt;/p&gt;
+
+&lt;p&gt;由于2，4 两个步骤，涉及到数据与存储间的操作，相对与 CPU 有多个数量级的速度差，很容易成为阻塞指令的瓶颈。为了使 CPU 在每个时钟周期都不空闲，所以有了“指令管道（ Instruction Pipeline ）” 【详细内容可参见 wikipedia】&lt;sup id=&quot;fnref:PipeWiki&quot;&gt;&lt;a href=&quot;#fn:PipeWiki&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;和 “分发队列 （ Dispatch Queue ）”。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;指令管道 （ Instruction Pipeline ）&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Pipeline%2C_4_stage_with_bubble.svg/350px-Pipeline%2C_4_stage_with_bubble.svg.png&quot; alt=&quot;指令管道示意图（来自wiki）&quot; title=&quot;指令管道示意图&quot; /&gt;&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;原图出处：&lt;a href=&quot;https://en.wikipedia.org/wiki/Instruction_pipelining&quot;&gt;https://en.wikipedia.org/wiki/Instruction_pipelining&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;p&gt;绿、紫、蓝、红分别代表了指令管道中并行的四条指令。&lt;/p&gt;
+
+    &lt;p&gt;蓝色椭圆代表了该时钟周期（ Clock Cycle）出现的指令执行空闲。按照上面示意图来说，紫色这条指令，从“解析指令”开始，由于某种原因（也许是数据尚未准备好），堵塞了一个时钟周期。从而导致了所有四条指令的完成往后拖延了一个时钟周期。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;分发队列 （ Dispatch Queue ）&lt;br /&gt;
+分发队列从解析指令／写回指令的工作中，把Load 和 Store这两个动作相对松耦合的独立出来，从而进一步降低指令执行堵塞的可能性。这样的设计是很合理、自然的思路。显然对提高 CPU 的整体性能有利。&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;JVM spec v2中定义的 Load 和 Store 主要四类指令，可参考：&lt;br /&gt;
+&lt;a href=&quot;https://docs.oracle.com/javase/specs/jvms/se7/html/jvms-2.html#jvms-2.11.2&quot;&gt;https://docs.oracle.com/javase/specs/jvms/se7/html/jvms-2.html#jvms-2.11.2&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;有了上述提高性能的设计的描述补充，再来理解前文提到的重排序场景就比较容易了，比如：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;CPU 的指令调度算法，必然不会容忍大片时钟周期的空闲，会将当前具备运行条件的指令提高优先级，反之亦然。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;多个 CPU + 多个指令管道的模式下，如果没有特定的指令语义约束，期望严格有序几乎是不可能的。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;分发队列，为了保证其自身的分发性能，必然也会对不同读写速率的数据分发做必要的重排。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;jit&quot;&gt;§ JIT与重排序&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://postimg.cc/BP48VxTt&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/6qGdTcTV/20160122jit.png&quot; alt=&quot;JIT原理图&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;原图出处：http://belajarjava-19.blogspot.jp/2011/05/jdk-dan-jre.html&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;对于程序代码中的一个特定的方法而言，JIT（Just-In-Time ）编译 &lt;strong&gt;当且仅当&lt;/strong&gt; 该方法第一次被调用，需要把它从字节码编译为本地可执行代码的时候会发生。&lt;/p&gt;
+
+&lt;p&gt;JIT 这样的动态编译（ Dynamic Compliation ）&lt;sup id=&quot;fnref:JitWiki&quot;&gt;&lt;a href=&quot;#fn:JitWiki&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; 的区别与静态编译（ Static Compliation ）的一个明显好处是：可以根据实时运行态的状况，对代码进行简单的优化。这些优化包括：&lt;strong&gt;优化循环嵌套、把堆栈操作变成寄存器操作、通过分配寄存器来减少内存访问、减少不必要的中间表达式等&lt;/strong&gt; 。这个过程，有点类似现在的 DBMS（ 数据库管理系统 ） 对 SQL 的优化，可以一定程度建立在对在表和数据的特征统计基础上，而不是单纯的依据规则。&lt;/p&gt;
+
+&lt;p&gt;所以，对于这个过程中，重排序的产生，就很顺理成章了。&lt;/p&gt;
+
+&lt;p&gt;不同的 VM 对 JIT 优化能力和结果的差别可以是巨大。  对于应用开发者而言，我们最后还需要清楚 &lt;strong&gt;优化过程本身也需要消耗 CPU 和内存等资源&lt;/strong&gt;。 所以，不妨可以多看看诸如 &lt;em&gt;《java高性能代码编写》&lt;/em&gt; 之类的总结文章。这是题外话 。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;更多关于JIT编译和优化的内容，可参考：&lt;br /&gt;
+ - &lt;a href=&quot;https://www.oreilly.com/library/view/java-performance-the/9781449363512/ch04.html&quot;&gt;https://www.oreilly.com/library/view/java-performance-the/9781449363512/ch04.html &lt;/a&gt;  &lt;br /&gt;
+ - &lt;a href=&quot;https://aboullaite.me/understanding-jit-compiler-just-in-time-compiler/&quot;&gt;https://aboullaite.me/understanding-jit-compiler-just-in-time-compiler/&lt;/a&gt;  &lt;br /&gt;
+ - &lt;a href=&quot;https://dzone.com/articles/performance-improvements-via-jit-optimization&quot;&gt;https://dzone.com/articles/performance-improvements-via-jit-optimization&lt;/a&gt;  &lt;br /&gt;
+ (新修订补充)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;as-if-serial--happen-before-&quot;&gt;§ as-if-serial 和 happen-before 语义&lt;/h3&gt;
+&lt;p&gt;前面都是讲的重排序场景出现的可能性。但是，需要强调的是，对单线程运行的一段程序而言，有一个限制指令重排的强约束，即，执行结果需要是稳定的、符合预期的———否则就变成了违背代码语义———没有了正确性，性能优化本身就失去了意义。&lt;/p&gt;
+
+&lt;p&gt;as-if-serial 和 happen-before 本质含义是相同的。 即要遵循严格的事件偏序关系&lt;sup id=&quot;fnref:HBWiki&quot;&gt;&lt;a href=&quot;#fn:HBWiki&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;。 
+简而言之，就要满足三个基本特性：&lt;strong&gt;传递性、反自反性，反对称性&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;另外，happen-before 的语义，会在本系列后续 涉及“同步”时，再进行讨论。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-6&quot;&gt;一沙一世界&lt;/h2&gt;
+&lt;p&gt;目前为止，本篇都在偏底层的角度讨论一些原理。对很多应用开发者而言，这些偏理论的细节与实际工作似乎很遥远。 其实，从单CPU 的并发、多处理器内核的并行，再到基于消息的分布式计算架构以及现在火热的微服务架构，思考的基本框架基本是一脉相承的。差别更多是在所聚焦问题粒度：是更微观的指令（ Instruction ）层面，还是更宏观层面的任务（ Tasks ）、服务 （ Services ）。&lt;/p&gt;
+
+&lt;p&gt;下面的这个列表，几乎是现在分布式架构和开发工作中每天要思考的问题（实际上还远不止）：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;分解。分解的策略和分解的粒度 （虽然我们不需要到指令级别）。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;解耦。把非核心流程业务剥离到不同的事务队列管道中去。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;通信。通信策略，通信协议。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;有序和幂等。 消息的传递如何兼顾性能和准确性？&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;调度策略。 优先级／资源调度／迁入迁出。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;流量控制和忙碌等待。本质上没有跑出阻塞／活锁／死锁等的范畴。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;数据同步。永恒的焦点。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;参考索引&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;*&lt;end&gt;*&lt;/end&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:ToGo2&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://blog.golang.org/toward-go2&quot;&gt;the Go Blog ：Toward Go 2 &lt;/a&gt; &lt;a href=&quot;#fnref:ToGo2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:IssJvms&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://docs.oracle.com/javase/specs/jvms/se7/html/jvms-2.html#jvms-2.11&quot;&gt;JVM spec :Instruction Set Summary  &lt;/a&gt; &lt;a href=&quot;#fnref:IssJvms&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:PipeWiki&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Instruction_pipelining&quot;&gt; Instruction pipelining &lt;/a&gt; &lt;a href=&quot;#fnref:PipeWiki&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:JitWiki&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;Just-in-time_compilation&quot;&gt;Just-in-time_compilation &lt;/a&gt; &lt;a href=&quot;#fnref:JitWiki&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:HBWiki&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Happened-before&quot;&gt;Happened-before &lt;/a&gt; &lt;a href=&quot;#fnref:HBWiki&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Ryan Wang (Haide1977)</name><email>haide1977 AT gmail.com</email></author><category term="架构" /><category term="并发与并行" /><category term="开发语言" /><summary type="html">前言
+多线程并发态下的内存模型经常带给开发者的困扰，概括来说就是反直觉（ counterintuitive ）。
+看上去代码逻辑没有问题啊，但是结果却出乎了我们的预料。这类问题实际更像是“ 一个硬币的两面 ”。
+
+本部分，会结合FAQ原文中的“重排序（Reordering ）” 和“旧的内存模型的问题” 等相关问题来展开相关讨论。</summary></entry><entry><title type="html">JSR 133 FAQ 的翻译和扩展（1）——关于内存模型</title><link href="http://0.0.0.0:4000/2016/01/08/JSR_133_FAQ_Trans_and_Ext_P1_Memory_Model.html" rel="alternate" type="text/html" title="JSR 133 FAQ 的翻译和扩展（1）——关于内存模型" /><published>2016-01-08T00:00:00+08:00</published><updated>2016-01-08T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2016/01/08/JSR_133_FAQ_Trans_and_Ext_P1_Memory_Model</id><content type="html" xml:base="http://0.0.0.0:4000/2016/01/08/JSR_133_FAQ_Trans_and_Ext_P1_Memory_Model.html">&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
 &lt;p&gt;网上有很多JSR 133 FAQ 的中文翻译版本，一大半是大家为便于自己的学习理解，做的读书笔记似的翻译。这一点上，这个版本也不例外。&lt;/p&gt;
 
 &lt;p&gt;不过, 本系列版本，尝试在不打破原文表达结构，更准确翻译表述的基础上，尝试对于一些关键概念，特别是随着时间推移已经有所变化的知识点，做一些拓展梳理。&lt;br /&gt;

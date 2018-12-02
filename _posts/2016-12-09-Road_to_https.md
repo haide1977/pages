@@ -24,12 +24,14 @@ tags: 架构 互联网 基础系统
 第一组：<http://github.com>  ，<http://wallstreetcn.com> 或 <http://qiniu.com> ;   
 第二组：<http://data.stats.gov.cn/> 或 <http://www.cbrc.gov.cn/>    
 可以从地址栏上看到明显的返回结果的差异。  
-![github地址栏](http://p1wq6a0o4.bkt.clouddn.com/20161209github.png-m640 "github地址栏")  
+  
+[![github地址栏](https://i.postimg.cc/NF4jdzpx/20161209github.png)](https://postimg.cc/ctvWHXqK)  
   
   
 - 尝试访问 [第三方SSL 测试平台](https://www.ssllabs.com/ssltest/index.html)   
 检测前面域名，也可以看到不同的测试结果返回。  
-![sslLABS测试wallstreetcn.com结果](http://p1wq6a0o4.bkt.clouddn.com/20161209wallstreetcn.png-m640 "sslLABS测试wallstreetcn.com结果") 
+[![sslLABS测试wallstreetcn.com结果](https://i.postimg.cc/c1MC1v08/20161209wallstreetcn.png)](https://postimg.cc/xq8ntTk0)  
+
   
 
 **建议**  

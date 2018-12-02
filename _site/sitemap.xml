@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://0.0.0.0:4000/2018/10/21/choices_between_mockingbot_and_axure.html</loc>
+<lastmod>2018-10-21T00:00:00+08:00</lastmod>
+</url>
+<url>
 <loc>http://0.0.0.0:4000/2017/12/27/Energy_Blockchain_Cases_and_Thinking.html</loc>
 <lastmod>2017-12-27T00:00:00+08:00</lastmod>
 </url>
@@ -15,6 +19,22 @@
 <url>
 <loc>http://0.0.0.0:4000/2016/10/18/System_Security-Considerations_From_Scratch.html</loc>
 <lastmod>2016-10-18T00:00:00+08:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/2016/06/19/JSR_133_FAQ_Trans_and_Ext_P2_Volatile_do.html</loc>
+<lastmod>2016-06-19T00:00:00+08:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/2016/05/28/JSR_133_FAQ_Trans_and_Ext_P4_chp17-2.html</loc>
+<lastmod>2016-05-28T00:00:00+08:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/2016/05/14/JSR_133_FAQ_Trans_and_Ext_P3_chp17.html</loc>
+<lastmod>2016-05-14T00:00:00+08:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/2016/01/22/JSR_133_FAQ_Trans_and_Ext_P2_Volatile_Reordering.html</loc>
+<lastmod>2016-01-22T00:00:00+08:00</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/2016/01/08/JSR_133_FAQ_Trans_and_Ext_P1_Memory_Model.html</loc>

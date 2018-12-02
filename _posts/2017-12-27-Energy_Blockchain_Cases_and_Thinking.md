@@ -9,8 +9,11 @@ tags: 架构 能源互联网 区块链
 <!--more-->  
 
 ## ▸ 荷兰 Jouliette(焦耳币)  
-![焦耳币社区](http://p1wq6a0o4.bkt.clouddn.com/20171227topic.png-m640?v=71227 "图片来自Jouliette.net") 
-![焦耳币／钱包](http://p1wq6a0o4.bkt.clouddn.com/20171227jwallet.png-m640?v=71227 "图片来自Jouliette.net")  
+[![焦耳币社区](https://i.postimg.cc/9fY96J8r/20171227topic.png)](https://postimg.cc/xkqqHyS2)  
+
+[![焦耳币／钱包](https://i.postimg.cc/mrsMp0Sv/20171227jwallet.png)](https://postimg.cc/tsBYYvwk)  
+
+>图片来自 Jouliette.net  
 
 The Jouliette **焦耳币**    
 荷兰国内首创 。名字源自能量的计量单位：焦耳。 
@@ -63,7 +66,10 @@ Pallas Agterberg, 联盟的战略总监（strategy director at Alliander ）：
 
 
 ## ▸纽约 布鲁克林 社区微网（与区块链 ） 
-![布鲁克林微网](http://p1wq6a0o4.bkt.clouddn.com/20171227bmg.png-m640?v=71227 "图片来自brooklynmicrogrid@facebook")   
+[![布鲁克林微网](https://i.postimg.cc/TwkDwhXx/20171227bmg.jpg)](https://postimg.cc/tZxTvqTv)
+
+>图片来自brooklynmicrogrid@facebook    
+
 布鲁克林微网（简称 BMG），2015年开始建设。  
 
 #### § 发起组织    
@@ -88,9 +94,11 @@ Braemar energy ventures 和 Centrica 在2017年10月跟投（据称，超过10�
 - 强调社区文化和社区内用户间的互动
 - 整体架构规划比较完整。
 - 有西门子完整的能源层智能设备和解决方案的支撑。
-![BMG技术架构整理](http://p1wq6a0o4.bkt.clouddn.com/20171227bmgLayers.png-m640?v=71227 "BMG技术架构整理")   
-        -TAG-e :  能量计量，计算，通信一体的混合终端设备。   
-        -Exergy 体系，整个BMG中区块链基础和市场。（产生Exergy 币，并提供交易能力）  
+[![BMG技术架构整理](https://i.postimg.cc/4d4csVqw/20171227bmg-Layers.png)](https://postimg.cc/bGMrRDz2)  
+
+>BMG技术架构整理  
+  -TAG-e :  能量计量，计算，通信一体的混合终端设备。   
+  -Exergy 体系，整个BMG中区块链基础和市场。（产生Exergy 币，并提供交易能力）    
 
 
 > 参考:    

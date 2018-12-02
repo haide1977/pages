@@ -111,8 +111,8 @@ tags: 架构 并发与并行 开发语言
 
 
 ### § JIT与重排序
-![JIT原理图](http://p1wq6a0o4.bkt.clouddn.com/20160122jit.png-m320?v=10222 "JIT原理图")   
-
+[![JIT原理图](https://i.postimg.cc/6qGdTcTV/20160122jit.png)](https://postimg.cc/BP48VxTt)
+  
 >原图出处：http://belajarjava-19.blogspot.jp/2011/05/jdk-dan-jre.html  
 
 对于程序代码中的一个特定的方法而言，JIT（Just-In-Time ）编译 **当且仅当** 该方法第一次被调用，需要把它从字节码编译为本地可执行代码的时候会发生。   

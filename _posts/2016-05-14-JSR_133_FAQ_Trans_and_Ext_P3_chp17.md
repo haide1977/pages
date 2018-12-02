@@ -60,9 +60,9 @@ Java 内存模型是一个雄心勃勃的尝试；它第一次从一个编程语
   -  静态字段（或称：类变量 ）：加上了 *static* 声明修饰的类字段。每个类的实例共享它们的类变量，也可以去尝试改变它们的值。类变量仅与类相关，与该类生产实例的数量无关（甚至可以是 0 个），唯一的保存在一个固定内存地址（注：**“堆”**内存中），不需要通过类实例化后再去操作（manipulate）它。    
                 
  下面这张图做了比较好的示意。    
-    ![字段示意图](http://p1wq6a0o4.bkt.clouddn.com/20160514fields.png-m640?v=160514 "字段示意图")  
-    
-    原图出处：https://cdn.crunchify.com/wp-content/uploads/2013/04/Java-Instance-Field-Crunchify-Tips-768x395.png   
+    [![字段示意图](https://i.postimg.cc/3NqCrRhq/20160514fields.png)](https://postimg.cc/p5DnqPpQ){:width="100%"}   
+
+  >原图出处：https://cdn.crunchify.com/wp-content/uploads/2013/04/Java-Instance-Field-Crunchify-Tips-768x395.png   
          
   在【JLS §8.3.1.1 】[^StaFie] 中的几个例子，对于理解包括这两类变量在继承状态下处理原理等，也很有帮助。 
 
@@ -98,9 +98,9 @@ Java 内存模型是一个雄心勃勃的尝试；它第一次从一个编程语
   
   下图较清晰的表现多线程态下的JVM 内存运行时数据区（ Run-Time Data Areas ）逻辑划分：   
 
-  ![Run-Time Data Areas](http://p1wq6a0o4.bkt.clouddn.com/20160514runtimeRev.png-m640?v=160514 "Run-Time Data Areas")  
-     
-    原图复刻自：http://slideplayer.com/slide/12666692/   （原图字体过小）   
+  [![Run-Time Data Areas](https://i.postimg.cc/CMr4sv84/20160514runtime-Rev.png)](https://postimg.cc/Sj88yfDX){:width="100%"} 
+    
+  >原图复刻自：http://slideplayer.com/slide/12666692/   （原图字体过小）   
 
 ### 2. 线程间动作 (Inter-thread Actions ）  
 
